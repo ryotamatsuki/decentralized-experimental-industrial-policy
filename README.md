@@ -4,89 +4,67 @@ This repository records a stage-gated theory-research project on decentralized g
 
 ## Current status
 
-**Stage 5 Mechanism Hardening has been completed for C4, and C4 is terminated.**
+**Post-C4 Stage 3 Re-Entry is complete. C4, C6 and C3 are all closed as current main-theory candidates.**
 
 - Stage 0: `GO` → `GO TO AUDIT`
 - Stage 1: `GO` → `GO TO NOVELTY GATE`
 - Stage 2: `GO` → `GO TO MECHANISM SEARCH`
-- Stage 3: `GO` → `GO TO MINIMAL MODEL`
-- Stage 4 C4: `CONDITIONAL GO` → `GO TO STAGE 5 MECHANISM HARDENING`
+- Stage 3: `GO` → C4 selected for human Stage 4 approval
+- Stage 4 C4: `CONDITIONAL GO` → one authorized Stage 5 hardening
 - Stage 5 C4: **`NO-GO` → C4 TERMINATED**
-- Stage 6 for C4: **NOT AUTHORIZED / NOT EXECUTED**
+- Stage 3 Re-Entry, C6 vs C3: **`NO-GO` → `BOTH NO-GO`**
+- Any new Stage 4: **NOT AUTHORIZED / NOT EXECUTED**
 
 Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow).
 
-## What Stage 4 established
+## C4 retained result
 
-With `F=C-V`, information benefit `E`, host-only benefit `H`, and public-finance excess burden `mu`, Stage 4 derived
+C4 produced a valid benchmark distinguishing trial occurrence from competition to host a supplier's launch trial. Stage 5 showed that host-dependent evidence quality can directly discipline hosting bids. But the hardened game mapped into known auction/externality, subsidy-competition, heterogeneous-experimentation and volunteer-provision structures. C4 is therefore retained as a negative/background result, not a paper contribution.
 
-- `T_H=H/(1+mu)`;
-- `T_L=(E+H)/(1+mu)`;
-- `T_S=(2E+H)/(1+mu)`.
+## Stage 3 Re-Entry result
 
-The symmetric minimal model proved regions of zero-additionality local subsidy, overpayment, productive local volunteer support, decentralized under-experimentation, and efficient no-trial. Its single blocker was that information value was host invariant and therefore did not enter the host-location competition.
+### C6 — Success-biased demonstration / certification
 
-## What Stage 5 changed
+**NO-GO.** The minimum strategic loop is supplier-chosen test/evidence design followed by downstream certification/acceptance. That is structurally close to mature endogenous test/evidence-design theory. Removing the public sponsor leaves the main game intact; making the sponsor essential would require another sponsor-specific payoff or instrument.
 
-Stage 5 added exactly one authorized primitive:
+### C3 — Local-fit × reusable supplier learning
 
-`q_i>0` — the generalizable information/learning quality of a trial when jurisdiction `i` hosts.
+**NO-GO.** A one-process learning formulation can cleanly distinguish supplier-appropriable learning from public/follower spillovers, but the minimum theory is an appropriability / learning-by-doing externality wedge. Without another strategic margin, supplier learning mainly shifts self-financing/participation and public-support thresholds.
 
-If `q_1>q_2`, the lower-quality jurisdiction's maximum willingness to take hosting from the high-quality jurisdiction becomes
+### Final selection
 
-`D_2=[H-E(q_1-q_2)]/(1+mu)`.
+**`BOTH NO-GO`**
 
-Thus better experimental information improves the loser's outside option and directly reduces its host bid. If `E(q_1-q_2)>=H`, the lower-quality jurisdiction has no positive willingness to pay merely to steal the trial.
+The project does not currently have an authorized Stage 4 candidate.
 
-The modification therefore **solved the Stage 4 algebraic blocker**.
+## Re-entry navigation
 
-## Why C4 is nevertheless NO-GO
+- [`research/stage-03-reentry/REPORT.md`](research/stage-03-reentry/REPORT.md)
+- [`research/stage-03-reentry/C6_NOVELTY_REKILL.md`](research/stage-03-reentry/C6_NOVELTY_REKILL.md)
+- [`research/stage-03-reentry/C6_MINIMUM_SKELETON.md`](research/stage-03-reentry/C6_MINIMUM_SKELETON.md)
+- [`research/stage-03-reentry/C3_NOVELTY_REKILL.md`](research/stage-03-reentry/C3_NOVELTY_REKILL.md)
+- [`research/stage-03-reentry/C3_MINIMUM_SKELETON.md`](research/stage-03-reentry/C3_MINIMUM_SKELETON.md)
+- [`research/stage-03-reentry/HEAD_TO_HEAD.md`](research/stage-03-reentry/HEAD_TO_HEAD.md)
+- [`research/stage-03-reentry/SKEPTICAL_REFEREE.md`](research/stage-03-reentry/SKEPTICAL_REFEREE.md)
+- [`research/stage-03-reentry/SEARCH_LOG.md`](research/stage-03-reentry/SEARCH_LOG.md)
+- [`research/stage-03-reentry/NEXT_STAGE_CONTRACT.md`](research/stage-03-reentry/NEXT_STAGE_CONTRACT.md)
 
-The hardening exposed a stronger novelty problem.
+## Project-state navigation
 
-The Stage 5 hosting game is structurally an **auction/allocation problem with identity-dependent externalities**: a jurisdiction that loses is not indifferent about which rival hosts, because host identity determines the evidence it receives. This strategic structure is covered by the auction-with-externalities literature (Jehiel, Moldovanu & Stacchetti 1999; Jehiel & Moldovanu 2000).
-
-Other blocks also remain close to established theory:
-
-- local subsidy/rent competition: Slattery (2025), Mast (2020);
-- heterogeneous experimentation and information spillovers: Callander & Harstad (2015);
-- experimental-site/external-validity choice: Gechter et al.;
-- volunteer/multiple-equilibrium provision: Myatt & Wallace (2008), Kawagoe et al. (2023).
-
-`q_i` does not mechanically impose a low-quality location. The active contest selects the high-q site. A low-q host appears only through volunteer-equilibrium multiplicity / mixed provision, which is itself close to existing volunteer-dilemma logic.
-
-Under the project governance, escaping these prior-art classes would require a second substantive repair, which is prohibited. C4 is therefore terminated rather than feature-accumulated.
-
-## Reproducibility
-
-- Stage 4: [`code/stage4_c4_verify.py`](code/stage4_c4_verify.py)
-- Stage 5: [`code/stage5_c4_q_verify.py`](code/stage5_c4_q_verify.py)
-
-Stage 5 used exact SymPy checks and a 300,000-draw diagnostic counterexample audit with zero violations of the reported analytical conditions. Numerical results are not treated as proofs.
-
-## Navigation
-
-### Governance / project state
-
-- [`RESEARCH_CHARTER.md`](RESEARCH_CHARTER.md)
 - [`research/DECISION_LOG.md`](research/DECISION_LOG.md)
 - [`research/CLAIM_EVIDENCE_LEDGER.md`](research/CLAIM_EVIDENCE_LEDGER.md)
 - [`research/REJECTED_BRANCHES.md`](research/REJECTED_BRANCHES.md)
+- [`bibliography/references.bib`](bibliography/references.bib)
 
-### Stage reports
+## Earlier stage navigation
 
-- [`research/stage-00/REPORT.md`](research/stage-00/REPORT.md)
-- [`research/stage-01/REPORT.md`](research/stage-01/REPORT.md)
-- [`research/stage-02/REPORT.md`](research/stage-02/REPORT.md)
-- [`research/stage-03/REPORT.md`](research/stage-03/REPORT.md)
+- [`research/stage-02/CLOSEST_PAPER_MATRIX.md`](research/stage-02/CLOSEST_PAPER_MATRIX.md)
+- [`research/stage-03/CANDIDATE_MECHANISMS.md`](research/stage-03/CANDIDATE_MECHANISMS.md)
 - [`research/stage-04/REPORT.md`](research/stage-04/REPORT.md)
 - [`research/stage-05/REPORT.md`](research/stage-05/REPORT.md)
-- [`research/stage-05/MODEL_HARDENING.md`](research/stage-05/MODEL_HARDENING.md)
-- [`research/stage-05/VERIFICATION.md`](research/stage-05/VERIFICATION.md)
-- [`research/stage-05/PRIOR_ART_RECHECK.md`](research/stage-05/PRIOR_ART_RECHECK.md)
-- [`research/stage-05/REFEREE_ATTACK.md`](research/stage-05/REFEREE_ATTACK.md)
-- [`research/stage-05/NEXT_STAGE_CONTRACT.md`](research/stage-05/NEXT_STAGE_CONTRACT.md)
 
-## Hard rule after Stage 5
+## Hard rule after re-entry
 
-Do not route C4 to Stage 6 and do not add another mechanism to rescue it. If research continues, return to the Stage 3 human hard gate; C6 or C3 requires a separate explicit human decision and a new branch.
+Do not start Stage 4 for C6 or C3, do not rescue C4, and do not automatically revive another old candidate. Continued research requires an explicit human decision to either conduct a genuinely fresh Stage 3 mechanism search under all accumulated kills or return to Stage 0 to reframe the question.
+
+**STOPPED AFTER STAGE 3 RE-ENTRY — HUMAN APPROVAL REQUIRED BEFORE ANY NEW STAGE 4.**

@@ -3,11 +3,12 @@
 ## Run metadata
 
 - Run opened: 2026-08-28
-- Canonical workflow commit at run start: `d5c5146098d97279ad3e90342fa757f0f31c8264`
+- Canonical workflow commit at initial run start: `d5c5146098d97279ad3e90342fa757f0f31c8264`
 - Repository bootstrap commits: `6091a064070655e640e1f80c5c04b76853381721`, `199170a3848c274c06eb5349c116ce8fed325e49`
 - Stage 0–3 branch: `research/stage0-3-agentic-scouting`
 - Stage 4 branch: `research/stage4-c4-minimal-model`
 - Stage 5 branch: `research/stage5-c4-information-quality`
+- Stage 3 re-entry branch: `research/stage3-reentry-c6-c3-rekill`
 
 ## Stage 0
 
@@ -33,7 +34,6 @@
 - **Major findings:** generic learning free riding, self-discovery/imitation, early-adopter externality, decentralized experimentation, local-information federalism, generic subsidy competition, public demonstration and supplier commercialization are occupied by close prior art.
 - **Killed claims:** M1/M2/M3/M5/M6 as main contributions; M4 as label-level supplier novelty; M7 downgraded; M8 background/robustness.
 - **Strongest prior-art threats:** Callander & Harstad (2015); Acemoglu, Bimpikis & Ozdaglar (2011); Chiappinelli, Giuffrida & Spagnolo (2025); Hausmann & Rodrik (2003); Detragiache (1998).
-- **Surviving white space:** possible interaction among decentralized host incentives, supplier downstream commercialization, local host benefits and follower information/adoption benefits.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MECHANISM SEARCH`
 - **Completion commit:** `0ec79ff91c260b60265e908befeca68ec117da20`
@@ -55,32 +55,42 @@
 - **Human authorization:** C4 explicitly approved.
 - **Branch:** `research/stage4-c4-minimal-model`
 - **Model:** two symmetric jurisdictions, one supplier, one launch trial; `F=C-V`, information benefit `E`, host-only benefit `H`, excess burden `mu`.
-- **Thresholds:** `T_H=H/(1+mu)`, `T_L=(E+H)/(1+mu)`, `T_S=(2E+H)/(1+mu)`.
-- **Proved:** zero-additionality subsidy at `F<=0`; overpayment for `0<F<T_H`; productive pure volunteer support for `T_H<F<T_L`; under-experimentation for `T_L<F<T_S`; efficient no trial above `T_S`.
+- **Proved:** zero-additionality subsidy, overpayment, productive local volunteer support, under-experimentation, and efficient no-trial regions.
 - **Negative finding:** symmetric model cannot generate mislocation.
-- **Verification:** exact SymPy; 200,000 region/welfare draws zero violations; 10,000 volunteer checks zero failures.
-- **Single blocker:** `E` host invariant, so information externality does not enter host bidding and C4 remains partly ordinary location bidding plus free riding.
+- **Single blocker:** information benefit host invariant, so information externality does not enter host bidding.
 - **Canonical verdict:** `CONDITIONAL GO`
 - **Routing/status:** `GO TO STAGE 5 MECHANISM HARDENING`
 - **Only authorized modification:** host-dependent information productivity `q_i`.
-- **Completion commit:** `da8d4e25f2e0bedd2832748407c01a5b01d12f28`
 
 ## Stage 5 — C4 Host-Dependent Information Quality Hardening
 
 - **Date:** 2026-08-28
 - **Branch:** `research/stage5-c4-information-quality`
-- **Authorized change used:** exactly one new primitive `q_i>0`, information/learning quality of a trial hosted in jurisdiction i. No second substantive mechanism was added.
-- **Stage 4 blocker status:** **RESOLVED MATHEMATICALLY**. If `q_1>q_2`, the low-quality jurisdiction's maximum contest bid is `D_2=[H-E(q_1-q_2)]/(1+mu)`, so the information produced at the rival host changes the loser's outside option and bidding willingness.
-- **Other exact results:** high-quality local threshold `Ubar_1=(q_1E+H)/(1+mu)`; social threshold `S_1=(2q_1E+H)/(1+mu)`; information quality can reduce/eliminate the private-launch host race; low-quality volunteer equilibrium exists only in the coordination region `D_1<F<Ubar_2`, nonempty iff `q_1<2q_2`.
-- **Mislocation finding:** no unique low-q mislocation in the active contest; low-q hosting appears only through pure-equilibrium multiplicity / positive probability in the asymmetric volunteer mixed equilibrium.
-- **Verification:** exact SymPy identities; 300,000 feasible random draws, zero analytical violations; 11,364 draws with a low-q volunteer/mislocation equilibrium; zero mixed-equilibrium violations.
-- **Prior-art result:** the successful q_i feedback maps directly to auctions with identity-dependent externalities (Jehiel, Moldovanu & Stacchetti 1999; Jehiel & Moldovanu 2000). Other blocks remain close to Slattery/Mast local subsidy competition, Callander–Harstad heterogeneous experimentation, external-validity site selection, and volunteer-dilemma theory.
-- **Key research conclusion:** the single allowed modification solves the algebraic defect but reveals that the hardened mechanism is structurally known. Escaping that class would require a second substantive repair, prohibited by Stage 5 governance.
+- **Authorized change used:** exactly one new primitive `q_i>0`.
+- **Stage 4 blocker:** resolved mathematically; evidence quality changes the losing jurisdiction's outside option and bidding willingness.
+- **Prior-art result:** hardened structure maps into auctions with identity-dependent externalities; other blocks remain close to subsidy competition, heterogeneous experimentation and volunteer-provision theory.
 - **Canonical verdict:** `NO-GO`
 - **Routing/status:** `C4 TERMINATED AT STAGE 5`
 - **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`
-- **C6/C3:** remain frozen; no automatic pivot.
-- **Model/verification commit:** `22a50c29e2ba92493bfccb5af469bf81ddc395d5`
-- **Prior-art/referee verdict commit:** `a2fdc79760337371ed1a8e462d075b2ac9249023`
-- **Terminal-contract/metadata commit:** `1a2f6c5955ec3ba243f00eb8f2d686caa65fa06e`
-- **Bibliography update commit:** `48650a9f4191b9e3600236c62ced032fc0eafef9`
+- **C6/C3:** frozen pending explicit human Stage 3 re-entry.
+- **Final Stage 5 head before re-entry:** `319fa6991f7a384f8954975a57bc425712df9a05`
+
+## Stage 3 Re-Entry — C6 vs C3 Targeted Novelty Re-Kill
+
+- **Date:** 2026-08-28
+- **Human authorization:** explicit Stage 3 re-entry request limited to C6 and C3.
+- **Branch:** `research/stage3-reentry-c6-c3-rekill`
+- **C4 status:** `TERMINATED / FROZEN`; no C4 hybrid or rescue considered.
+- **C6 main finding:** the admissible core game is supplier/sender-chosen test/evidence design followed by downstream acceptance/certification. DeMarzo–Kremer–Skrzypacz (2019), Shishkin (2026), Weksler–Zik (2022) and adjacent test-design theory materially contain or closely overlap the loop. Removing the public sponsor leaves the mechanism intact; making the sponsor essential would require another payoff/instrument.
+- **C6 verdict:** `NO-GO`.
+- **C6 targeted re-kill commit:** `9e5589ea7a15ff7cfcaaec91b10d3f87c66350b8`.
+- **C3 main finding:** a one-process learning formulation can distinguish supplier-appropriable learning from public spillovers, but the minimum theory becomes the classic private-versus-social learning/appropriability wedge. Nemet (2012), Irwin–Klenow (1994), Foster–Rosenzweig (1995), Glachant–Ménière (2013) and current learning-by-deploying work are strong threats. A distinct feedback requires an additional mechanism.
+- **C3 verdict:** `NO-GO`.
+- **C3 targeted re-kill commit:** `27780444553ce62d8c50dbe0fff6906323d1fbce`.
+- **Head-to-head/referee result:** neither candidate independently satisfies Stage 3 success criteria; fatal prior art overrides equal screening scores.
+- **Final selection:** **`BOTH NO-GO`**.
+- **Selection/report commit:** `d395b52f009a56e671e673d162c4ebbb654e726c`.
+- **Canonical verdict:** `NO-GO`.
+- **Any new Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
+- **Next route:** human decision required between a genuinely fresh Stage 3 mechanism search under all accumulated kills or return to Stage 0 for research-question reframing.
+- **Stop:** `STOPPED AFTER STAGE 3 RE-ENTRY — HUMAN APPROVAL REQUIRED BEFORE ANY NEW STAGE 4`.

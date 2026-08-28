@@ -4,18 +4,18 @@ Negative results and killed framings remain part of the project record.
 
 ## Stage 0
 
-- **Triangle Ehime case description as contribution:** `REJECTED` — institutional motivation is not theory novelty.
-- **Presumption local industrial policy is desirable:** `REJECTED`.
-- **First mover + free riding as standalone novelty:** `REJECTED AS PRIOR NOVELTY CLAIM`.
-- **Omnibus model:** `REJECTED`.
-- **Supplier as label-only extra player:** `REJECTED`.
+- Triangle Ehime case description as contribution: `REJECTED`.
+- Presumption local industrial policy is desirable: `REJECTED`.
+- First mover + free riding as standalone novelty: `REJECTED AS PRIOR NOVELTY CLAIM`.
+- Omnibus model: `REJECTED`.
+- Supplier as label-only extra player: `REJECTED`.
 
 ## Stage 1
 
-- **Triangle Ehime as observed cross-prefecture strategic free riding:** `REJECTED AS INSTITUTIONAL FACT`.
-- **Persistent local first-mover/ecosystem rent as verified primitive:** `NOT VERIFIED`.
-- **Inherent prefectural information superiority:** `NOT VERIFIED`.
-- **Government bears all failure risk / owns all project IP:** `REJECTED AS UNSUPPORTED`.
+- Triangle Ehime as observed cross-prefecture strategic free riding: `REJECTED AS INSTITUTIONAL FACT`.
+- Persistent local first-mover/ecosystem rent as verified primitive: `NOT VERIFIED`.
+- Inherent prefectural information superiority: `NOT VERIFIED`.
+- Government bears all failure risk / owns all project IP: `REJECTED AS UNSUPPORTED`.
 
 ## Stage 2 novelty kills
 
@@ -28,60 +28,67 @@ Negative results and killed framings remain part of the project record.
 - generic intergovernmental subsidy/experimentation race: `KILL AS MAIN CONTRIBUTION`.
 - government as test bed / early user → supplier commercialization: `KILL AS MAIN CONTRIBUTION`.
 - government–adopter–supplier triangle as novelty by itself: `KILL AS LABEL-LEVEL CONTRIBUTION`.
-- matching/coordination platform: `DOWNGRADE TO SECONDARY/UNRESOLVED`.
-- capture/state-capacity reversal: `DOWNGRADE TO ROBUSTNESS/BACKGROUND`.
 
-## Stage 3 candidate decisions
+## C4 — terminated
 
-### C3 — Local-fit uncertainty × reusable supplier learning
+- **Stage 3:** preferred candidate.
+- **Stage 4:** `CONDITIONAL GO` after clean minimal-model results.
+- **Stage 5:** **`NO-GO — C4 TERMINATED`**.
+- The one authorized `q_i` hardening made experimental information enter hosting bids but mapped the mechanism into known auctions with identity-dependent externalities plus adjacent subsidy/experimentation/volunteer structures.
+- C4 may not be rescued with additional heterogeneity, private information, effort, disclosure, dynamics, C6/C3 ingredients, or other feature accumulation.
 
-- **Decision:** `TOP 3 ALTERNATIVE / FROZEN`.
-- **Risk:** mechanical two-knowledge-parameter result and adaptation/diffusion prior art.
-- **Status after Stage 5:** not automatically authorized.
+## C6 — terminated in Stage 3 re-entry
 
-### C4 — Competition to host a supplier’s scarce launch trial
+### Original candidate
 
-- **Stage 3 decision:** `PREFERRED`.
-- **Stage 4 decision:** `CONDITIONAL GO` after exact minimal-model solution.
-- **Stage 5 final decision:** **`NO-GO — C4 TERMINATED`**.
+Success-biased demonstration design / certification: supplier commercialization/certification incentives might favor visible success over social informativeness.
 
-#### What survived mathematically
+### Re-entry decision
 
-- supplier commercialization value `V` separates the trial participation gap `F=C-V` from local hosting bids;
-- Stage 4 proved non-additional subsidy, overpayment, productive volunteer support and under-experimentation regions;
-- Stage 5 added only host-dependent information productivity `q_i`;
-- for `q_1>q_2`, the low-q contest value becomes `D_2=[H-E(q_1-q_2)]/(1+mu)`, so information quality directly disciplines host bidding;
-- q_i can reduce/eliminate a private-launch hosting race;
-- low-q hosting can occur through volunteer-equilibrium multiplicity / mixed provision.
+**`NO-GO`**.
 
-#### Why C4 is killed despite mathematical success
+### Fatal reasons
 
-1. The q_i hardening maps the active hosting game into the known class of **auctions with identity-dependent externalities**: a losing jurisdiction's payoff depends on which rival hosts. Jehiel, Moldovanu & Stacchetti (1999) provides the general mechanism-design framework; Jehiel & Moldovanu (2000) studies auctions with downstream external effects.
-2. The fiscal rent/overpayment block remains structurally close to Slattery (2025) and related local subsidy competition.
-3. The heterogeneous experiment-information block overlaps Callander–Harstad and experimental-site/external-validity work.
-4. The low-q volunteer/mixed result is structurally close to asymmetric volunteer-dilemma theory.
-5. `q_i` alone does **not** create a unique low-quality mislocation in the active contest.
-6. Creating a distinct new strategic interaction would require a second substantive primitive or mechanism, prohibited by Stage 5 governance.
+1. DeMarzo–Kremer–Skrzypacz (2019) and subsequent evidence-design work already endogenize seller/sender test choice and private-versus-planner information design.
+2. Shishkin (2026) directly studies a sender designing a quality test to persuade a receiver to accept a project.
+3. Public procurement certification effects are already an established policy mechanism.
+4. A reduced-form negative success/informativeness relation would mechanically build in the result.
+5. Removing the public sponsor leaves the central supplier-test/downstream-acceptance loop intact.
+6. Making the public sponsor essential requires another payoff/instrument (political credit, success-contingent contract, public test standard, etc.), which is a second mechanism and not an admissible rescue.
 
-#### May not be rescued by
+### May not be silently revived by
 
-- adding `H_i`, `C_i`, or `V_i`;
-- making supplier commercialization host dependent;
-- adding endogenous supplier effort;
-- local private information;
-- disclosure/information design;
-- dynamics or repeated experiments;
-- multiple suppliers;
-- C6 or C3 ingredients;
-- political credit, agglomeration, retention or ecosystem rents.
+- political/career payoff;
+- sponsor success utility;
+- endogenous procurement contract;
+- disclosure/persuasion add-on;
+- combining with C4 or C3.
 
-A genuinely distinct pivot must return to the Stage 3 human hard gate.
+## C3 — terminated in Stage 3 re-entry
 
-### C6 — Success-biased demonstration design / certification
+### Original candidate
 
-- **Decision:** `TOP 3 ALTERNATIVE / FROZEN`.
-- **Risk:** signaling, certification, information-design and political-incentive prior art.
-- **Status after Stage 5:** not automatically authorized.
+Local-fit uncertainty × reusable supplier learning: a field trial yields public/common evidence plus supplier-reusable implementation know-how.
+
+### Re-entry decision
+
+**`NO-GO`**.
+
+### Fatal reasons
+
+1. Own/private learning versus learning spillovers is a foundational learning-by-doing distinction.
+2. Nemet (2012) directly ties subsidy justification to whether firms appropriate learning benefits and whether learning spills over.
+3. Diffusion models already connect early adoption, learning spillovers and later adoption costs.
+4. A one-process/private-share formulation avoids two arbitrary knowledge technologies but reveals a standard appropriability wedge.
+5. In the minimum skeleton, supplier learning mainly changes its continuation/participation/self-financing value rather than another player's strategic response.
+6. Obtaining a distinct loop requires disclosure, IP choice, bargaining, data sharing, downstream competition, adaptation effort or contracts — each a second substantive mechanism.
+
+### May not be silently revived by
+
+- two independent knowledge parameters solely to create non-monotonicity;
+- endogenous IP/disclosure without new Stage 3 authorization;
+- data-sharing or competition add-ons;
+- combining with C4 or C6.
 
 ## Other Stage 3 candidates
 
@@ -94,6 +101,10 @@ A genuinely distinct pivot must return to the Stage 3 human hard gate.
 - C10 national co-financing: `BENCHMARK/EXTENSION ONLY`.
 - C11 portfolio duplication: `REJECT FROM TOP SET FOR NOW`.
 
-## Current research routing
+## Current routing
 
-C4 is closed. There is **no automatic next branch**. If research continues, a human decision must return to Stage 3 and explicitly select C6, C3, a new mechanism search, or project termination.
+**C4, C6 and C3 are all closed as current main-theory branches.**
+
+Final Stage 3 re-entry result: **`BOTH NO-GO`**.
+
+No old candidate automatically inherits priority. Continued research requires a human decision to either run a genuinely fresh Stage 3 mechanism search under all accumulated kills or return to Stage 0 and reconsider the research question.
