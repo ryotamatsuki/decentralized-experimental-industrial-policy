@@ -5,7 +5,8 @@
 - Run opened: 2026-08-28
 - Canonical workflow commit at run start: `d5c5146098d97279ad3e90342fa757f0f31c8264`
 - Repository bootstrap commits: `6091a064070655e640e1f80c5c04b76853381721`, `199170a3848c274c06eb5349c116ce8fed325e49`
-- Working branch: `research/stage0-3-agentic-scouting`
+- Stage 0–3 branch: `research/stage0-3-agentic-scouting`
+- Stage 4 branch: `research/stage4-c4-minimal-model`
 
 ## Stage 0
 
@@ -41,11 +42,28 @@
 - **Date:** 2026-08-28
 - **Canonical inputs:** Stage 2 surviving white space, killed claims, closest-paper matrix and reduction tests.
 - **Major findings:** eleven distinct strategic-loop candidates were generated and scored using pre-specified weights. TOP 3 are C4 host competition for a scarce supplier launch trial, C6 success-biased demonstration/certification, and C3 local-fit uncertainty × reusable supplier learning.
-- **Preferred candidate:** **C4 — Competition to host a supplier’s scarce launch trial.** It separates the experiment extensive margin from the location/rent-shifting margin. Supplier downstream commercialization can make the trial occur privately while local governments still bid for host status, potentially creating positive subsidies with zero experimentation additionality. In another parameter region, follower informational benefits can make decentralized experimentation too low.
-- **Rejected-for-now candidates:** C9 direct wait/lead timing; C10 matching-finance as baseline; C2/C7 high IPR/disclosure prior-art risk; C8 place-based overlap; C5/C11 excessive extra primitives; C1 useful but close to PPI risk allocation. C6/C3 are retained only as human-selectable alternatives, not automatic fallbacks.
-- **Strongest referee attack:** C4 may collapse to ordinary bidding for a mobile firm. Stage 4 must kill C4 if removing trial information/downstream commercialization leaves the headline result unchanged.
+- **Preferred candidate:** **C4 — Competition to host a supplier’s scarce launch trial.** It separates the experiment extensive margin from the location/rent-shifting margin.
+- **Strongest referee attack:** C4 may collapse to ordinary bidding for a mobile firm.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MINIMAL MODEL`
 - **Mandatory status:** `STOPPED AFTER STAGE 3 — HUMAN APPROVAL REQUIRED BEFORE STAGE 4`
-- **Next-stage contract:** no Stage 4 work until explicit human candidate approval; if C4 is approved, test one minimum model and the four conjectures in `STAGE4_HANDOFF.md`.
 - **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
+
+## Stage 4 — C4 Minimal Model Gate
+
+- **Date:** 2026-08-28
+- **Human authorization:** explicit approval of C4 received before Stage 4 execution.
+- **Branch:** `research/stage4-c4-minimal-model`
+- **Canonical inputs:** Stage 3 C4 handoff; Stage 4 canonical template; symbolic/numerical verification checklists; frozen Stage 2 novelty kills.
+- **Exact model:** two symmetric jurisdictions, one supplier, one launch trial; trial cost `C`, supplier downstream value `V`, financing gap `F=C-V`, per-jurisdiction information benefit `E`, host-only benefit `H`, excess burden `mu`, simultaneous host-contingent subsidy offers.
+- **Main mathematical findings:** thresholds `T_H=H/(1+mu)`, `T_L=(E+H)/(1+mu)`, `T_S=(2E+H)/(1+mu)` partition hosting-race, volunteer-financing, decentralized no-trial, and social no-trial regions.
+- **Proved results:** positive local subsidy with zero experimentation additionality when `F<=0`; overpayment relative to the financing gap when `0<F<T_H`; productive minimum-gap pure equilibria when `T_H<F<T_L`; under-experimentation when `T_L<F<T_S`; region-specific dominance of higher-level minimum-gap targeting.
+- **Negative/limiting finding:** the symmetric baseline cannot generate mislocation.
+- **Verification:** exact SymPy identities; 200,000-draw region/welfare audit with zero violations; 10,000-draw volunteer mixed-equilibrium indifference audit with zero failures.
+- **Prior-art re-check:** Slattery (2025 JPE) and Mast (2020 AEJ: Applied) materially strengthen the ordinary mobile-firm bidding threat for the non-additionality/rent-transfer result.
+- **Single diagnosed blocker:** the information externality `E` is host-invariant and does not enter the host bid `H/(1+mu)`; the hosting-auction and experimentation-externality wedges remain separable.
+- **Canonical verdict:** `CONDITIONAL GO`
+- **Routing/status:** `GO TO STAGE 5 MECHANISM HARDENING`
+- **Authorized next change:** replace host-invariant information value with one host-dependent information-productivity primitive `q_i`; everything else frozen.
+- **Stage 5 status:** **NOT EXECUTED**.
+- **Completion commit:** `da8d4e25f2e0bedd2832748407c01a5b01d12f28`

@@ -6,31 +6,53 @@ The motivating institution is the class of programs exemplified by Triangle Ehim
 
 ## Current status
 
-**Agentic Research Run #1 completed Stage 0 through Stage 3 and is now stopped at the human hard gate.**
+**Stage 4 Minimal Model Gate has been completed for C4.**
 
 - Stage 0: `GO` → `GO TO AUDIT`
 - Stage 1: `GO` → `GO TO NOVELTY GATE`
-- Stage 2: `GO` → `GO TO MECHANISM SEARCH`, after substantial novelty kills
+- Stage 2: `GO` → `GO TO MECHANISM SEARCH`
 - Stage 3: `GO` → `GO TO MINIMAL MODEL`
-- **Preferred Stage 4 candidate:** C4 — Competition to host a supplier’s scarce launch trial
-- **Mandatory status:** `STOPPED AFTER STAGE 3 — HUMAN APPROVAL REQUIRED BEFORE STAGE 4`
+- Stage 4 C4: **`CONDITIONAL GO` → `GO TO STAGE 5 MECHANISM HARDENING`**
+- Stage 5: **NOT EXECUTED**
 
-No formal Stage 4 model, equilibrium derivation, theorem or manuscript has been created. Stage 4 is not authorized until the researcher explicitly selects a candidate.
+The Stage 4 baseline mathematically separates the supplier's experiment-occurrence margin from local host-location bidding and proves regions of zero-additionality subsidy, overpayment, productive local support, and decentralized under-experimentation. However, the information externality is host-invariant and remains separable from the hosting auction. This prevents a direct Stage 6 novelty re-kill.
 
-Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow), `main` at `d5c5146098d97279ad3e90342fa757f0f31c8264` when this run began.
+Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow).
 
-## Current research conclusion
+## Stage 4 baseline
 
-The broad ideas “local information,” “first mover versus free rider,” “decentralized experimentation,” and “government test bed helps supplier commercialization” are not sufficient contributions by themselves; Stage 2 found close prior art in strategic experimentation, federal experimentation, self-discovery/appropriability, fiscal federalism, demonstration policy and public procurement of innovation.
+Define:
 
-The preferred surviving mechanism separates two margins:
+- `F=C-V`: trial cost net of supplier downstream commercialization value;
+- `E`: per-jurisdiction information/adoption benefit from any trial;
+- `H`: host-only local benefit;
+- `mu`: marginal excess burden of public finance.
 
-1. **experiment occurrence** — a supplier may already find one launch trial privately worthwhile because successful evidence creates downstream commercialization value;
-2. **trial location / host rent** — local governments may nevertheless compete to host that scarce trial because the host receives a localized early-use/place benefit.
+The three exact thresholds are
 
-This creates a candidate “do not subsidize” region in which local support has zero experimentation additionality and merely reallocates location/rents, alongside a possible under-experimentation region when non-host informational/adoption benefits are large.
+- `T_H = H/(1+mu)` — host-bidding threshold;
+- `T_L = (E+H)/(1+mu)` — local unilateral-financing threshold;
+- `T_S = (2E+H)/(1+mu)` — social financing threshold.
 
-All such results remain **conjectures** until a human-authorized Stage 4 minimal-model gate.
+The model yields:
+
+1. `F<=0`: the supplier would conduct the trial privately, yet local governments bid positively for host status; experimentation additionality is zero.
+2. `0<F<T_H`: support is needed but local bidding exceeds the financing gap and creates supplier rent.
+3. `T_H<F<T_L`: pure volunteer equilibria fund exactly the gap.
+4. `T_L<F<T_S`: decentralized governments do not fund a socially valuable trial.
+5. `F>=T_S`: no support/no trial is efficient.
+
+The 200,000-draw numerical audit found zero violations of the analytical region/welfare conditions.
+
+## Stage 4 blocker
+
+The strongest Stage 3 objection survives in a narrower form: the non-additionality/rent-transfer result remains close to ordinary local competition for mobile firms. Slattery (2025) and Mast (2020) materially strengthen this prior-art threat.
+
+The single authorized Stage 5 change is therefore:
+
+> replace host-invariant information value with one host-dependent information-productivity primitive `q_i` and test whether the information-producing nature of the trial changes the host-location competition itself.
+
+Everything else remains frozen. C6, C3, dynamics, private information, endogenous disclosure, political credit, persistent ecosystem rents, and multiple suppliers are not authorized as C4 rescue mechanisms.
 
 ## Navigation
 
@@ -48,15 +70,18 @@ All such results remain **conjectures** until a human-authorized Stage 4 minimal
 - [`research/stage-02/REPORT.md`](research/stage-02/REPORT.md)
 - [`research/stage-02/CLOSEST_PAPER_MATRIX.md`](research/stage-02/CLOSEST_PAPER_MATRIX.md)
 - [`research/stage-03/REPORT.md`](research/stage-03/REPORT.md)
-- [`research/stage-03/CANDIDATE_MECHANISMS.md`](research/stage-03/CANDIDATE_MECHANISMS.md)
-- [`research/stage-03/CANDIDATE_SCORING.md`](research/stage-03/CANDIDATE_SCORING.md)
 - [`research/stage-03/STAGE4_HANDOFF.md`](research/stage-03/STAGE4_HANDOFF.md)
-- [`research/stage-03/NEXT_STAGE_CONTRACT.md`](research/stage-03/NEXT_STAGE_CONTRACT.md)
+- [`research/stage-04/REPORT.md`](research/stage-04/REPORT.md)
+- [`research/stage-04/MODEL.md`](research/stage-04/MODEL.md)
+- [`research/stage-04/VERIFICATION.md`](research/stage-04/VERIFICATION.md)
+- [`research/stage-04/NEXT_STAGE_CONTRACT.md`](research/stage-04/NEXT_STAGE_CONTRACT.md)
 
-### Literature
+### Reproducibility
 
+- [`code/stage4_c4_verify.py`](code/stage4_c4_verify.py)
+- [`code/requirements-stage4.txt`](code/requirements-stage4.txt)
 - [`bibliography/references.bib`](bibliography/references.bib)
 
 ## Hard rule
 
-A future run may begin Stage 4 only after explicit human authorization. If C4 fails the Stage 4 kill tests, it must not be rescued by automatically adding C6, C3, dynamics, local private information or other extra mechanisms.
+Stage 5 may change only the one primitive authorized in `research/stage-04/NEXT_STAGE_CONTRACT.md`. If that modification does not make the experiment-information mechanism feed back into host competition, C4 must be terminated rather than rescued through feature accumulation.
