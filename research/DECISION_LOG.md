@@ -82,4 +82,5 @@
 - **C6/C3:** remain frozen; no automatic pivot.
 - **Model/verification commit:** `22a50c29e2ba92493bfccb5af469bf81ddc395d5`
 - **Prior-art/referee verdict commit:** `a2fdc79760337371ed1a8e462d075b2ac9249023`
-- **Completion metadata commit:** `TO_BE_BACKFILLED_AFTER_STAGE_5_METADATA_COMMIT`
+- **Terminal-contract/metadata commit:** `1a2f6c5955ec3ba243f00eb8f2d686caa65fa06e`
+- **Bibliography update commit:** `48650a9f4191b9e3600236c62ced032fc0eafef9`
