@@ -3,7 +3,7 @@
 ## Run metadata
 
 - Run opened: 2026-08-28
-- Canonical workflow commit at initial run start: `d5c5146098d97279ad3e90342fa757f0f31c8264`
+- Canonical workflow: `ryotamatsuki/research-paper-workflow` v1.0 governance/pipeline
 - Repository bootstrap commits: `6091a064070655e640e1f80c5c04b76853381721`, `199170a3848c274c06eb5349c116ce8fed325e49`
 - Stage 0–3 branch: `research/stage0-3-agentic-scouting`
 - Stage 4 branch: `research/stage4-c4-minimal-model`
@@ -12,111 +12,144 @@
 - Stage 0 reset branch: `research/stage0-question-reset`
 - Stage 2 reset audit branch: `research/stage2-q3-q19-q23-frontier-audit`
 - Q3 Stage 3 branch: `research/stage3-q3-mechanism-search`
+- Architecture audit branch: `research/triangle-ehime-architecture-audit`
 
-## Stage 0
+## Initial Stage 0–3
 
-- **Date:** 2026-08-28
-- **Major findings:** a researchable strategic and welfare question existed; eight candidate mechanisms were separated without constructing a model.
-- **Killed claims:** Triangle Ehime as standalone contribution; presumption local intervention is beneficial; first-mover + free riding as novelty by itself; omnibus model.
-- **Canonical verdict:** `GO`
-- **Routing/status:** `GO TO AUDIT`
-- **Completion commit:** `74baaa33c283b8c9711b07cd91724b6f13e5797f`
+- **Stage 0:** `GO`. Researchable question existed; Triangle Ehime case description, presumption of beneficial local intervention and first-mover/free-rider standalone novelty rejected.
+- **Stage 1:** `GO`. Primary sources verified a class involving public selection/matching, trial support, evidence production, diffusion/commercialization. Strategic waiting, persistent local rents, inherent local informational superiority and universal public IP ownership not verified.
+- **Stage 2:** `GO TO MECHANISM SEARCH`. Generic learning/free riding, self-discovery/imitation, decentralized experimentation, local-information federalism, generic subsidy competition and public-test-bed commercialization killed as main contributions.
+- **Stage 3:** `GO TO MINIMAL MODEL`. Eleven mechanisms generated; TOP3 C4/C6/C3; C4 selected after human gate.
 
-## Stage 1
+## C4 Stage 4–5
 
-- **Date:** 2026-08-28
-- **Major findings:** a generalizable policy class is primary-source verified: public selection/matching, trial support, evidence production, diffusion/commercialization, and subnational/national institutional analogues.
-- **Killed/bounded claims:** observed strategic cross-prefecture free riding; guaranteed persistent local first-mover rent; inherent local informational superiority; complete public absorption of failure risk; universal public ownership of project IP.
-- **Canonical verdict:** `GO`
-- **Routing/status:** `GO TO NOVELTY GATE`
-- **Completion commit:** `eaf41d029e82f6c98a7441e83060870275d7df8e`
+### Stage 4 — C4 Minimal Model
 
-## Stage 2
+- Branch: `research/stage4-c4-minimal-model`.
+- Result: zero-additionality subsidy, overpayment, productive local support and under-experimentation regions derived; symmetric baseline did not generate mislocation.
+- Blocker: host-invariant information did not enter hosting competition.
+- Verdict: `CONDITIONAL GO` with exactly one authorized `q_i` hardening.
 
-- **Date:** 2026-08-28
-- **Major findings:** generic learning free riding, self-discovery/imitation, early-adopter externality, decentralized experimentation, local-information federalism, generic subsidy competition, public demonstration and supplier commercialization are occupied by close prior art.
-- **Killed claims:** M1/M2/M3/M5/M6 as main contributions; M4 as label-level supplier novelty; M7 downgraded; M8 background/robustness.
-- **Strongest prior-art threats:** Callander & Harstad (2015); Acemoglu, Bimpikis & Ozdaglar (2011); Chiappinelli, Giuffrida & Spagnolo (2025); Hausmann & Rodrik (2003); Detragiache (1998).
-- **Canonical verdict:** `GO`
-- **Routing/status:** `GO TO MECHANISM SEARCH`
-- **Completion commit:** `0ec79ff91c260b60265e908befeca68ec117da20`
+### Stage 5 — Host-dependent information quality
 
-## Stage 3
+- Branch: `research/stage5-c4-information-quality`.
+- Result: blocker resolved mathematically, but the hardened game mapped into auctions with identity-dependent externalities plus known subsidy-competition/experimentation/volunteer theory.
+- Verdict: **`NO-GO — C4 TERMINATED AT STAGE 5`**.
+- Stage 6: not executed.
 
-- **Date:** 2026-08-28
-- **Major findings:** eleven candidates generated; TOP 3 C4, C6, C3.
-- **Preferred candidate:** C4 — competition to host a supplier’s scarce launch trial.
-- **Canonical verdict:** `GO`
-- **Routing/status:** `GO TO MINIMAL MODEL`
-- **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
+## Stage 3 Re-Entry — C6 vs C3
 
-## Stage 4 — C4 Minimal Model Gate
+- Branch: `research/stage3-reentry-c6-c3-rekill`.
+- C6: `NO-GO` — endogenous test/evidence-design prior art and nonessential public sponsor.
+- C3: `NO-GO` — mature private/social learning appropriability wedge.
+- Final: **`BOTH NO-GO`**.
 
-- **Date:** 2026-08-28
-- **Human authorization:** C4 explicitly approved.
-- **Branch:** `research/stage4-c4-minimal-model`
-- **Proved:** zero-additionality subsidy, overpayment, productive local volunteer support, under-experimentation, and efficient no-trial regions.
-- **Canonical verdict:** `CONDITIONAL GO`.
-- **Routing:** one authorized Stage 5 hardening using host-dependent information productivity `q_i`.
+## Stage 0 Research-Question Reset
 
-## Stage 5 — C4 Host-Dependent Information Quality Hardening
+- Branch: `research/stage0-question-reset`.
+- 30 new questions generated after institutional re-decomposition; 20 killed/deferred; 10 mini-audited.
+- TOP5: Q3 multilevel innovation intermediation, Q19 state-capacity investment, Q23 pre-market engagement, Q30 intermediary sunset, Q11 scarce implementation capacity.
+- Verdict: `GO TO NEW STAGE 2/3 AUDIT`.
 
-- **Date:** 2026-08-28
-- **Branch:** `research/stage5-c4-information-quality`
-- **Finding:** algebraic blocker resolved but hardened mechanism maps to auctions with identity-dependent externalities plus adjacent known theory.
-- **Canonical verdict:** `NO-GO`.
-- **Routing/status:** `C4 TERMINATED AT STAGE 5`.
-- **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`.
+## Stage 2 Reset — Q3 vs Q19 vs Q23
 
-## Stage 3 Re-Entry — C6 vs C3 Targeted Novelty Re-Kill
+- Branch: `research/stage2-q3-q19-q23-frontier-audit`.
+- Q3: `POTENTIALLY DISTINCT / UNRESOLVED`; selected for one Stage-3 mechanism search.
+- Q19: `NO-GO` — state-capacity/LBD/procurement-learning reduction.
+- Q23: `NO-GO FOR CURRENT SELECTION` — endogenous entry/information acquisition and weak public essentiality.
+- Final: `Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`.
 
-- **Date:** 2026-08-28
-- **Branch:** `research/stage3-reentry-c6-c3-rekill`
-- **C6:** `NO-GO`; endogenous test/evidence-design prior art and nonessential public sponsor.
-- **C3:** `NO-GO`; mature private/social learning appropriability wedge.
-- **Final selection:** `BOTH NO-GO`.
-- **Canonical verdict:** `NO-GO`.
-- **Final branch head:** `677bc5962400530e229c5753da0898a3d051a1e5`.
+## Q3 Stage 3 — Multilevel Innovation Intermediation
 
-## Stage 0 Re-Entry — Research Question Reset
+- Branch: `research/stage3-q3-mechanism-search`.
+- Ten mechanisms generated.
+- TOP3 before fatal override: M3 selective referral/adverse national-pool composition; M2 demand legibility × supplier thickness; M10 hierarchical escalation.
+- M3 reduced to cream-skimming/venue segmentation.
+- M2 reduced to product/search design/platform governance.
+- M10 reduced to knowledge hierarchy/task allocation.
+- Remaining candidates reduced to platform investment/network effects, segmentation, multihoming, sequential search or competition for attention.
+- Government essentiality not established.
+- Verdict: **`NO-GO — Q3 TERMINATED AT STAGE 3`**.
+- Stage 4: not authorized/executed.
 
-- **Date:** 2026-08-28
-- **Branch:** `research/stage0-question-reset`.
-- **Institutional re-decomposition:** supplier recruitment, implementation-field discovery, screening, matching, implementation support, evaluation and follow-on deployment exposed new policy-production margins.
-- **Question divergence:** 30 questions generated; 20 killed/deferred; 10 mini-audited; TOP 5 retained.
-- **Preferred audit set:** Q3 multilevel innovation intermediation; Q19 implementation projects as state-capacity investment; Q23 pre-market engagement versus downstream subsidy.
-- **Canonical verdict:** `GO`.
-- **Routing:** `GO TO NEW STAGE 2/3 AUDIT`.
-- **Final branch head:** `323b898675ebb948a4a2f58bd3f4d2a26b683f86`.
+## Institutional Architecture Reset — Triangle Ehime
 
-## Stage 2 Reset — Q3 vs Q19 vs Q23 Head-to-Head Frontier Audit
+### Authorization
 
-- **Date:** 2026-08-28
-- **Human authorization:** explicit head-to-head Stage 2 run limited to Q3, Q19 and Q23.
-- **Branch:** `research/stage2-q3-q19-q23-frontier-audit`.
-- **Q3 finding:** two-sided search/platform design and platform-integration theory are strong threats; innovation-intermediary literature directly occupies demand–supply brokerage. However, the vertical allocation of *different* intermediation tasks across levels with an induced two-sided participation/search feedback remained `POTENTIALLY DISTINCT / UNRESOLVED` after this audit.
-- **Q3 verdict:** `SURVIVES STAGE 2`; selected only for a tightly constrained Stage 3 mechanism search after human approval.
-- **Q19 verdict:** `NO-GO`.
-- **Q23 verdict:** `NO-GO FOR CURRENT STAGE-3 SELECTION`.
-- **Scores:** Q3 77; Q19 55; Q23 70. Fatal reductions override scores.
-- **Final selection:** `Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`.
-- **Canonical verdict:** `GO TO MECHANISM SEARCH`.
-- **Final Stage-2 branch head:** `6ac0f188b3280019f14e7abc29acc6ec9281bd3f`.
+- Date: 2026-08-28.
+- Human authorization: explicit request to abandon the single-mechanism-only search discipline for a pre-Stage-0 audit of the policy bundle itself, while preserving all prior kills.
+- Branch: `research/triangle-ehime-architecture-audit`.
 
-## Q3 Stage 3 — Multilevel Innovation Intermediation Candidate Mechanism Search
+### Primary-source reconstruction
 
-- **Date:** 2026-08-28
-- **Human authorization:** explicit request to execute Q3-specific Stage 3 Candidate Mechanism Search.
-- **Branch:** `research/stage3-q3-mechanism-search`.
-- **Frozen question:** allocation of technology-search/matching responsibilities between local and national innovation intermediaries, conditional on avoiding local-information-versus-scale and standard-platform reductions.
-- **Candidate search:** 10 mechanisms generated across split-side investment, problem legibility, selective referral, hub tipping, standardization, multihoming, fallback search, challenge breadth, venue sorting and hierarchical escalation.
-- **TOP 3 before fatal override:** M3 selective referral/adverse national-pool composition (81); M2 demand legibility × supplier thickness (74); M10 hierarchical escalation (71).
-- **M3 reduction:** cream-skimming/adverse composition across intermediation venues with endogenous participation; strong threats include Bolton–Santos–Scheinkman, Romanyuk–Smolin, Idem, Arbatskaya–Konishi and Rust–Hall.
-- **M2 reduction:** endogenous product/problem design changing search frictions/precision and supplier participation; strong threats include Brancaccio–Kang, Zhong, Kanoria–Saban and platform-governance theory.
-- **M10 reduction:** knowledge hierarchy/task allocation with an added matching-market block; strong threats include Garicano/Hubbard and Baccara–Lee–Yariv.
-- **Other candidates:** reduce to platform investment/network effects, segmentation, multihoming, sequential search or competition for attention.
-- **Government essentiality:** not established; private platforms/brokers/hierarchies reproduce each candidate's core response.
-- **Canonical verdict:** `NO-GO`.
-- **Routing/status:** `Q3 TERMINATED AT STAGE 3`.
-- **Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
-- **Stop:** `STOPPED AFTER Q3 STAGE 3 — HUMAN DECISION REQUIRED BEFORE ANY NEW BRANCH`.
+FY2026 official materials verify a staged architecture containing:
+
+1. local need/implementation-field discovery;
+2. nationwide supplier recruitment and pre-matching;
+3. **at least two Ehime implementation sites required** in the main route;
+4. staged project selection;
+5. project-specific public implementation contracts with milestones/risk/progress management;
+6. data/IP/output reporting and data-based study groups;
+7. implementation-retention and horizontal-deployment accompaniment;
+8. package-building support;
+9. separate adopter-side subsidies for introduction/customization of validated Triangle solutions;
+10. networking, external co-creation hubs, private finance/employment links, supplier local-establishment and human-capital components;
+11. multi-year follow-up.
+
+The institution is therefore not represented adequately by `pilot subsidy` alone.
+
+### Architecture divergence
+
+- 15 bundle interactions generated.
+- 20 architecture research questions generated.
+- 8 killed immediately; 3 deferred as constraints/backups; 9 received deeper architecture consideration.
+- Generic hard/soft complementarity, learning, platform integration, staged finance, human-capital/agglomeration and generic push/pull subsidy combinations were killed.
+
+### TOP5
+
+1. **A1 Scalability-by-Design Architecture — 84**
+2. A2 Reference-Market-to-Private-Market Transition — 75
+3. A3 Multi-Site Field Access → Modular/Reusable Design — 73
+4. A4 Implementation-to-Replicable Offering — 70
+5. A5 Implementation-to-Regional-Embedding — 60
+
+Fatal prior art overrides raw scores.
+
+### Preferred architecture
+
+**A1 — Scalability-by-Design Architecture**
+
+Frozen minimal bundle:
+
+`multi-site/scalability eligibility + public implementation finance + downstream replication support`
+
+Candidate non-additivity:
+
+- scalability requirement can reduce entry and change project composition;
+- implementation finance can offset costly multi-site validation and expand entry;
+- downstream replication opportunity can change the private return to reusable/scalable design;
+- therefore the value/effect of one component may depend on the others through endogenous applicant/product composition.
+
+No proposition is proved.
+
+### Strongest fatal reduction
+
+> `A1 is just a standard screening mechanism with an exogenous scalable type, a transfer satisfying participation, and an additive downstream market-size benefit.`
+
+If this reduction survives the next audit, A1 must be killed.
+
+### Architecture-audit verdict
+
+**Canonical verdict: `GO TO ARCHITECTURE NOVELTY AUDIT`.**
+
+Meaning: A1 merits one dedicated proposition-level prior-art audit only. It is **not novelty-certified** and no formal model is authorized.
+
+### Frozen backups
+
+- A2: high PPI/lead-market risk; no automatic progression.
+- A3: high product-design/testbed risk; no automatic progression.
+- Q11/Q30 remain unaudited constraints/backups, not promoted mechanisms.
+
+### Stop
+
+**STOPPED AFTER TRIANGLE EHIME INSTITUTIONAL ARCHITECTURE AUDIT — HUMAN SELECTION REQUIRED.**

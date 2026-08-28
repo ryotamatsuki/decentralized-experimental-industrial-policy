@@ -1,60 +1,85 @@
 # Decentralized Experimental Industrial Policy
 
-Stage-gated theory-research repository. Triangle Ehime remains an institutional motivation, not the intended object of the final theory.
+Stage-gated theory-research repository. Triangle Ehime is the motivating institution; the intended contribution must be general economics rather than a case description.
 
 ## Current status
 
-**Q3-specific Stage 3 Candidate Mechanism Search is complete.**
+**Triangle Ehime Institutional Architecture Audit is complete.**
 
-- Initial Stage 0–3: `GO` → C4 selected
-- Stage 4 C4: `CONDITIONAL GO`
-- Stage 5 C4: `NO-GO` → C4 terminated
-- Stage 3 re-entry C6 vs C3: `NO-GO` → `BOTH NO-GO`
-- Stage 0 Question Reset: `GO` → Q3/Q19/Q23 frontier audit
-- Stage 2 Reset Head-to-Head: `GO TO MECHANISM SEARCH` → Q3 selected
+- C4: `NO-GO — TERMINATED AT STAGE 5`
+- C6: `NO-GO`
+- C3: `NO-GO`
+- Q3 Multilevel Innovation Intermediation: `NO-GO — TERMINATED AT STAGE 3`
 - Q19: `NO-GO`
-- Q23: `NO-GO FOR CURRENT STAGE-3 SELECTION`
-- **Q3 Stage 3: `NO-GO` → `Q3 TERMINATED AT STAGE 3`**
-- New Stage 4 / formal model: **NOT AUTHORIZED / NOT EXECUTED**
+- Q23: `NO-GO FOR CURRENT SELECTION`
+- Architecture reset: **`GO TO ARCHITECTURE NOVELTY AUDIT`**
+- Formal model / equilibrium / theorem / new Stage 4: **NOT AUTHORIZED / NOT EXECUTED**
 
 Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow).
 
-## Q3 Stage 3 result
+## Why the project changed direction
 
-Frozen question:
+Repeated single-mechanism searches showed that learning, free riding, subsidy competition, certification, private/public learning, matching/intermediation and multilevel platform-style mechanisms map into mature theory classes.
 
-> How should technology-search and matching responsibilities be divided between local and national innovation intermediaries when the value of intermediation depends jointly on problem articulation on the adopter side and market thickness on the supplier side?
+The architecture reset therefore reconstructs the institution before theory reduction. FY2026 primary sources show a staged policy process rather than a scalar pilot subsidy:
 
-Ten mechanism variants were generated. The highest-scoring three before fatal prior-art override were:
+`local field/problem discovery -> nationwide supplier recruitment/pre-matching -> multi-site eligibility/screening -> publicly supported real-world implementation -> evaluation/data use -> retention/packaging -> horizontal deployment -> regional embedding/private continuation`.
 
-1. **M3 — Selective referral / adverse national-pool composition**
-2. **M2 — Demand legibility × supplier thickness**
-3. **M10 — Hierarchical escalation by problem difficulty**
+## Preferred architecture candidate
 
-All three failed the deep-dive reduction gate.
+### A1 — Scalability-by-Design Architecture
 
-- M3 reduces to cream-skimming / adverse composition / endogenous venue segmentation.
-- M2 reduces to endogenous product/problem design changing search frictions and platform participation.
-- M10 reduces to knowledge hierarchy / task-allocation theory.
+Frozen minimal bundle:
 
-The remaining candidates reduce to two-sided platform investment, network effects, standardization/search design, multihoming, sequential search, competition for attention, or endogenous venue sorting.
+1. multi-site / scalability eligibility condition;
+2. public implementation finance;
+3. downstream replication opportunity/support.
 
-The final skeptical-referee conclusion is that **vertical task assignment matters only by activating a mature downstream mechanism; no candidate makes the vertical assignment itself an indispensable source of new economics.**
+Research question:
 
-## Q3 Stage 3 navigation
+> When can a public programme improve the composition of technology projects by combining multi-site scalability requirements, implementation finance and downstream replication support rather than subsidizing pilots or adoption in isolation?
+
+Stage status: **`POTENTIALLY DISTINCT / REQUIRES DEDICATED ARCHITECTURE NOVELTY AUDIT`**.
+
+This is not novelty-verified.
+
+## Why A1 survived this audit
+
+The candidate is not `more instruments -> more innovation`. The components may have opposing effects:
+
+- multi-site eligibility can reduce entry but select/induce transferability;
+- implementation finance can expand entry and finance costly validation;
+- downstream replication can raise the return to reusable/scalable design.
+
+The open question is whether those interactions endogenously change the composition/design of selected projects or merely reduce to standard screening + subsidy + market-size theory.
+
+## Preferred backups
+
+- A2 — Reference-Market-to-Private-Market Transition: high PPI/lead-market prior-art risk.
+- A3 — Multi-Site Field Access → Modular/Reusable Design: high product-design/testbed prior-art risk.
+
+Backups are frozen. They do not auto-advance if A1 fails.
+
+## Architecture audit navigation
+
+- [`research/architecture-audit/REPORT.md`](research/architecture-audit/REPORT.md)
+- [`research/architecture-audit/PRIMARY_SOURCE_INSTITUTION_MAP.md`](research/architecture-audit/PRIMARY_SOURCE_INSTITUTION_MAP.md)
+- [`research/architecture-audit/ACTOR_AND_RESOURCE_MAP.md`](research/architecture-audit/ACTOR_AND_RESOURCE_MAP.md)
+- [`research/architecture-audit/POLICY_PIPELINE.md`](research/architecture-audit/POLICY_PIPELINE.md)
+- [`research/architecture-audit/FUNCTION_INVENTORY.md`](research/architecture-audit/FUNCTION_INVENTORY.md)
+- [`research/architecture-audit/BUNDLE_INTERACTIONS.md`](research/architecture-audit/BUNDLE_INTERACTIONS.md)
+- [`research/architecture-audit/QUESTION_UNIVERSE.md`](research/architecture-audit/QUESTION_UNIVERSE.md)
+- [`research/architecture-audit/FIRST_KILL.md`](research/architecture-audit/FIRST_KILL.md)
+- [`research/architecture-audit/POLICY_MIX_FRONTIER.md`](research/architecture-audit/POLICY_MIX_FRONTIER.md)
+- [`research/architecture-audit/MARKET_FORMATION_FRONTIER.md`](research/architecture-audit/MARKET_FORMATION_FRONTIER.md)
+- [`research/architecture-audit/TOP5_ARCHITECTURES.md`](research/architecture-audit/TOP5_ARCHITECTURES.md)
+- [`research/architecture-audit/SKEPTICAL_REFEREE.md`](research/architecture-audit/SKEPTICAL_REFEREE.md)
+- [`research/architecture-audit/SEARCH_LOG.md`](research/architecture-audit/SEARCH_LOG.md)
+- [`research/architecture-audit/NEXT_STAGE_CONTRACT.md`](research/architecture-audit/NEXT_STAGE_CONTRACT.md)
+
+## Earlier negative-result provenance
 
 - [`research/stage-03-q3/REPORT.md`](research/stage-03-q3/REPORT.md)
-- [`research/stage-03-q3/CANDIDATE_MECHANISMS.md`](research/stage-03-q3/CANDIDATE_MECHANISMS.md)
-- [`research/stage-03-q3/CANDIDATE_SCORING.md`](research/stage-03-q3/CANDIDATE_SCORING.md)
-- [`research/stage-03-q3/TOP3_DEEP_DIVES.md`](research/stage-03-q3/TOP3_DEEP_DIVES.md)
-- [`research/stage-03-q3/PRIOR_ART_MINI_SEARCH.md`](research/stage-03-q3/PRIOR_ART_MINI_SEARCH.md)
-- [`research/stage-03-q3/SKEPTICAL_REFEREE.md`](research/stage-03-q3/SKEPTICAL_REFEREE.md)
-- [`research/stage-03-q3/SEARCH_LOG.md`](research/stage-03-q3/SEARCH_LOG.md)
-- [`research/stage-03-q3/STAGE4_HANDOFF.md`](research/stage-03-q3/STAGE4_HANDOFF.md)
-- [`research/stage-03-q3/NEXT_STAGE_CONTRACT.md`](research/stage-03-q3/NEXT_STAGE_CONTRACT.md)
-
-## Earlier audit / negative-result provenance
-
 - [`research/stage-02-reset/REPORT.md`](research/stage-02-reset/REPORT.md)
 - [`research/stage-00-reset/REPORT.md`](research/stage-00-reset/REPORT.md)
 - [`research/stage-03-reentry/REPORT.md`](research/stage-03-reentry/REPORT.md)
@@ -66,8 +91,6 @@ The final skeptical-referee conclusion is that **vertical task assignment matter
 
 ## Hard rule
 
-Do not build a Q3 Stage 4 model. Do not rescue Q3 by combining M2/M3/M10 or adding political incentives, private information, contracting, intermediary learning, supplier R&D, data ownership or dynamics.
+Do not build an A1 model yet. The next authorized task, only after human approval, is a proposition-level architecture novelty audit against screening/mechanism design, product design, multi-site/scalability, lead-market/PPI, policy-mix and staged pilot-to-scale theory.
 
-Q30 and Q11 from the Stage-0 reset remain unaudited backups only. Moving to them requires explicit human authorization and a fresh Stage-2 audit.
-
-**STOPPED AFTER Q3 STAGE 3 — HUMAN DECISION REQUIRED BEFORE ANY NEW BRANCH.**
+**STOPPED AFTER TRIANGLE EHIME INSTITUTIONAL ARCHITECTURE AUDIT — HUMAN SELECTION REQUIRED.**
