@@ -7,6 +7,7 @@
 - Repository bootstrap commits: `6091a064070655e640e1f80c5c04b76853381721`, `199170a3848c274c06eb5349c116ce8fed325e49`
 - Stage 0–3 branch: `research/stage0-3-agentic-scouting`
 - Stage 4 branch: `research/stage4-c4-minimal-model`
+- Stage 5 branch: `research/stage5-c4-information-quality`
 
 ## Stage 0
 
@@ -29,10 +30,10 @@
 ## Stage 2
 
 - **Date:** 2026-08-28
-- **Major findings:** generic learning free riding, self-discovery/imitation, early-adopter externality, decentralized experimentation, local-information federalism, generic subsidy competition, public demonstration and supplier commercialization are all occupied by close prior art. The 2025 IJIO public-procurement-of-innovation survey materially raises the novelty bar for any government–supplier mechanism.
-- **Killed claims:** M1/M2/M3/M5/M6 as main contributions; M4 as label-level supplier novelty; M7 downgraded to secondary/unresolved; M8 to robustness/background unless a distinct loop emerges.
-- **Strongest prior-art threats:** Callander & Harstad (2015); Acemoglu, Bimpikis & Ozdaglar (2011); Chiappinelli, Giuffrida & Spagnolo (2025) and PPI theory; Hausmann & Rodrik (2003); Detragiache (1998).
-- **Surviving white space:** a `POTENTIALLY NOVEL / UNRESOLVED` interaction separating decentralized host-government incentives, local host benefits, supplier downstream commercialization rents, and follower-jurisdiction informational/adoption benefits.
+- **Major findings:** generic learning free riding, self-discovery/imitation, early-adopter externality, decentralized experimentation, local-information federalism, generic subsidy competition, public demonstration and supplier commercialization are occupied by close prior art.
+- **Killed claims:** M1/M2/M3/M5/M6 as main contributions; M4 as label-level supplier novelty; M7 downgraded; M8 background/robustness.
+- **Strongest prior-art threats:** Callander & Harstad (2015); Acemoglu, Bimpikis & Ozdaglar (2011); Chiappinelli, Giuffrida & Spagnolo (2025); Hausmann & Rodrik (2003); Detragiache (1998).
+- **Surviving white space:** possible interaction among decentralized host incentives, supplier downstream commercialization, local host benefits and follower information/adoption benefits.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MECHANISM SEARCH`
 - **Completion commit:** `0ec79ff91c260b60265e908befeca68ec117da20`
@@ -40,30 +41,46 @@
 ## Stage 3
 
 - **Date:** 2026-08-28
-- **Canonical inputs:** Stage 2 surviving white space, killed claims, closest-paper matrix and reduction tests.
-- **Major findings:** eleven distinct strategic-loop candidates were generated and scored using pre-specified weights. TOP 3 are C4 host competition for a scarce supplier launch trial, C6 success-biased demonstration/certification, and C3 local-fit uncertainty × reusable supplier learning.
-- **Preferred candidate:** **C4 — Competition to host a supplier’s scarce launch trial.** It separates the experiment extensive margin from the location/rent-shifting margin.
+- **Major findings:** eleven candidates generated; TOP 3 C4, C6, C3.
+- **Preferred candidate:** C4 — competition to host a supplier’s scarce launch trial.
 - **Strongest referee attack:** C4 may collapse to ordinary bidding for a mobile firm.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MINIMAL MODEL`
-- **Mandatory status:** `STOPPED AFTER STAGE 3 — HUMAN APPROVAL REQUIRED BEFORE STAGE 4`
+- **Mandatory status:** human approval required before Stage 4.
 - **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
 
 ## Stage 4 — C4 Minimal Model Gate
 
 - **Date:** 2026-08-28
-- **Human authorization:** explicit approval of C4 received before Stage 4 execution.
+- **Human authorization:** C4 explicitly approved.
 - **Branch:** `research/stage4-c4-minimal-model`
-- **Canonical inputs:** Stage 3 C4 handoff; Stage 4 canonical template; symbolic/numerical verification checklists; frozen Stage 2 novelty kills.
-- **Exact model:** two symmetric jurisdictions, one supplier, one launch trial; trial cost `C`, supplier downstream value `V`, financing gap `F=C-V`, per-jurisdiction information benefit `E`, host-only benefit `H`, excess burden `mu`, simultaneous host-contingent subsidy offers.
-- **Main mathematical findings:** thresholds `T_H=H/(1+mu)`, `T_L=(E+H)/(1+mu)`, `T_S=(2E+H)/(1+mu)` partition hosting-race, volunteer-financing, decentralized no-trial, and social no-trial regions.
-- **Proved results:** positive local subsidy with zero experimentation additionality when `F<=0`; overpayment relative to the financing gap when `0<F<T_H`; productive minimum-gap pure equilibria when `T_H<F<T_L`; under-experimentation when `T_L<F<T_S`; region-specific dominance of higher-level minimum-gap targeting.
-- **Negative/limiting finding:** the symmetric baseline cannot generate mislocation.
-- **Verification:** exact SymPy identities; 200,000-draw region/welfare audit with zero violations; 10,000-draw volunteer mixed-equilibrium indifference audit with zero failures.
-- **Prior-art re-check:** Slattery (2025 JPE) and Mast (2020 AEJ: Applied) materially strengthen the ordinary mobile-firm bidding threat for the non-additionality/rent-transfer result.
-- **Single diagnosed blocker:** the information externality `E` is host-invariant and does not enter the host bid `H/(1+mu)`; the hosting-auction and experimentation-externality wedges remain separable.
+- **Model:** two symmetric jurisdictions, one supplier, one launch trial; `F=C-V`, information benefit `E`, host-only benefit `H`, excess burden `mu`.
+- **Thresholds:** `T_H=H/(1+mu)`, `T_L=(E+H)/(1+mu)`, `T_S=(2E+H)/(1+mu)`.
+- **Proved:** zero-additionality subsidy at `F<=0`; overpayment for `0<F<T_H`; productive pure volunteer support for `T_H<F<T_L`; under-experimentation for `T_L<F<T_S`; efficient no trial above `T_S`.
+- **Negative finding:** symmetric model cannot generate mislocation.
+- **Verification:** exact SymPy; 200,000 region/welfare draws zero violations; 10,000 volunteer checks zero failures.
+- **Single blocker:** `E` host invariant, so information externality does not enter host bidding and C4 remains partly ordinary location bidding plus free riding.
 - **Canonical verdict:** `CONDITIONAL GO`
 - **Routing/status:** `GO TO STAGE 5 MECHANISM HARDENING`
-- **Authorized next change:** replace host-invariant information value with one host-dependent information-productivity primitive `q_i`; everything else frozen.
-- **Stage 5 status:** **NOT EXECUTED**.
+- **Only authorized modification:** host-dependent information productivity `q_i`.
 - **Completion commit:** `da8d4e25f2e0bedd2832748407c01a5b01d12f28`
+
+## Stage 5 — C4 Host-Dependent Information Quality Hardening
+
+- **Date:** 2026-08-28
+- **Branch:** `research/stage5-c4-information-quality`
+- **Authorized change used:** exactly one new primitive `q_i>0`, information/learning quality of a trial hosted in jurisdiction i. No second substantive mechanism was added.
+- **Stage 4 blocker status:** **RESOLVED MATHEMATICALLY**. If `q_1>q_2`, the low-quality jurisdiction's maximum contest bid is `D_2=[H-E(q_1-q_2)]/(1+mu)`, so the information produced at the rival host changes the loser's outside option and bidding willingness.
+- **Other exact results:** high-quality local threshold `Ubar_1=(q_1E+H)/(1+mu)`; social threshold `S_1=(2q_1E+H)/(1+mu)`; information quality can reduce/eliminate the private-launch host race; low-quality volunteer equilibrium exists only in the coordination region `D_1<F<Ubar_2`, nonempty iff `q_1<2q_2`.
+- **Mislocation finding:** no unique low-q mislocation in the active contest; low-q hosting appears only through pure-equilibrium multiplicity / positive probability in the asymmetric volunteer mixed equilibrium.
+- **Verification:** exact SymPy identities; 300,000 feasible random draws, zero analytical violations; 11,364 draws with a low-q volunteer/mislocation equilibrium; zero mixed-equilibrium violations.
+- **Prior-art result:** the successful q_i feedback maps directly to auctions with identity-dependent externalities (Jehiel, Moldovanu & Stacchetti 1999; Jehiel & Moldovanu 2000). Other blocks remain close to Slattery/Mast local subsidy competition, Callander–Harstad heterogeneous experimentation, external-validity site selection, and volunteer-dilemma theory.
+- **Key research conclusion:** the single allowed modification solves the algebraic defect but reveals that the hardened mechanism is structurally known. Escaping that class would require a second substantive repair, prohibited by Stage 5 governance.
+- **Canonical verdict:** `NO-GO`
+- **Routing/status:** `C4 TERMINATED AT STAGE 5`
+- **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`
+- **C6/C3:** remain frozen; no automatic pivot.
+- **Model/verification commit:** `22a50c29e2ba92493bfccb5af469bf81ddc395d5`
+- **Prior-art/referee verdict commit:** `a2fdc79760337371ed1a8e462d075b2ac9249023`
+- **Terminal-contract/metadata commit:** `1a2f6c5955ec3ba243f00eb8f2d686caa65fa06e`
+- **Bibliography update commit:** `48650a9f4191b9e3600236c62ced032fc0eafef9`
