@@ -10,6 +10,7 @@
 - Stage 5 branch: `research/stage5-c4-information-quality`
 - Stage 3 re-entry branch: `research/stage3-reentry-c6-c3-rekill`
 - Stage 0 reset branch: `research/stage0-question-reset`
+- Stage 2 reset audit branch: `research/stage2-q3-q19-q23-frontier-audit`
 
 ## Stage 0
 
@@ -44,7 +45,6 @@
 - **Date:** 2026-08-28
 - **Major findings:** eleven candidates generated; TOP 3 C4, C6, C3.
 - **Preferred candidate:** C4 — competition to host a supplier’s scarce launch trial.
-- **Strongest referee attack:** C4 may collapse to ordinary bidding for a mobile firm.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MINIMAL MODEL`
 - **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
@@ -54,53 +54,53 @@
 - **Date:** 2026-08-28
 - **Human authorization:** C4 explicitly approved.
 - **Branch:** `research/stage4-c4-minimal-model`
-- **Model:** two symmetric jurisdictions, one supplier, one launch trial; `F=C-V`, information benefit `E`, host-only benefit `H`, excess burden `mu`.
 - **Proved:** zero-additionality subsidy, overpayment, productive local volunteer support, under-experimentation, and efficient no-trial regions.
-- **Negative finding:** symmetric model cannot generate mislocation.
-- **Single blocker:** information benefit host invariant, so information externality does not enter host bidding.
-- **Canonical verdict:** `CONDITIONAL GO`
-- **Routing/status:** `GO TO STAGE 5 MECHANISM HARDENING`
-- **Only authorized modification:** host-dependent information productivity `q_i`.
+- **Canonical verdict:** `CONDITIONAL GO`.
+- **Routing:** one authorized Stage 5 hardening using host-dependent information productivity `q_i`.
 
 ## Stage 5 — C4 Host-Dependent Information Quality Hardening
 
 - **Date:** 2026-08-28
 - **Branch:** `research/stage5-c4-information-quality`
-- **Authorized change used:** exactly one new primitive `q_i>0`.
-- **Stage 4 blocker:** resolved mathematically; evidence quality changes the losing jurisdiction's outside option and bidding willingness.
-- **Prior-art result:** hardened structure maps into auctions with identity-dependent externalities; other blocks remain close to subsidy competition, heterogeneous experimentation and volunteer-provision theory.
-- **Canonical verdict:** `NO-GO`
-- **Routing/status:** `C4 TERMINATED AT STAGE 5`
-- **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`
-- **Final Stage 5 head before re-entry:** `319fa6991f7a384f8954975a57bc425712df9a05`
+- **Finding:** algebraic blocker resolved but hardened mechanism maps to auctions with identity-dependent externalities plus adjacent known theory.
+- **Canonical verdict:** `NO-GO`.
+- **Routing/status:** `C4 TERMINATED AT STAGE 5`.
+- **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`.
 
 ## Stage 3 Re-Entry — C6 vs C3 Targeted Novelty Re-Kill
 
 - **Date:** 2026-08-28
-- **Human authorization:** explicit Stage 3 re-entry request limited to C6 and C3.
 - **Branch:** `research/stage3-reentry-c6-c3-rekill`
-- **C4 status:** `TERMINATED / FROZEN`.
-- **C6 result:** `NO-GO`; minimum core is already close to endogenous test/evidence-design theory, and the public sponsor is not strategically essential without an additional mechanism.
-- **C3 result:** `NO-GO`; minimum core is a mature private-versus-social learning/appropriability wedge without a distinct additional strategic response.
+- **C6:** `NO-GO`; endogenous test/evidence-design prior art and nonessential public sponsor.
+- **C3:** `NO-GO`; mature private/social learning appropriability wedge.
 - **Final selection:** `BOTH NO-GO`.
 - **Canonical verdict:** `NO-GO`.
 - **Final branch head:** `677bc5962400530e229c5753da0898a3d051a1e5`.
-- **Next route:** return to Stage 0 for research-question reset or open a genuinely distinct mechanism search.
 
 ## Stage 0 Re-Entry — Research Question Reset
 
 - **Date:** 2026-08-28
-- **Human authorization:** explicit rollback to Stage 0 after C4/C6/C3 exhaustion.
 - **Branch:** `research/stage0-question-reset`.
-- **Binding constraint:** C4/C6/C3 and Stage 2 kills treated only as negative knowledge; no rescue/hybrid/model construction.
-- **Institutional re-decomposition:** verified programme functions include supplier recruitment, local implementation-field discovery, screening, matching, implementation support, evaluation and follow-on deployment. This exposes policy-production decisions hidden by the prior “experiment subsidy” framing.
-- **Question divergence:** 30 new research questions generated across search/matching, partner selection, implementation capacity, ownership, stopping, government capability, market engagement and intermediary organizational form.
-- **First kill:** 20 questions killed/deferred for direct mappings to adverse selection, soft budgets, property rights, moral hazard, repeated procurement learning, network coordination, real options or other mature theory; 10 advanced to mini-audit.
-- **Frontier finding:** recent 2025–2026 literature is empirically/conceptually active around innovation intermediation, market engagement and public-buyer capability, while adjacent formal theory is mature but fragmented across search/matching, fiscal federalism, state capacity and procurement.
-- **TOP 5:** Q3 multilevel innovation intermediation; Q19 projects as state-capacity investment; Q23 pre-market engagement vs downstream subsidy; Q30 public intermediary sunset; Q11 scarce supplier implementation capacity.
-- **Preferred TOP 3 for human selection:** Q3, Q19, Q23.
-- **Preferred audit candidate:** Q3, subject to a fatal reduction test against generic local-information-versus-scale fiscal federalism and standard matching-platform theory.
+- **Institutional re-decomposition:** supplier recruitment, implementation-field discovery, screening, matching, implementation support, evaluation and follow-on deployment exposed new policy-production margins.
+- **Question divergence:** 30 questions generated; 20 killed/deferred; 10 mini-audited; TOP 5 retained.
+- **Preferred audit set:** Q3 multilevel innovation intermediation; Q19 implementation projects as state-capacity investment; Q23 pre-market engagement versus downstream subsidy.
 - **Canonical verdict:** `GO`.
-- **Routing/status:** `GO TO NEW STAGE 2/3 AUDIT`.
-- **Formal model / new Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
-- **Stop:** `STOPPED AFTER STAGE 0 QUESTION RESET — HUMAN SELECTION REQUIRED`.
+- **Routing:** `GO TO NEW STAGE 2/3 AUDIT`.
+- **Final branch head:** `323b898675ebb948a4a2f58bd3f4d2a26b683f86`.
+
+## Stage 2 Reset — Q3 vs Q19 vs Q23 Head-to-Head Frontier Audit
+
+- **Date:** 2026-08-28
+- **Human authorization:** explicit head-to-head Stage 2 run limited to Q3, Q19 and Q23.
+- **Branch:** `research/stage2-q3-q19-q23-frontier-audit`.
+- **Q3 finding:** two-sided search/platform design and platform-integration theory are strong threats; innovation-intermediary literature directly occupies demand–supply brokerage. However, the vertical allocation of *different* intermediation tasks across levels with an induced two-sided participation/search feedback remains `POTENTIALLY DISTINCT / UNRESOLVED` after this audit. No novelty is inferred from search failure.
+- **Q3 verdict:** `SURVIVES STAGE 2`; selected only for a tightly constrained Stage 3 mechanism search after human approval.
+- **Q19 finding:** minimum logic reduces to endogenous state-capacity investment, organizational learning-by-doing or repeated procurement learning; excessive activity requires an additional wedge.
+- **Q19 verdict:** `NO-GO`.
+- **Q23 finding:** tractable minimum versions reduce to endogenous bidder entry/pre-contract R&D or information acquisition; the residual interactive problem-formulation channel lacks government essentiality without a new mechanism.
+- **Q23 verdict:** `NO-GO FOR CURRENT STAGE-3 SELECTION`.
+- **Scores:** Q3 77; Q19 55; Q23 70. Fatal reductions override scores.
+- **Final selection:** **`Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`**.
+- **Canonical verdict:** `GO TO MECHANISM SEARCH`.
+- **Formal model / Stage 3:** `NOT AUTHORIZED / NOT EXECUTED`.
+- **Stop:** `STOPPED AFTER STAGE 2 HEAD-TO-HEAD AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3`.
