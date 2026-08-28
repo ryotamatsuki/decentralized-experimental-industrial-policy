@@ -4,62 +4,59 @@ Stage-gated theory-research repository. Triangle Ehime remains an institutional 
 
 ## Current status
 
-**Stage 2 Head-to-Head Frontier Audit after the Stage 0 question reset is complete.**
+**Q3-specific Stage 3 Candidate Mechanism Search is complete.**
 
 - Initial Stage 0–3: `GO` → C4 selected
 - Stage 4 C4: `CONDITIONAL GO`
 - Stage 5 C4: `NO-GO` → C4 terminated
 - Stage 3 re-entry C6 vs C3: `NO-GO` → `BOTH NO-GO`
 - Stage 0 Question Reset: `GO` → Q3/Q19/Q23 frontier audit
-- Stage 2 Reset Head-to-Head: **`GO TO MECHANISM SEARCH` → Q3 selected for human Stage 3 approval**
-- Q19: **`NO-GO`**
-- Q23: **`NO-GO FOR CURRENT STAGE-3 SELECTION`**
-- Formal model / Stage 3 / new Stage 4: **NOT EXECUTED**
+- Stage 2 Reset Head-to-Head: `GO TO MECHANISM SEARCH` → Q3 selected
+- Q19: `NO-GO`
+- Q23: `NO-GO FOR CURRENT STAGE-3 SELECTION`
+- **Q3 Stage 3: `NO-GO` → `Q3 TERMINATED AT STAGE 3`**
+- New Stage 4 / formal model: **NOT AUTHORIZED / NOT EXECUTED**
 
 Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow).
 
-## Selected research question — Q3
+## Q3 Stage 3 result
 
-### Multilevel Innovation Intermediation
+Frozen question:
 
 > How should technology-search and matching responsibilities be divided between local and national innovation intermediaries when the value of intermediation depends jointly on problem articulation on the adopter side and market thickness on the supplier side?
 
-Q3 is **not novelty-verified**. Its Stage-2 status is `POTENTIALLY DISTINCT / UNRESOLVED`.
+Ten mechanism variants were generated. The highest-scoring three before fatal prior-art override were:
 
-The formal threats are serious:
+1. **M3 — Selective referral / adverse national-pool composition**
+2. **M2 — Demand legibility × supplier thickness**
+3. **M10 — Hierarchical escalation by problem difficulty**
 
-- fiscal federalism if Q3 reduces to local information versus central scale;
-- matching/search platform theory, especially endogenous search-environment design;
-- platform integration and market-thickness theory;
-- existing demand–supply innovation-intermediation literature.
+All three failed the deep-dive reduction gate.
 
-The only authorized Stage-3 object is the possible feedback:
+- M3 reduces to cream-skimming / adverse composition / endogenous venue segmentation.
+- M2 reduces to endogenous product/problem design changing search frictions and platform participation.
+- M10 reduces to knowledge hierarchy / task-allocation theory.
 
-`vertical assignment of distinct intermediation tasks -> supplier/adopter participation/search -> endogenous market thickness/match composition -> value of the assignment`.
+The remaining candidates reduce to two-sided platform investment, network effects, standardization/search design, multihoming, sequential search, competition for attention, or endogenous venue sorting.
 
-If that cannot be isolated without adding a second mechanism, Q3 must be killed.
+The final skeptical-referee conclusion is that **vertical task assignment matters only by activating a mature downstream mechanism; no candidate makes the vertical assignment itself an indispensable source of new economics.**
 
-## Stage 2 reset navigation
+## Q3 Stage 3 navigation
+
+- [`research/stage-03-q3/REPORT.md`](research/stage-03-q3/REPORT.md)
+- [`research/stage-03-q3/CANDIDATE_MECHANISMS.md`](research/stage-03-q3/CANDIDATE_MECHANISMS.md)
+- [`research/stage-03-q3/CANDIDATE_SCORING.md`](research/stage-03-q3/CANDIDATE_SCORING.md)
+- [`research/stage-03-q3/TOP3_DEEP_DIVES.md`](research/stage-03-q3/TOP3_DEEP_DIVES.md)
+- [`research/stage-03-q3/PRIOR_ART_MINI_SEARCH.md`](research/stage-03-q3/PRIOR_ART_MINI_SEARCH.md)
+- [`research/stage-03-q3/SKEPTICAL_REFEREE.md`](research/stage-03-q3/SKEPTICAL_REFEREE.md)
+- [`research/stage-03-q3/SEARCH_LOG.md`](research/stage-03-q3/SEARCH_LOG.md)
+- [`research/stage-03-q3/STAGE4_HANDOFF.md`](research/stage-03-q3/STAGE4_HANDOFF.md)
+- [`research/stage-03-q3/NEXT_STAGE_CONTRACT.md`](research/stage-03-q3/NEXT_STAGE_CONTRACT.md)
+
+## Earlier audit / negative-result provenance
 
 - [`research/stage-02-reset/REPORT.md`](research/stage-02-reset/REPORT.md)
-- [`research/stage-02-reset/Q3_FRONTIER_AUDIT.md`](research/stage-02-reset/Q3_FRONTIER_AUDIT.md)
-- [`research/stage-02-reset/Q19_FRONTIER_AUDIT.md`](research/stage-02-reset/Q19_FRONTIER_AUDIT.md)
-- [`research/stage-02-reset/Q23_FRONTIER_AUDIT.md`](research/stage-02-reset/Q23_FRONTIER_AUDIT.md)
-- [`research/stage-02-reset/CLOSEST_PAPER_MATRIX.md`](research/stage-02-reset/CLOSEST_PAPER_MATRIX.md)
-- [`research/stage-02-reset/REDUCTION_TESTS.md`](research/stage-02-reset/REDUCTION_TESTS.md)
-- [`research/stage-02-reset/HEAD_TO_HEAD.md`](research/stage-02-reset/HEAD_TO_HEAD.md)
-- [`research/stage-02-reset/SKEPTICAL_REFEREE.md`](research/stage-02-reset/SKEPTICAL_REFEREE.md)
-- [`research/stage-02-reset/SEARCH_LOG.md`](research/stage-02-reset/SEARCH_LOG.md)
-- [`research/stage-02-reset/NEXT_STAGE_CONTRACT.md`](research/stage-02-reset/NEXT_STAGE_CONTRACT.md)
-
-## Stage 0 reset provenance
-
 - [`research/stage-00-reset/REPORT.md`](research/stage-00-reset/REPORT.md)
-- [`research/stage-00-reset/QUESTION_UNIVERSE.md`](research/stage-00-reset/QUESTION_UNIVERSE.md)
-- [`research/stage-00-reset/TOP5_QUESTIONS.md`](research/stage-00-reset/TOP5_QUESTIONS.md)
-
-## Earlier negative-result provenance
-
 - [`research/stage-03-reentry/REPORT.md`](research/stage-03-reentry/REPORT.md)
 - [`research/stage-04/REPORT.md`](research/stage-04/REPORT.md)
 - [`research/stage-05/REPORT.md`](research/stage-05/REPORT.md)
@@ -69,6 +66,8 @@ If that cannot be isolated without adding a second mechanism, Q3 must be killed.
 
 ## Hard rule
 
-Do not start Stage 3 until explicit human approval. If approved, Stage 3 is a mechanism-search/kill exercise around Q3 only. It may not combine Q3 with Q19/Q23, revive C4/C6/C3, or treat the absence of an exact paper match as evidence of novelty.
+Do not build a Q3 Stage 4 model. Do not rescue Q3 by combining M2/M3/M10 or adding political incentives, private information, contracting, intermediary learning, supplier R&D, data ownership or dynamics.
 
-**STOPPED AFTER STAGE 2 HEAD-TO-HEAD AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3.**
+Q30 and Q11 from the Stage-0 reset remain unaudited backups only. Moving to them requires explicit human authorization and a fresh Stage-2 audit.
+
+**STOPPED AFTER Q3 STAGE 3 — HUMAN DECISION REQUIRED BEFORE ANY NEW BRANCH.**
