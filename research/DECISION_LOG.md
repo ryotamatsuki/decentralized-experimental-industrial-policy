@@ -66,4 +66,4 @@
 - **Routing/status:** `GO TO STAGE 5 MECHANISM HARDENING`
 - **Authorized next change:** replace host-invariant information value with one host-dependent information-productivity primitive `q_i`; everything else frozen.
 - **Stage 5 status:** **NOT EXECUTED**.
-- **Completion commit:** `TO_BE_BACKFILLED_AFTER_STAGE_4_COMMIT`
+- **Completion commit:** `da8d4e25f2e0bedd2832748407c01a5b01d12f28`
