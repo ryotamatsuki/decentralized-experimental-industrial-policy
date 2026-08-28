@@ -13,6 +13,7 @@
 - Stage 2 reset audit branch: `research/stage2-q3-q19-q23-frontier-audit`
 - Q3 Stage 3 branch: `research/stage3-q3-mechanism-search`
 - Architecture audit branch: `research/triangle-ehime-architecture-audit`
+- A1 architecture novelty audit branch: `research/a1-architecture-novelty-audit`
 
 ## Initial Stage 0–3
 
@@ -82,38 +83,7 @@
 
 ### Primary-source reconstruction
 
-FY2026 official materials verify a staged architecture containing:
-
-1. local need/implementation-field discovery;
-2. nationwide supplier recruitment and pre-matching;
-3. **at least two Ehime implementation sites required** in the main route;
-4. staged project selection;
-5. project-specific public implementation contracts with milestones/risk/progress management;
-6. data/IP/output reporting and data-based study groups;
-7. implementation-retention and horizontal-deployment accompaniment;
-8. package-building support;
-9. separate adopter-side subsidies for introduction/customization of validated Triangle solutions;
-10. networking, external co-creation hubs, private finance/employment links, supplier local-establishment and human-capital components;
-11. multi-year follow-up.
-
-The institution is therefore not represented adequately by `pilot subsidy` alone.
-
-### Architecture divergence
-
-- 15 bundle interactions generated.
-- 20 architecture research questions generated.
-- 8 killed immediately; 3 deferred as constraints/backups; 9 received deeper architecture consideration.
-- Generic hard/soft complementarity, learning, platform integration, staged finance, human-capital/agglomeration and generic push/pull subsidy combinations were killed.
-
-### TOP5
-
-1. **A1 Scalability-by-Design Architecture — 84**
-2. A2 Reference-Market-to-Private-Market Transition — 75
-3. A3 Multi-Site Field Access → Modular/Reusable Design — 73
-4. A4 Implementation-to-Replicable Offering — 70
-5. A5 Implementation-to-Regional-Embedding — 60
-
-Fatal prior art overrides raw scores.
+FY2026 official materials verify a staged architecture containing local field discovery, national supplier recruitment/pre-matching, at least two Ehime implementation sites in the main route, project-specific public implementation support, evaluation/data use, retention/packaging, horizontal deployment, separate later-adopter subsidies and wider embedding/support functions.
 
 ### Preferred architecture
 
@@ -123,33 +93,98 @@ Frozen minimal bundle:
 
 `multi-site/scalability eligibility + public implementation finance + downstream replication support`
 
-Candidate non-additivity:
-
-- scalability requirement can reduce entry and change project composition;
-- implementation finance can offset costly multi-site validation and expand entry;
-- downstream replication opportunity can change the private return to reusable/scalable design;
-- therefore the value/effect of one component may depend on the others through endogenous applicant/product composition.
-
-No proposition is proved.
-
-### Strongest fatal reduction
+Strongest fatal reduction to be tested:
 
 > `A1 is just a standard screening mechanism with an exogenous scalable type, a transfer satisfying participation, and an additive downstream market-size benefit.`
 
-If this reduction survives the next audit, A1 must be killed.
+Architecture-audit verdict: **`GO TO ARCHITECTURE NOVELTY AUDIT`** only; not novelty certification.
 
-### Architecture-audit verdict
+---
 
-**Canonical verdict: `GO TO ARCHITECTURE NOVELTY AUDIT`.**
+## A1 Architecture Novelty Audit — Run #6
 
-Meaning: A1 merits one dedicated proposition-level prior-art audit only. It is **not novelty-certified** and no formal model is authorized.
+### Authorization and governance
 
-### Frozen backups
+- Date: 2026-08-28.
+- Branch: `research/a1-architecture-novelty-audit`.
+- Base: `research/triangle-ehime-architecture-audit` at verified HEAD `6cf5cbdb31fadb695407ac1d3e8f0cea6ceb6d4d`.
+- Draft PR: #10, `Architecture novelty audit: A1 scalability-by-design`.
+- Stage position: architecture-specific Stage 2 novelty kill gate.
+- No formal model/equilibrium/theorem/manuscript authorized.
 
-- A2: high PPI/lead-market risk; no automatic progression.
-- A3: high product-design/testbed risk; no automatic progression.
-- Q11/Q30 remain unaudited constraints/backups, not promoted mechanisms.
+### Bibliography hygiene
 
-### Stop
+Before the substantive audit:
 
-**STOPPED AFTER TRIANGLE EHIME INSTITUTIONAL ARCHITECTURE AUDIT — HUMAN SELECTION REQUIRED.**
+- Rossi et al. (2022) author order corrected to Rossi, Caloffi, Colovic, Russo using publisher metadata.
+- Drake (2025) metadata corrected/completed to Samielle Drake and Fei Xu, volume 27(1), e70019.
+
+This was metadata hygiene only and did not alter a research result.
+
+### Frozen object
+
+A1 remained exactly:
+
+1. S — multi-site/scalability eligibility;
+2. F — implementation finance;
+3. R — downstream replication opportunity/support.
+
+No fourth mechanism was added.
+
+### Screening result
+
+- Exogenous scalable/bespoke project types: `STRUCTURALLY CONTAINED` by public requirements/entry and MQS/free-entry theory.
+- F as cost relief/participation support adds no distinct screening primitive.
+- Fatal result: **selection-only A1 fails novelty**.
+
+### Product-design result
+
+- Endogenizing reusable/scalable design does not defeat the kill.
+- Minimum/performance standards already alter endogenous innovation/product R&D.
+- Innovation/R&D subsidies alter endogenous quality/design.
+- Multi-market expansion, commonality/modularity and customization theory already maps future market scope to design.
+- Fatal result: **inducement-only A1 fails novelty**.
+
+### Decomposition result
+
+- S+F: costly qualification/performance requirement + participation/design-cost support.
+- S+R: standard/broad-fit requirement + future market scope.
+- F+R: supply-push support + demand pull.
+- S+F+R: no strategic behavior was found that first arises only under the triple.
+
+**Result: `THREE-WAY ARCHITECTURE CLAIM = FATAL DECOMPOSITION FAILURE`.**
+
+### Sequencing result
+
+With S/F/R anticipated before entry/design, administrative order does no independent strategic work. Making order matter would require a second primitive (learning, sunk investment before rule revelation, hidden information/effort or government commitment), which is outside/prohibited under frozen A1.
+
+A universal binding ex-ante future replication commitment is not verified by the institutional evidence.
+
+**Result: sequencing kill condition triggered.**
+
+### Referee tournament
+
+Fatal attacks: standard screening; participation subsidy; R as market size; exogenous scalable-type selection; endogenous-design prior art; three-known-ingredients objection; sequencing irrelevance; mechanical welfare; unusual institutional packaging only.
+
+Government non-essentiality also weakens public-policy specificity, but it is not needed for the rejection.
+
+### Score
+
+A1 architecture novelty score: **35/100**. Fatal prior art/reduction overrides score.
+
+### Ultimate test
+
+- Triangle removed: generic question remains, but its mechanisms are mature.
+- Replace multi-site/implementation subsidy/replication with screening/transfer/market size: **economics materially unchanged — YES**.
+- Three-way-only endogenous project composition/design absent closest theory: **NO**.
+
+### Final verdict
+
+# **`A1 NO-GO — ARCHITECTURE ROUTE TERMINATED`**
+
+- Stage 3 not started.
+- A1 formal model not built.
+- C4/C6/C3/Q3 not reopened.
+- A2/A3 not auto-pivoted.
+
+**STOPPED AFTER A1 ARCHITECTURE NOVELTY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3**
