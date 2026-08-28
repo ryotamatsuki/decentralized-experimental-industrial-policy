@@ -1,58 +1,68 @@
 # Decentralized Experimental Industrial Policy
 
-This repository records a stage-gated theory-research project on decentralized government support for private-technology experimentation.
-
-The motivating institution is the class of programs exemplified by Triangle Ehime. Triangle Ehime is a source of institutional facts and potentially meaningful frictions; it is not the intended object of the final theory.
+This repository records a stage-gated theory-research project on decentralized government support for private-technology experimentation. Triangle Ehime is an institutional motivation, not the intended object of the final theory.
 
 ## Current status
 
-**Stage 4 Minimal Model Gate has been completed for C4.**
+**Stage 5 Mechanism Hardening has been completed for C4, and C4 is terminated.**
 
 - Stage 0: `GO` → `GO TO AUDIT`
 - Stage 1: `GO` → `GO TO NOVELTY GATE`
 - Stage 2: `GO` → `GO TO MECHANISM SEARCH`
 - Stage 3: `GO` → `GO TO MINIMAL MODEL`
-- Stage 4 C4: **`CONDITIONAL GO` → `GO TO STAGE 5 MECHANISM HARDENING`**
-- Stage 5: **NOT EXECUTED**
-
-The Stage 4 baseline mathematically separates the supplier's experiment-occurrence margin from local host-location bidding and proves regions of zero-additionality subsidy, overpayment, productive local support, and decentralized under-experimentation. However, the information externality is host-invariant and remains separable from the hosting auction. This prevents a direct Stage 6 novelty re-kill.
+- Stage 4 C4: `CONDITIONAL GO` → `GO TO STAGE 5 MECHANISM HARDENING`
+- Stage 5 C4: **`NO-GO` → C4 TERMINATED**
+- Stage 6 for C4: **NOT AUTHORIZED / NOT EXECUTED**
 
 Canonical workflow: [`ryotamatsuki/research-paper-workflow`](https://github.com/ryotamatsuki/research-paper-workflow).
 
-## Stage 4 baseline
+## What Stage 4 established
 
-Define:
+With `F=C-V`, information benefit `E`, host-only benefit `H`, and public-finance excess burden `mu`, Stage 4 derived
 
-- `F=C-V`: trial cost net of supplier downstream commercialization value;
-- `E`: per-jurisdiction information/adoption benefit from any trial;
-- `H`: host-only local benefit;
-- `mu`: marginal excess burden of public finance.
+- `T_H=H/(1+mu)`;
+- `T_L=(E+H)/(1+mu)`;
+- `T_S=(2E+H)/(1+mu)`.
 
-The three exact thresholds are
+The symmetric minimal model proved regions of zero-additionality local subsidy, overpayment, productive local volunteer support, decentralized under-experimentation, and efficient no-trial. Its single blocker was that information value was host invariant and therefore did not enter the host-location competition.
 
-- `T_H = H/(1+mu)` — host-bidding threshold;
-- `T_L = (E+H)/(1+mu)` — local unilateral-financing threshold;
-- `T_S = (2E+H)/(1+mu)` — social financing threshold.
+## What Stage 5 changed
 
-The model yields:
+Stage 5 added exactly one authorized primitive:
 
-1. `F<=0`: the supplier would conduct the trial privately, yet local governments bid positively for host status; experimentation additionality is zero.
-2. `0<F<T_H`: support is needed but local bidding exceeds the financing gap and creates supplier rent.
-3. `T_H<F<T_L`: pure volunteer equilibria fund exactly the gap.
-4. `T_L<F<T_S`: decentralized governments do not fund a socially valuable trial.
-5. `F>=T_S`: no support/no trial is efficient.
+`q_i>0` — the generalizable information/learning quality of a trial when jurisdiction `i` hosts.
 
-The 200,000-draw numerical audit found zero violations of the analytical region/welfare conditions.
+If `q_1>q_2`, the lower-quality jurisdiction's maximum willingness to take hosting from the high-quality jurisdiction becomes
 
-## Stage 4 blocker
+`D_2=[H-E(q_1-q_2)]/(1+mu)`.
 
-The strongest Stage 3 objection survives in a narrower form: the non-additionality/rent-transfer result remains close to ordinary local competition for mobile firms. Slattery (2025) and Mast (2020) materially strengthen this prior-art threat.
+Thus better experimental information improves the loser's outside option and directly reduces its host bid. If `E(q_1-q_2)>=H`, the lower-quality jurisdiction has no positive willingness to pay merely to steal the trial.
 
-The single authorized Stage 5 change is therefore:
+The modification therefore **solved the Stage 4 algebraic blocker**.
 
-> replace host-invariant information value with one host-dependent information-productivity primitive `q_i` and test whether the information-producing nature of the trial changes the host-location competition itself.
+## Why C4 is nevertheless NO-GO
 
-Everything else remains frozen. C6, C3, dynamics, private information, endogenous disclosure, political credit, persistent ecosystem rents, and multiple suppliers are not authorized as C4 rescue mechanisms.
+The hardening exposed a stronger novelty problem.
+
+The Stage 5 hosting game is structurally an **auction/allocation problem with identity-dependent externalities**: a jurisdiction that loses is not indifferent about which rival hosts, because host identity determines the evidence it receives. This strategic structure is covered by the auction-with-externalities literature (Jehiel, Moldovanu & Stacchetti 1999; Jehiel & Moldovanu 2000).
+
+Other blocks also remain close to established theory:
+
+- local subsidy/rent competition: Slattery (2025), Mast (2020);
+- heterogeneous experimentation and information spillovers: Callander & Harstad (2015);
+- experimental-site/external-validity choice: Gechter et al.;
+- volunteer/multiple-equilibrium provision: Myatt & Wallace (2008), Kawagoe et al. (2023).
+
+`q_i` does not mechanically impose a low-quality location. The active contest selects the high-q site. A low-q host appears only through volunteer-equilibrium multiplicity / mixed provision, which is itself close to existing volunteer-dilemma logic.
+
+Under the project governance, escaping these prior-art classes would require a second substantive repair, which is prohibited. C4 is therefore terminated rather than feature-accumulated.
+
+## Reproducibility
+
+- Stage 4: [`code/stage4_c4_verify.py`](code/stage4_c4_verify.py)
+- Stage 5: [`code/stage5_c4_q_verify.py`](code/stage5_c4_q_verify.py)
+
+Stage 5 used exact SymPy checks and a 300,000-draw diagnostic counterexample audit with zero violations of the reported analytical conditions. Numerical results are not treated as proofs.
 
 ## Navigation
 
@@ -68,20 +78,15 @@ Everything else remains frozen. C6, C3, dynamics, private information, endogenou
 - [`research/stage-00/REPORT.md`](research/stage-00/REPORT.md)
 - [`research/stage-01/REPORT.md`](research/stage-01/REPORT.md)
 - [`research/stage-02/REPORT.md`](research/stage-02/REPORT.md)
-- [`research/stage-02/CLOSEST_PAPER_MATRIX.md`](research/stage-02/CLOSEST_PAPER_MATRIX.md)
 - [`research/stage-03/REPORT.md`](research/stage-03/REPORT.md)
-- [`research/stage-03/STAGE4_HANDOFF.md`](research/stage-03/STAGE4_HANDOFF.md)
 - [`research/stage-04/REPORT.md`](research/stage-04/REPORT.md)
-- [`research/stage-04/MODEL.md`](research/stage-04/MODEL.md)
-- [`research/stage-04/VERIFICATION.md`](research/stage-04/VERIFICATION.md)
-- [`research/stage-04/NEXT_STAGE_CONTRACT.md`](research/stage-04/NEXT_STAGE_CONTRACT.md)
+- [`research/stage-05/REPORT.md`](research/stage-05/REPORT.md)
+- [`research/stage-05/MODEL_HARDENING.md`](research/stage-05/MODEL_HARDENING.md)
+- [`research/stage-05/VERIFICATION.md`](research/stage-05/VERIFICATION.md)
+- [`research/stage-05/PRIOR_ART_RECHECK.md`](research/stage-05/PRIOR_ART_RECHECK.md)
+- [`research/stage-05/REFEREE_ATTACK.md`](research/stage-05/REFEREE_ATTACK.md)
+- [`research/stage-05/NEXT_STAGE_CONTRACT.md`](research/stage-05/NEXT_STAGE_CONTRACT.md)
 
-### Reproducibility
+## Hard rule after Stage 5
 
-- [`code/stage4_c4_verify.py`](code/stage4_c4_verify.py)
-- [`code/requirements-stage4.txt`](code/requirements-stage4.txt)
-- [`bibliography/references.bib`](bibliography/references.bib)
-
-## Hard rule
-
-Stage 5 may change only the one primitive authorized in `research/stage-04/NEXT_STAGE_CONTRACT.md`. If that modification does not make the experiment-information mechanism feed back into host competition, C4 must be terminated rather than rescued through feature accumulation.
+Do not route C4 to Stage 6 and do not add another mechanism to rescue it. If research continues, return to the Stage 3 human hard gate; C6 or C3 requires a separate explicit human decision and a new branch.

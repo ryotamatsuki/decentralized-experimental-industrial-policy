@@ -5,9 +5,9 @@ Negative results and killed framings remain part of the project record.
 ## Stage 0
 
 - **Triangle Ehime case description as contribution:** `REJECTED` — institutional motivation is not theory novelty.
-- **Presumption local industrial policy is desirable:** `REJECTED` — laissez-faire/centralization/no intervention must remain possible winners.
+- **Presumption local industrial policy is desirable:** `REJECTED`.
 - **First mover + free riding as standalone novelty:** `REJECTED AS PRIOR NOVELTY CLAIM`.
-- **Omnibus model:** `REJECTED` — violates minimal-mechanism discipline.
+- **Omnibus model:** `REJECTED`.
 - **Supplier as label-only extra player:** `REJECTED`.
 
 ## Stage 1
@@ -19,65 +19,81 @@ Negative results and killed framings remain part of the project record.
 
 ## Stage 2 novelty kills
 
-- **Information-public-good → under-experimentation:** `KILL AS MAIN CONTRIBUTION` — strategic-experimentation prior art.
-- **Private discovery → imitation:** `KILL AS MAIN CONTRIBUTION` — self-discovery/copying prior art.
-- **Early adopter adaptation cost → follower benefit:** `KILL AS MAIN CONTRIBUTION` — direct adoption/diffusion prior art.
-- **Cross-jurisdiction learning/free riding:** `KILL AS MAIN CONTRIBUTION` — federal-experimentation prior art.
-- **Under/over experimentation from decentralization alone:** `KILL AS MAIN CONTRIBUTION`.
-- **Local information + national spillovers → hybrid finance/local selection:** `KILL AS MAIN CONTRIBUTION`.
-- **Generic intergovernmental subsidy/experimentation race:** `KILL AS MAIN CONTRIBUTION`.
-- **Government as test bed / early user → supplier commercialization:** `KILL AS MAIN CONTRIBUTION` — demonstration/PPI literature.
-- **Government–adopter–supplier triangle as novelty by itself:** `KILL AS LABEL-LEVEL CONTRIBUTION`.
-- **Matching/coordination platform:** `DOWNGRADE TO SECONDARY/UNRESOLVED`.
-- **Capture/state-capacity reversal:** `DOWNGRADE TO ROBUSTNESS/BACKGROUND` unless a distinct loop emerges.
+- information-public-good → under-experimentation: `KILL AS MAIN CONTRIBUTION`.
+- private discovery → imitation: `KILL AS MAIN CONTRIBUTION`.
+- early adopter adaptation cost → follower benefit: `KILL AS MAIN CONTRIBUTION`.
+- cross-jurisdiction learning/free riding: `KILL AS MAIN CONTRIBUTION`.
+- under/over experimentation from decentralization alone: `KILL AS MAIN CONTRIBUTION`.
+- local information + national spillovers → hybrid finance/local selection: `KILL AS MAIN CONTRIBUTION`.
+- generic intergovernmental subsidy/experimentation race: `KILL AS MAIN CONTRIBUTION`.
+- government as test bed / early user → supplier commercialization: `KILL AS MAIN CONTRIBUTION`.
+- government–adopter–supplier triangle as novelty by itself: `KILL AS LABEL-LEVEL CONTRIBUTION`.
+- matching/coordination platform: `DOWNGRADE TO SECONDARY/UNRESOLVED`.
+- capture/state-capacity reversal: `DOWNGRADE TO ROBUSTNESS/BACKGROUND`.
 
 ## Stage 3 candidate decisions
 
-### C1 — Supplier co-financing / subsidy incidence
-- **Decision:** `NOT TOP 3; RETAIN AS POSSIBLE INGREDIENT/ROBUSTNESS`.
-- **Reason:** useful extensive-margin logic but close to procurement risk allocation, supplier rents and grant/procurement design.
-
-### C2 — Local exclusivity versus disclosure
-- **Decision:** `REJECT FROM TOP SET`.
-- **Reason:** high Callander–Harstad transparency/IPR and patent/disclosure prior-art risk.
-
 ### C3 — Local-fit uncertainty × reusable supplier learning
-- **Decision:** `TOP 3 ALTERNATIVE`.
-- **Reason:** potentially distinct split of public evidence and supplier-owned know-how, but risks a mechanical two-parameter result.
+
+- **Decision:** `TOP 3 ALTERNATIVE / FROZEN`.
+- **Risk:** mechanical two-knowledge-parameter result and adaptation/diffusion prior art.
+- **Status after Stage 5:** not automatically authorized.
 
 ### C4 — Competition to host a supplier’s scarce launch trial
-- **Decision:** `PREFERRED; HUMAN APPROVAL REQUIRED`.
-- **Reason:** clearest distinction between experiment additionality and host/location rent-shifting; directly supports a “do not subsidize” condition.
-- **Fatal risk:** ordinary firm-location bidding relabeled as experimentation.
 
-### C5 — Endogenous local re-validation / replication
-- **Decision:** `REJECT FROM TOP SET`.
-- **Reason:** requires local-fit heterogeneity and risks mechanically rationalizing repeated trials.
+- **Stage 3 decision:** `PREFERRED`.
+- **Stage 4 decision:** `CONDITIONAL GO` after exact minimal-model solution.
+- **Stage 5 final decision:** **`NO-GO — C4 TERMINATED`**.
+
+#### What survived mathematically
+
+- supplier commercialization value `V` separates the trial participation gap `F=C-V` from local hosting bids;
+- Stage 4 proved non-additional subsidy, overpayment, productive volunteer support and under-experimentation regions;
+- Stage 5 added only host-dependent information productivity `q_i`;
+- for `q_1>q_2`, the low-q contest value becomes `D_2=[H-E(q_1-q_2)]/(1+mu)`, so information quality directly disciplines host bidding;
+- q_i can reduce/eliminate a private-launch hosting race;
+- low-q hosting can occur through volunteer-equilibrium multiplicity / mixed provision.
+
+#### Why C4 is killed despite mathematical success
+
+1. The q_i hardening maps the active hosting game into the known class of **auctions with identity-dependent externalities**: a losing jurisdiction's payoff depends on which rival hosts. Jehiel, Moldovanu & Stacchetti (1999) provides the general mechanism-design framework; Jehiel & Moldovanu (2000) studies auctions with downstream external effects.
+2. The fiscal rent/overpayment block remains structurally close to Slattery (2025) and related local subsidy competition.
+3. The heterogeneous experiment-information block overlaps Callander–Harstad and experimental-site/external-validity work.
+4. The low-q volunteer/mixed result is structurally close to asymmetric volunteer-dilemma theory.
+5. `q_i` alone does **not** create a unique low-quality mislocation in the active contest.
+6. Creating a distinct new strategic interaction would require a second substantive primitive or mechanism, prohibited by Stage 5 governance.
+
+#### May not be rescued by
+
+- adding `H_i`, `C_i`, or `V_i`;
+- making supplier commercialization host dependent;
+- adding endogenous supplier effort;
+- local private information;
+- disclosure/information design;
+- dynamics or repeated experiments;
+- multiple suppliers;
+- C6 or C3 ingredients;
+- political credit, agglomeration, retention or ecosystem rents.
+
+A genuinely distinct pivot must return to the Stage 3 human hard gate.
 
 ### C6 — Success-biased demonstration design / certification
-- **Decision:** `TOP 3 ALTERNATIVE`.
-- **Reason:** high novelty potential, but broader signaling/information-design/certification prior-art risk and more auxiliary primitives.
 
-### C7 — Selective disclosure of trial outcomes
-- **Decision:** `REJECT FROM TOP SET`.
-- **Reason:** likely standard voluntary-disclosure/signaling mechanism.
+- **Decision:** `TOP 3 ALTERNATIVE / FROZEN`.
+- **Risk:** signaling, certification, information-design and political-incentive prior art.
+- **Status after Stage 5:** not automatically authorized.
 
-### C8 — Local-retention conditionality versus diffusion
-- **Decision:** `REJECT FROM TOP SET`.
-- **Reason:** strong place-based subsidy/firm-location/local-preference overlap.
+## Other Stage 3 candidates
 
-### C9 — Sequential wait-versus-lead timing
-- **Decision:** `REJECT`.
-- **Reason:** direct strategic/federal-experimentation prior art.
+- C1 supplier co-financing: `NOT TOP 3`.
+- C2 exclusivity/disclosure: `REJECT FROM TOP SET`.
+- C5 local re-validation: `REJECT FROM TOP SET`.
+- C7 selective disclosure: `REJECT FROM TOP SET`.
+- C8 retention conditionality: `REJECT FROM TOP SET`.
+- C9 sequential wait/lead: `REJECT`.
+- C10 national co-financing: `BENCHMARK/EXTENSION ONLY`.
+- C11 portfolio duplication: `REJECT FROM TOP SET FOR NOW`.
 
-### C10 — National co-financing × local skin in the game
-- **Decision:** `BENCHMARK/EXTENSION ONLY`.
-- **Reason:** standard fiscal-federalism/matching-grant logic.
+## Current research routing
 
-### C11 — Portfolio duplication / fashionable technologies
-- **Decision:** `REJECT FROM TOP SET FOR NOW`.
-- **Reason:** interesting but requires portfolio/diversity primitives and faces Callander–Harstad experimentation-diversity threat.
-
-## Current branch eligible for human Stage 4 choice
-
-Only C4 is recommended for the next minimal-model attempt. C6 and C3 are preserved as alternatives but are **not automatic rescue branches** if C4 fails.
+C4 is closed. There is **no automatic next branch**. If research continues, a human decision must return to Stage 3 and explicitly select C6, C3, a new mechanism search, or project termination.
