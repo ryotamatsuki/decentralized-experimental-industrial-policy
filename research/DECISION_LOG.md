@@ -11,6 +11,7 @@
 - Stage 3 re-entry branch: `research/stage3-reentry-c6-c3-rekill`
 - Stage 0 reset branch: `research/stage0-question-reset`
 - Stage 2 reset audit branch: `research/stage2-q3-q19-q23-frontier-audit`
+- Q3 Stage 3 branch: `research/stage3-q3-mechanism-search`
 
 ## Stage 0
 
@@ -93,14 +94,29 @@
 - **Date:** 2026-08-28
 - **Human authorization:** explicit head-to-head Stage 2 run limited to Q3, Q19 and Q23.
 - **Branch:** `research/stage2-q3-q19-q23-frontier-audit`.
-- **Q3 finding:** two-sided search/platform design and platform-integration theory are strong threats; innovation-intermediary literature directly occupies demand–supply brokerage. However, the vertical allocation of *different* intermediation tasks across levels with an induced two-sided participation/search feedback remains `POTENTIALLY DISTINCT / UNRESOLVED` after this audit. No novelty is inferred from search failure.
+- **Q3 finding:** two-sided search/platform design and platform-integration theory are strong threats; innovation-intermediary literature directly occupies demand–supply brokerage. However, the vertical allocation of *different* intermediation tasks across levels with an induced two-sided participation/search feedback remained `POTENTIALLY DISTINCT / UNRESOLVED` after this audit.
 - **Q3 verdict:** `SURVIVES STAGE 2`; selected only for a tightly constrained Stage 3 mechanism search after human approval.
-- **Q19 finding:** minimum logic reduces to endogenous state-capacity investment, organizational learning-by-doing or repeated procurement learning; excessive activity requires an additional wedge.
 - **Q19 verdict:** `NO-GO`.
-- **Q23 finding:** tractable minimum versions reduce to endogenous bidder entry/pre-contract R&D or information acquisition; the residual interactive problem-formulation channel lacks government essentiality without a new mechanism.
 - **Q23 verdict:** `NO-GO FOR CURRENT STAGE-3 SELECTION`.
 - **Scores:** Q3 77; Q19 55; Q23 70. Fatal reductions override scores.
-- **Final selection:** **`Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`**.
+- **Final selection:** `Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`.
 - **Canonical verdict:** `GO TO MECHANISM SEARCH`.
-- **Formal model / Stage 3:** `NOT AUTHORIZED / NOT EXECUTED`.
-- **Stop:** `STOPPED AFTER STAGE 2 HEAD-TO-HEAD AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3`.
+- **Final Stage-2 branch head:** `6ac0f188b3280019f14e7abc29acc6ec9281bd3f`.
+
+## Q3 Stage 3 — Multilevel Innovation Intermediation Candidate Mechanism Search
+
+- **Date:** 2026-08-28
+- **Human authorization:** explicit request to execute Q3-specific Stage 3 Candidate Mechanism Search.
+- **Branch:** `research/stage3-q3-mechanism-search`.
+- **Frozen question:** allocation of technology-search/matching responsibilities between local and national innovation intermediaries, conditional on avoiding local-information-versus-scale and standard-platform reductions.
+- **Candidate search:** 10 mechanisms generated across split-side investment, problem legibility, selective referral, hub tipping, standardization, multihoming, fallback search, challenge breadth, venue sorting and hierarchical escalation.
+- **TOP 3 before fatal override:** M3 selective referral/adverse national-pool composition (81); M2 demand legibility × supplier thickness (74); M10 hierarchical escalation (71).
+- **M3 reduction:** cream-skimming/adverse composition across intermediation venues with endogenous participation; strong threats include Bolton–Santos–Scheinkman, Romanyuk–Smolin, Idem, Arbatskaya–Konishi and Rust–Hall.
+- **M2 reduction:** endogenous product/problem design changing search frictions/precision and supplier participation; strong threats include Brancaccio–Kang, Zhong, Kanoria–Saban and platform-governance theory.
+- **M10 reduction:** knowledge hierarchy/task allocation with an added matching-market block; strong threats include Garicano/Hubbard and Baccara–Lee–Yariv.
+- **Other candidates:** reduce to platform investment/network effects, segmentation, multihoming, sequential search or competition for attention.
+- **Government essentiality:** not established; private platforms/brokers/hierarchies reproduce each candidate's core response.
+- **Canonical verdict:** `NO-GO`.
+- **Routing/status:** `Q3 TERMINATED AT STAGE 3`.
+- **Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
+- **Stop:** `STOPPED AFTER Q3 STAGE 3 — HUMAN DECISION REQUIRED BEFORE ANY NEW BRANCH`.
