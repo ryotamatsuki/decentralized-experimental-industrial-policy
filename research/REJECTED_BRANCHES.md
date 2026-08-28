@@ -1,6 +1,6 @@
 # Rejected Branches
 
-Negative results and killed framings remain part of the project record.
+Negative results and killed framings remain part of the canonical project record.
 
 ## Binding earlier kills
 
@@ -14,99 +14,103 @@ Negative results and killed framings remain part of the project record.
 
 ## C4 — terminated
 
-Stage 5 final verdict: **`NO-GO — TERMINATED`**. Host-dependent information quality solved the algebraic blocker but mapped the mechanism into known auction/externality and adjacent theory. No rescue through added heterogeneity, effort, private information, disclosure, dynamics or C6/C3 ingredients.
+Stage5 final verdict: **`NO-GO — TERMINATED`**. Host-dependent information quality solved the algebraic blocker but mapped the mechanism into known auction/externality and adjacent theory. No rescue through extra heterogeneity, effort, private information, disclosure, dynamics or C6/C3 ingredients.
 
 ## C6 — terminated
 
-Stage 3 re-entry verdict: **`NO-GO`**. Core supplier test/evidence design is structurally close to mature test-design/signaling theory; public sponsor not strategically essential without a second mechanism.
+Stage3 re-entry: **`NO-GO`**. Core supplier test/evidence design is structurally close to mature test-design/signaling theory; public sponsor is not strategically essential without a second mechanism.
 
 ## C3 — terminated
 
-Stage 3 re-entry verdict: **`NO-GO`**. Private reusable learning versus public spillover reduces to mature appropriability/learning-by-doing logic.
+Stage3 re-entry: **`NO-GO`**. Private reusable learning versus public spillover reduces to mature appropriability/learning-by-doing logic.
 
-## Stage 0 Question Reset — first-kill archive
+## Q19 / Q23
 
-Thirty questions were generated; 20 were killed/deferred before model investment. Direct mature-theory mappings include supplier adverse selection, generic complementary investment/moral hazard, data/property rights, soft-budget continuation, repeated procurement learning, network coordination and staged finance/real options. See `research/stage-00-reset/FIRST_KILL.md` for the full ledger.
+- Q19 Implementation Projects as State-Capacity Investment: `NO-GO` — endogenous state-capacity/LBD/repeated procurement learning.
+- Q23 Pre-Market Engagement versus Downstream Subsidy: `NO-GO FOR CURRENT SELECTION` — endogenous bidder entry/pre-contract R&D/information acquisition; public essentiality not established.
 
-## Stage 2 Reset — Q3 vs Q19 vs Q23
+## Q3 — terminated at Stage 3
 
-### Q19 — Implementation Projects as State-Capacity Investment
+**`NO-GO — Q3 TERMINATED AT STAGE 3`**.
 
-- **Stage 2 verdict:** `NO-GO`.
-- Minimum logic reduces to endogenous state-capacity investment / organizational learning-by-doing / repeated procurement learning.
-- “Excessive projects” requires an additional welfare divergence not supplied by capacity investment itself.
+Ten variants were tested:
 
-### Q23 — Pre-Market Engagement versus Downstream Subsidy
+- M1 split-side investment complementarity: standard two-sided platform investment/network effects.
+- M2 demand legibility × supplier thickness: product/search design/platform governance.
+- M3 selective referral/adverse national-pool composition: cream-skimming/venue segmentation.
+- M4 referral-volume public good/hub tipping: cross-side network effects.
+- M5 challenge bundling/standardization: standardization/search-friction/segmentation.
+- M6 multihoming: platform competition.
+- M7 national fallback: sequential search/outside options.
+- M8 strategic challenge breadth: scarce attention/search capacity, with C4-style competition risk.
+- M9 architecture-induced venue sorting: endogenous market segmentation.
+- M10 hierarchical escalation: knowledge hierarchy/task allocation.
 
-- **Stage 2 verdict:** `NO-GO FOR CURRENT STAGE-3 SELECTION`.
-- Tractable versions reduce to endogenous bidder entry, pre-contract R&D or costly information acquisition.
-- Interactive problem formulation remains a plausible institutional distinction but was not public-specific without a new mechanism.
+Q3 may not be rescued by combining these killed mechanisms or adding political incentives, private information, contracting, R&D, intermediary learning, data ownership or dynamics.
 
-## Q3 — Multilevel Innovation Intermediation — terminated at Stage 3
+## Architecture audit — killed bundle framings
 
-- **Stage 2 status:** `POTENTIALLY DISTINCT / UNRESOLVED`.
-- **Stage 3 verdict:** **`NO-GO — Q3 TERMINATED AT STAGE 3`**.
-- **Reason:** ten Q3-specific mechanisms were generated; each minimal version mapped to a mature formal mechanism class. No candidate supplied both a clear loop and credible model/proposition-level distance.
+The policy architecture reset does **not** reopen any earlier branch. It evaluates non-additive combinations as a new research object.
 
-### Q3-M1 — Split-side investment complementarity
+### Generic policy-bundle claims killed
 
-`KILL` — standard two-sided platform investment / network-effect logic.
+- `many policy instruments -> stronger policy`: `KILL`.
+- `hard financial support + soft matching support are complementary`: `KILL AS NOVELTY`; direct policy-mix literature including current place-based Japanese evidence.
+- `public procurement/demand pull + R&D/subsidy support are complementary`: `KILL AS NOVELTY`; established policy-mix/PPI literature.
+- `multi-site implementation is valuable because of external validity`: `KILL AS NOVELTY`; multi-site/external-validity literature.
+- `pilots should be designed for scale`: `KILL AS NOVELTY`; implementation/scaling literature.
 
-### Q3-M2 — Demand legibility × supplier thickness
+### Architecture question first kills
 
-`KILL` — product/problem design changing search frictions and platform participation; closest threats include Brancaccio–Kang, Zhong, Kanoria–Saban and platform-governance theory.
+- Q1 search × implementation finance: generic hard/soft complementarity.
+- Q9 implementation × data-based study groups: generic learning/organizational learning.
+- Q10 implementation × human capital: human-capital/agglomeration.
+- Q13 problem articulation × national recruitment: binding Q3/search-product-design reduction.
+- Q14 implementation finance × diffusion subsidy without scalability selection: generic push/pull policy mix.
+- Q16 milestone payments × continuation support: staged finance/real options/soft budget.
+- Q17 external co-creation hubs × local fields: platform/network integration; binding Q3 reduction.
+- Q20 networking × local establishment: agglomeration/cluster/place-based attraction.
 
-### Q3-M3 — Selective referral / adverse national-pool composition
+### Deferred constraints/backups, not selected mechanisms
 
-`KILL` — cream-skimming/adverse composition across intermediation venues with endogenous participation; closest threats include Bolton–Santos–Scheinkman, Romanyuk–Smolin, Idem, Arbatskaya–Konishi and Rust–Hall.
+- Q8 implementation pipeline × local establishment: agglomeration/place-based FDI threat.
+- Q11 market formation × public intermediary sunset: infant-industry/platform-crowd-out threat; not auto-promoted.
+- Q12 diffusion support × scarce implementation capacity: scarcity not yet primary-source verified; standard fixed-capacity incidence threat.
 
-### Q3-M4 — Referral-volume public good / hub tipping
+## Architecture audit — current survivors/status
 
-`KILL` — cross-side network externality/platform tipping.
+### A1 Scalability-by-Design Architecture
 
-### Q3-M5 — Challenge bundling / standardization
+- Status: **`PREFERRED / POTENTIALLY DISTINCT / GO TO ARCHITECTURE NOVELTY AUDIT`**.
+- Frozen bundle: multi-site/scalability eligibility + implementation finance + downstream replication support.
+- Not novelty-certified.
+- Fatal next-stage reduction: standard screening with exogenous scalable type + participation transfer + additive downstream market-size benefit.
+- If this reduction holds, A1 must be terminated.
 
-`KILL` — standardization/product design/search-friction/market-segmentation logic.
+### A2 Reference-Market-to-Private-Market Transition
 
-### Q3-M6 — Supplier multihoming / duplicated search costs
+- Status: `BACKUP ONLY`.
+- Strong threat: PPI certification / lead-market demand pull / infant industry.
+- Do not auto-advance if A1 fails.
 
-`KILL` — platform competition and multihoming.
+### A3 Multi-Site Field Access → Modular/Reusable Design
 
-### Q3-M7 — National fallback crowds out local search
+- Status: `BACKUP ONLY`.
+- Strong threat: product-design/testbed/external-validity theory.
+- Do not auto-advance if A1 fails.
 
-`KILL` — sequential search with outside options/venue coexistence.
+### A4 Implementation-to-Replicable Offering
 
-### Q3-M8 — Strategic challenge breadth
+- Status: `DO NOT ADVANCE` under current audit.
+- Reduction: productization investment + demand support.
 
-`KILL` — competition for supplier attention/search capacity and risk of reviving C4-style competition.
+### A5 Implementation-to-Regional-Embedding
 
-### Q3-M9 — Architecture-induced venue sorting
-
-`KILL` — endogenous market segmentation and centralized/decentralized venue choice.
-
-### Q3-M10 — Hierarchical escalation by problem difficulty
-
-`KILL` — knowledge hierarchy/problem-solving/task-allocation theory augmented by a known matching block.
-
-### Q3 rescue prohibitions
-
-Q3 may not be revived within this branch by:
-
-- combining M2 + M3, M3 + M10 or other killed variants;
-- adding political incentives, contracting, private information, supplier R&D, intermediary learning, data ownership or dynamics;
-- introducing jurisdiction-specific objectives merely to make government essential;
-- relabeling a private platform/broker/hierarchy as a public innovation intermediary.
-
-Any such move is a new research question and requires a new human-approved reset/audit.
-
-## Remaining Stage-0 reset candidates
-
-Q30 Public Innovation Intermediary Sunset and Q11 Scarce Supplier Implementation Capacity were not audited in the Q3 Stage-3 run. They are **not promoted automatically**.
-
-Any move to Q30/Q11 requires explicit human authorization and a fresh Stage-2 prior-art audit.
+- Status: `KILL AS CORE`.
+- Reduction: agglomeration/place-based FDI/human-capital policy.
 
 ## Current routing
 
-C4/C6/C3/Q3 are terminated. Q19 and Q23 remain closed under their Stage-2 decisions. No Stage-4 model is authorized.
+C4/C6/C3/Q3 remain terminated. Q19/Q23 remain closed under prior decisions. A1 alone may receive a **dedicated architecture novelty audit after human approval**. No formal model is authorized.
 
-**STOPPED AFTER Q3 STAGE 3 — HUMAN DECISION REQUIRED BEFORE ANY NEW BRANCH.**
+**STOPPED AFTER TRIANGLE EHIME INSTITUTIONAL ARCHITECTURE AUDIT — HUMAN SELECTION REQUIRED.**
