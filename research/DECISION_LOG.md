@@ -9,11 +9,12 @@
 - Stage 4 branch: `research/stage4-c4-minimal-model`
 - Stage 5 branch: `research/stage5-c4-information-quality`
 - Stage 3 re-entry branch: `research/stage3-reentry-c6-c3-rekill`
+- Stage 0 reset branch: `research/stage0-question-reset`
 
 ## Stage 0
 
 - **Date:** 2026-08-28
-- **Major findings:** a researchable strategic and welfare question exists; eight candidate mechanisms were separated without constructing a model.
+- **Major findings:** a researchable strategic and welfare question existed; eight candidate mechanisms were separated without constructing a model.
 - **Killed claims:** Triangle Ehime as standalone contribution; presumption local intervention is beneficial; first-mover + free riding as novelty by itself; omnibus model.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO AUDIT`
@@ -46,7 +47,6 @@
 - **Strongest referee attack:** C4 may collapse to ordinary bidding for a mobile firm.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO MINIMAL MODEL`
-- **Mandatory status:** human approval required before Stage 4.
 - **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
 
 ## Stage 4 — C4 Minimal Model Gate
@@ -72,7 +72,6 @@
 - **Canonical verdict:** `NO-GO`
 - **Routing/status:** `C4 TERMINATED AT STAGE 5`
 - **Stage 6:** `NOT AUTHORIZED / NOT EXECUTED`
-- **C6/C3:** frozen pending explicit human Stage 3 re-entry.
 - **Final Stage 5 head before re-entry:** `319fa6991f7a384f8954975a57bc425712df9a05`
 
 ## Stage 3 Re-Entry — C6 vs C3 Targeted Novelty Re-Kill
@@ -80,17 +79,28 @@
 - **Date:** 2026-08-28
 - **Human authorization:** explicit Stage 3 re-entry request limited to C6 and C3.
 - **Branch:** `research/stage3-reentry-c6-c3-rekill`
-- **C4 status:** `TERMINATED / FROZEN`; no C4 hybrid or rescue considered.
-- **C6 main finding:** the admissible core game is supplier/sender-chosen test/evidence design followed by downstream acceptance/certification. DeMarzo–Kremer–Skrzypacz (2019), Shishkin (2026), Weksler–Zik (2022) and adjacent test-design theory materially contain or closely overlap the loop. Removing the public sponsor leaves the mechanism intact; making the sponsor essential would require another payoff/instrument.
-- **C6 verdict:** `NO-GO`.
-- **C6 targeted re-kill commit:** `9e5589ea7a15ff7cfcaaec91b10d3f87c66350b8`.
-- **C3 main finding:** a one-process learning formulation can distinguish supplier-appropriable learning from public spillovers, but the minimum theory becomes the classic private-versus-social learning/appropriability wedge. Nemet (2012), Irwin–Klenow (1994), Foster–Rosenzweig (1995), Glachant–Ménière (2013) and current learning-by-deploying work are strong threats. A distinct feedback requires an additional mechanism.
-- **C3 verdict:** `NO-GO`.
-- **C3 targeted re-kill commit:** `27780444553ce62d8c50dbe0fff6906323d1fbce`.
-- **Head-to-head/referee result:** neither candidate independently satisfies Stage 3 success criteria; fatal prior art overrides equal screening scores.
-- **Final selection:** **`BOTH NO-GO`**.
-- **Selection/report commit:** `d395b52f009a56e671e673d162c4ebbb654e726c`.
+- **C4 status:** `TERMINATED / FROZEN`.
+- **C6 result:** `NO-GO`; minimum core is already close to endogenous test/evidence-design theory, and the public sponsor is not strategically essential without an additional mechanism.
+- **C3 result:** `NO-GO`; minimum core is a mature private-versus-social learning/appropriability wedge without a distinct additional strategic response.
+- **Final selection:** `BOTH NO-GO`.
 - **Canonical verdict:** `NO-GO`.
-- **Any new Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
-- **Next route:** human decision required between a genuinely fresh Stage 3 mechanism search under all accumulated kills or return to Stage 0 for research-question reframing.
-- **Stop:** `STOPPED AFTER STAGE 3 RE-ENTRY — HUMAN APPROVAL REQUIRED BEFORE ANY NEW STAGE 4`.
+- **Final branch head:** `677bc5962400530e229c5753da0898a3d051a1e5`.
+- **Next route:** return to Stage 0 for research-question reset or open a genuinely distinct mechanism search.
+
+## Stage 0 Re-Entry — Research Question Reset
+
+- **Date:** 2026-08-28
+- **Human authorization:** explicit rollback to Stage 0 after C4/C6/C3 exhaustion.
+- **Branch:** `research/stage0-question-reset`.
+- **Binding constraint:** C4/C6/C3 and Stage 2 kills treated only as negative knowledge; no rescue/hybrid/model construction.
+- **Institutional re-decomposition:** verified programme functions include supplier recruitment, local implementation-field discovery, screening, matching, implementation support, evaluation and follow-on deployment. This exposes policy-production decisions hidden by the prior “experiment subsidy” framing.
+- **Question divergence:** 30 new research questions generated across search/matching, partner selection, implementation capacity, ownership, stopping, government capability, market engagement and intermediary organizational form.
+- **First kill:** 20 questions killed/deferred for direct mappings to adverse selection, soft budgets, property rights, moral hazard, repeated procurement learning, network coordination, real options or other mature theory; 10 advanced to mini-audit.
+- **Frontier finding:** recent 2025–2026 literature is empirically/conceptually active around innovation intermediation, market engagement and public-buyer capability, while adjacent formal theory is mature but fragmented across search/matching, fiscal federalism, state capacity and procurement.
+- **TOP 5:** Q3 multilevel innovation intermediation; Q19 projects as state-capacity investment; Q23 pre-market engagement vs downstream subsidy; Q30 public intermediary sunset; Q11 scarce supplier implementation capacity.
+- **Preferred TOP 3 for human selection:** Q3, Q19, Q23.
+- **Preferred audit candidate:** Q3, subject to a fatal reduction test against generic local-information-versus-scale fiscal federalism and standard matching-platform theory.
+- **Canonical verdict:** `GO`.
+- **Routing/status:** `GO TO NEW STAGE 2/3 AUDIT`.
+- **Formal model / new Stage 4:** `NOT AUTHORIZED / NOT EXECUTED`.
+- **Stop:** `STOPPED AFTER STAGE 0 QUESTION RESET — HUMAN SELECTION REQUIRED`.
