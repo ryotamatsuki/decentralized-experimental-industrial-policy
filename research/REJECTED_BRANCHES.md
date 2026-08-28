@@ -4,74 +4,80 @@ Negative results and killed framings remain part of the project record.
 
 ## Stage 0
 
-### Triangle Ehime case description as the contribution
-`REJECTED` — institutional specificity is motivation, not model/proposition-level novelty.
-
-### Normative presumption that local industrial policy is desirable
-`REJECTED` — the project must allow laissez-faire, centralization, or no intervention to dominate.
-
-### First mover plus informational free riding as a standalone novelty claim
-`REJECTED AS PRIOR NOVELTY CLAIM` — generic experimentation/externality logic is mature prior art.
-
-### Omnibus model containing all proposed frictions
-`REJECTED` — violates minimal-mechanism discipline.
-
-### Supplier as a label-only extra player
-`REJECTED` — supplier matters only through an endogenous feedback.
+- **Triangle Ehime case description as contribution:** `REJECTED` — institutional motivation is not theory novelty.
+- **Presumption local industrial policy is desirable:** `REJECTED` — laissez-faire/centralization/no intervention must remain possible winners.
+- **First mover + free riding as standalone novelty:** `REJECTED AS PRIOR NOVELTY CLAIM`.
+- **Omnibus model:** `REJECTED` — violates minimal-mechanism discipline.
+- **Supplier as label-only extra player:** `REJECTED`.
 
 ## Stage 1
 
-### Triangle Ehime as evidence of strategic cross-prefecture free riding
-`REJECTED AS INSTITUTIONAL FACT` — diffusion/outward expansion is verified; strategic waiting by another government is not.
-
-### Persistent local first-mover rent as verified primitive
-`NOT VERIFIED` — settlement/ecosystem/branch-location objectives do not prove persistent causal rent.
-
-### Inherent prefectural information superiority
-`NOT VERIFIED` — local-needs search is real; comparative informational superiority is not established.
-
-### Government absorbs all failure risk / owns all project IP
-`REJECTED AS UNSUPPORTED` — public support and governance rules do not imply complete incidence/ownership.
+- **Triangle Ehime as observed cross-prefecture strategic free riding:** `REJECTED AS INSTITUTIONAL FACT`.
+- **Persistent local first-mover/ecosystem rent as verified primitive:** `NOT VERIFIED`.
+- **Inherent prefectural information superiority:** `NOT VERIFIED`.
+- **Government bears all failure risk / owns all project IP:** `REJECTED AS UNSUPPORTED`.
 
 ## Stage 2 novelty kills
 
-### Information-public-good → under-experimentation
-`KILL AS MAIN CONTRIBUTION` — Bolton–Harris and Keller–Rady–Cripps already provide the generic strategic-experimentation mechanism.
+- **Information-public-good → under-experimentation:** `KILL AS MAIN CONTRIBUTION` — strategic-experimentation prior art.
+- **Private discovery → imitation:** `KILL AS MAIN CONTRIBUTION` — self-discovery/copying prior art.
+- **Early adopter adaptation cost → follower benefit:** `KILL AS MAIN CONTRIBUTION` — direct adoption/diffusion prior art.
+- **Cross-jurisdiction learning/free riding:** `KILL AS MAIN CONTRIBUTION` — federal-experimentation prior art.
+- **Under/over experimentation from decentralization alone:** `KILL AS MAIN CONTRIBUTION`.
+- **Local information + national spillovers → hybrid finance/local selection:** `KILL AS MAIN CONTRIBUTION`.
+- **Generic intergovernmental subsidy/experimentation race:** `KILL AS MAIN CONTRIBUTION`.
+- **Government as test bed / early user → supplier commercialization:** `KILL AS MAIN CONTRIBUTION` — demonstration/PPI literature.
+- **Government–adopter–supplier triangle as novelty by itself:** `KILL AS LABEL-LEVEL CONTRIBUTION`.
+- **Matching/coordination platform:** `DOWNGRADE TO SECONDARY/UNRESOLVED`.
+- **Capture/state-capacity reversal:** `DOWNGRADE TO ROBUSTNESS/BACKGROUND` unless a distinct loop emerges.
 
-### Private discovery → imitation/free riding
-`KILL AS MAIN CONTRIBUTION` — Hausmann–Rodrik and Acemoglu–Bimpikis–Ozdaglar are structurally very close.
+## Stage 3 candidate decisions
 
-### Early adopter pays adaptation cost → follower benefits
-`KILL AS MAIN CONTRIBUTION` — Detragiache (1998) is a direct precedent.
+### C1 — Supplier co-financing / subsidy incidence
+- **Decision:** `NOT TOP 3; RETAIN AS POSSIBLE INGREDIENT/ROBUSTNESS`.
+- **Reason:** useful extensive-margin logic but close to procurement risk allocation, supplier rents and grant/procurement design.
 
-### Cross-jurisdiction learning / pioneer-follower federal experimentation
-`KILL AS MAIN CONTRIBUTION` — Callander–Harstad is the strongest direct threat.
+### C2 — Local exclusivity versus disclosure
+- **Decision:** `REJECT FROM TOP SET`.
+- **Reason:** high Callander–Harstad transparency/IPR and patent/disclosure prior-art risk.
 
-### Under/over experimentation from decentralization alone
-`KILL AS MAIN CONTRIBUTION` — Cai–Treisman and related federal-experimentation work already gives regime-dependent over/under experimentation.
+### C3 — Local-fit uncertainty × reusable supplier learning
+- **Decision:** `TOP 3 ALTERNATIVE`.
+- **Reason:** potentially distinct split of public evidence and supplier-owned know-how, but risks a mechanical two-parameter result.
 
-### Local information + national spillovers → hybrid finance/local selection
-`KILL AS MAIN CONTRIBUTION` — standard fiscal-federalism logic; may remain a benchmark/implication.
+### C4 — Competition to host a supplier’s scarce launch trial
+- **Decision:** `PREFERRED; HUMAN APPROVAL REQUIRED`.
+- **Reason:** clearest distinction between experiment additionality and host/location rent-shifting; directly supports a “do not subsidize” condition.
+- **Fatal risk:** ordinary firm-location bidding relabeled as experimentation.
 
-### Generic intergovernmental bidding/race
-`KILL AS MAIN CONTRIBUTION` — mature local-policy/fiscal-competition literature.
+### C5 — Endogenous local re-validation / replication
+- **Decision:** `REJECT FROM TOP SET`.
+- **Reason:** requires local-fit heterogeneity and risks mechanically rationalizing repeated trials.
 
-### Government as test bed / early user → supplier commercialization
-`KILL AS MAIN CONTRIBUTION` — public demonstration and PPI literatures already establish this role.
+### C6 — Success-biased demonstration design / certification
+- **Decision:** `TOP 3 ALTERNATIVE`.
+- **Reason:** high novelty potential, but broader signaling/information-design/certification prior-art risk and more auxiliary primitives.
 
-### Government–adopter–supplier triangle as novelty by itself
-`KILL AS LABEL-LEVEL CONTRIBUTION` — PPI theory already models public buyer/sponsor and private supplier incentives, rents, project selection, certification and commercialization.
+### C7 — Selective disclosure of trial outcomes
+- **Decision:** `REJECT FROM TOP SET`.
+- **Reason:** likely standard voluntary-disclosure/signaling mechanism.
 
-### Matching/coordination platform as main mechanism
-`DOWNGRADE TO SECONDARY/UNRESOLVED` — public-procurement intermediation and city/startup matching are documented; no new theorem identified.
+### C8 — Local-retention conditionality versus diffusion
+- **Decision:** `REJECT FROM TOP SET`.
+- **Reason:** strong place-based subsidy/firm-location/local-preference overlap.
 
-### Capture/state capacity reversal as baseline
-`DOWNGRADE TO ROBUSTNESS/BACKGROUND` — important but standard unless a new strategic feedback is generated.
+### C9 — Sequential wait-versus-lead timing
+- **Decision:** `REJECT`.
+- **Reason:** direct strategic/federal-experimentation prior art.
 
-## Branch still alive after Stage 2
+### C10 — National co-financing × local skin in the game
+- **Decision:** `BENCHMARK/EXTENSION ONLY`.
+- **Reason:** standard fiscal-federalism/matching-grant logic.
 
-Only a narrow interaction remains eligible for Stage 3:
+### C11 — Portfolio duplication / fashionable technologies
+- **Decision:** `REJECT FROM TOP SET FOR NOW`.
+- **Reason:** interesting but requires portfolio/diversity primitives and faces Callander–Harstad experimentation-diversity threat.
 
-> a decentralized public host competes/supports a scarce private technology field trial; local adopters receive host-specific early-use benefits; the supplier owns downstream commercialization rents; non-host jurisdictions learn/adopt later; and the supplier's downstream incentive changes the occurrence, location, design or incidence of local support.
+## Current branch eligible for human Stage 4 choice
 
-This branch is `POTENTIALLY NOVEL / UNRESOLVED`, not verified novelty.
+Only C4 is recommended for the next minimal-model attempt. C6 and C3 are preserved as alternatives but are **not automatic rescue branches** if C4 fails.
