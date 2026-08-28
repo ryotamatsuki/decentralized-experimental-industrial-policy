@@ -10,25 +10,33 @@
 ## Stage 0
 
 - **Date:** 2026-08-28
-- **Canonical inputs:** execution brief; workflow governance, pipeline, Stage 0 template
-- **Major findings:** a researchable strategic and welfare question exists, but all institutional primitives and novelty claims remain unverified; eight competing mechanisms can be separated without building a model.
-- **Killed claims:** Triangle Ehime as a standalone theory contribution; a presumption that local intervention is beneficial; first-mover advantage plus free riding as a novelty claim by itself; an omnibus model containing every proposed friction.
-- **Surviving claims:** decentralized public support for private-technology trials may create a researchable interaction among local selection, cross-jurisdiction learning, and supplier commercialization; this is a question, not a verified contribution.
+- **Major findings:** a researchable strategic and welfare question exists; eight candidate mechanisms were separated without constructing a model.
+- **Killed claims:** Triangle Ehime as a standalone theory contribution; presumption that local intervention is beneficial; first-mover advantage plus free riding as novelty by itself; omnibus model.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO AUDIT`
-- **Blocker:** none at Stage 0; institutional verification is the next-stage task.
-- **Next-stage contract:** verify the institutional object and generalizable primitives without building or modifying a formal model and without asserting novelty.
+- **Blocker:** none.
 - **Completion commit:** `74baaa33c283b8c9711b07cd91724b6f13e5797f`
 
 ## Stage 1
 
 - **Date:** 2026-08-28
-- **Canonical inputs:** frozen Stage 0 question/contract; official Ehime, Tokyo and NEDO program materials; workflow Stage 1 rules.
-- **Major findings:** a generalizable policy class is primary-source verified. Public authorities select/match private technologies to implementation fields, fund/support trials, collect evidence, and deliberately support diffusion/commercialization. Ehime explicitly supports both prefecture-wide and outside-prefecture expansion; Tokyo links public-field verification to certification/procurement and sales expansion; NEDO supplies a national demonstration comparator.
-- **Killed institutional claims:** observed cross-prefecture strategic free riding; guaranteed persistent local first-mover rent; inherent local informational superiority; complete public absorption of failure risk; universal public ownership of project IP.
-- **Surviving institutional primitives:** public selection/matching; public trial financing; evidence production; follow-on adoption/diffusion; supplier downstream commercialization; local-retention objective; subnational/national governance alternatives.
+- **Major findings:** a generalizable policy class is primary-source verified. Public authorities select/match privately supplied technologies to implementation fields, support trial costs, collect evidence, and support diffusion/commercialization. Subnational and national institutional analogues exist.
+- **Killed/bounded claims:** observed strategic cross-prefecture free riding; guaranteed persistent local first-mover rent; inherent local informational superiority; complete public absorption of failure risk; universal public ownership of project IP.
 - **Canonical verdict:** `GO`
 - **Routing/status:** `GO TO NOVELTY GATE`
-- **Blocker:** none. Several economically important causal margins remain hypotheses and are explicitly bounded rather than repaired.
-- **Next-stage contract:** Stage 2 must kill known mechanisms at model/proposition level and may not change institutional facts to manufacture novelty.
-- **Completion commit:** `TO_BE_BACKFILLED_AFTER_STAGE_1_COMMIT`
+- **Blocker:** none.
+- **Completion commit:** `eaf41d029e82f6c98a7441e83060870275d7df8e`
+
+## Stage 2
+
+- **Date:** 2026-08-28
+- **Canonical inputs:** frozen Stage 0 question; verified Stage 1 institutional abstraction; literature/novelty checklists.
+- **Major findings:** the broad mechanism space is much more crowded than initially assumed. Strategic experimentation already contains information-public-good/free-riding results; self-discovery and private copying cover private discovery/imitation; federal-experimentation papers cover cross-jurisdiction learning and local/central regime comparisons; fiscal-federalism covers local information/spillovers and subsidy competition; demonstration and PPI literatures already cover government as early user/test bed, supplier commercialization, certification, rents, risk and centralization.
+- **Killed claims:** M1 local information × selection as main contribution; M2 information-production externality; M3 first-mover rent × free riding as standalone contribution; M5 generic intergovernmental experimentation race; M6 national finance × decentralized selection as standalone contribution. M4 government–adopter–supplier is downgraded because supplier commercialization is already central to PPI. M7 matching is secondary/unresolved. M8 capture/capacity is robustness/background unless it creates a distinct feedback.
+- **Strongest prior-art threats:** Callander & Harstad (2015); Acemoglu, Bimpikis & Ozdaglar (2011); Chiappinelli, Giuffrida & Spagnolo (2025) and the PPI theory it surveys; Hausmann & Rodrik (2003); Detragiache (1998).
+- **Surviving white space:** `POTENTIALLY NOVEL / UNRESOLVED` interaction in which a decentralized host government supports/competes for a scarce private technology field trial, a local adopter receives host-specific early-use benefits, the supplier owns downstream commercialization rents generated by the trial, and non-host jurisdictions receive later informational/adoption benefits. The supplier's downstream incentive must change local support, trial occurrence, location, design or incidence.
+- **Canonical verdict:** `GO`
+- **Routing/status:** `GO TO MECHANISM SEARCH`
+- **Blocker:** no Stage 2 blocker, but novelty remains provisional until a specific Stage 3 strategic loop survives reduction tests.
+- **Next-stage contract:** generate 8–12 distinct loops; reject any candidate that collapses to federal experimentation without supplier commercialization, to private copying/self-discovery without jurisdictions, or to ordinary PPI without cross-jurisdiction host/follower structure.
+- **Completion commit:** `TO_BE_BACKFILLED_AFTER_STAGE_2_COMMIT`
