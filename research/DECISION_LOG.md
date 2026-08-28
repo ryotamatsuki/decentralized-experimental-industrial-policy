@@ -48,4 +48,4 @@
 - **Routing/status:** `GO TO MINIMAL MODEL`
 - **Mandatory status:** `STOPPED AFTER STAGE 3 — HUMAN APPROVAL REQUIRED BEFORE STAGE 4`
 - **Next-stage contract:** no Stage 4 work until explicit human candidate approval; if C4 is approved, test one minimum model and the four conjectures in `STAGE4_HANDOFF.md`.
-- **Completion commit:** `TO_BE_BACKFILLED_AFTER_STAGE_3_COMMIT`
+- **Completion commit:** `b9c010331235e3b74a4f68ec663cc7c8082b69c5`
