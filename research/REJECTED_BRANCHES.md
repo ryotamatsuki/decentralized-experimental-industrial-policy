@@ -1,6 +1,6 @@
 # Rejected Branches
 
-Negative results and killed framings remain part of the canonical project record.
+Negative results remain part of the canonical project record and cannot be silently reopened.
 
 ## Binding earlier kills
 
@@ -14,105 +14,115 @@ Negative results and killed framings remain part of the canonical project record
 
 ## C4 — terminated
 
-Stage5 final verdict: **`NO-GO — TERMINATED`**. Host-dependent information quality solved the algebraic blocker but mapped the mechanism into known auction/externality and adjacent theory. No rescue through extra heterogeneity, effort, private information, disclosure, dynamics or C6/C3 ingredients.
+**`NO-GO — C4 TERMINATED AT STAGE 5`**. Host-dependent information quality fixed the algebraic blocker but mapped the mechanism into known auction/externality and adjacent theory. No Stage 6.
 
 ## C6 — terminated
 
-Stage3 re-entry: **`NO-GO`**. Core supplier test/evidence design is structurally close to mature test-design/signaling theory; public sponsor is not strategically essential without a second mechanism.
+**`NO-GO`**. Test/evidence design is structurally close to mature signaling/test-design theory; public sponsor is nonessential without a second mechanism.
 
 ## C3 — terminated
 
-Stage3 re-entry: **`NO-GO`**. Private reusable learning versus public spillover reduces to mature appropriability/learning-by-doing logic.
+**`NO-GO`**. Private reusable learning versus public spillover reduces to mature appropriability/learning-by-doing logic.
 
 ## Q19 / Q23
 
-- Q19 Implementation Projects as State-Capacity Investment: `NO-GO` — endogenous state-capacity/LBD/repeated procurement learning.
-- Q23 Pre-Market Engagement versus Downstream Subsidy: `NO-GO FOR CURRENT SELECTION` — endogenous bidder entry/pre-contract R&D/information acquisition; public essentiality not established.
+- Q19: `NO-GO` — state-capacity/LBD/procurement-learning reduction.
+- Q23: `NO-GO FOR CURRENT SELECTION` — endogenous bidder entry/information acquisition; public essentiality not established.
 
-## Q3 — terminated at Stage 3
+## Q3 — terminated
 
-**`NO-GO — Q3 TERMINATED AT STAGE 3`**.
+**`NO-GO — Q3 TERMINATED AT STAGE 3`**. Tested variants reduced to platform investment/network effects, product/search design, cream-skimming/segmentation, multihoming/sequential search, scarce attention or knowledge-hierarchy/task-allocation theory.
 
-Ten tested variants reduce to two-sided platform investment/network effects, product/search design/platform governance, cream-skimming/venue segmentation, standardization/search frictions, multihoming, sequential search, scarce attention, endogenous segmentation or knowledge hierarchy/task allocation.
+## A1 — terminated
 
-Q3 may not be rescued by combining killed mechanisms or adding political incentives, private information, contracting, R&D, intermediary learning, data ownership or dynamics.
+Frozen object:
 
-## Architecture audit — generic killed bundle framings
+`multi-site/scalability eligibility + implementation finance + downstream replication opportunity/support`.
 
-- `many policy instruments -> stronger policy`: `KILL`.
-- hard financial support + soft matching support complementarity: `KILL AS NOVELTY`.
-- public procurement/demand pull + R&D/subsidy support complementarity: `KILL AS NOVELTY`.
-- multi-site implementation valuable only because of external validity: `KILL AS NOVELTY`.
-- pilots should be designed for scale: `KILL AS NOVELTY`.
-- Q1 search × implementation finance: generic hard/soft complementarity.
-- Q9 implementation × data-based study groups: generic learning.
-- Q10 implementation × human capital: human-capital/agglomeration.
-- Q13 articulation × national recruitment: binding Q3/search-product-design reduction.
-- Q14 implementation finance × diffusion subsidy without scalability selection: generic push/pull policy mix.
-- Q16 milestone payments × continuation: staged finance/real options/soft budget.
-- Q17 external hubs × local fields: platform/network integration.
-- Q20 networking × local establishment: agglomeration/place-based attraction.
-
-## A1 Scalability-by-Design — terminated at architecture novelty gate
-
-### Frozen architecture
-
-`multi-site/scalability eligibility + implementation finance + downstream replication opportunity/support`
-
-### Final status
+Final:
 
 # **`A1 NO-GO — ARCHITECTURE ROUTE TERMINATED`**
 
+Fatal reductions:
+1. exogenous-type reading -> standard eligibility/screening plus participation support and downstream market value;
+2. endogenous-design reading -> standards/R&D/product-design/commonality/modularity theory;
+3. no triple-only strategic behavior after S+F, S+R and F+R decomposition;
+4. sequencing irrelevant when anticipated, absent a prohibited extra primitive;
+5. no verified universal binding future-support commitment;
+6. generic policy-mix/pilot-to-scale/lead-market/external-validity framings occupied.
+
+Do not build a formal A1 model or rescue it by importing private information, political incentives, learning, certification, bargaining, IP/data rights, local information, multiple governments, supplier capacity or commitment problems.
+
+A2/A3 remain unaudited backups; neither auto-advances.
+
+## Cooperative-games frontier — pre-Stage-0 kills
+
+Branch: `research/cooperative-games-frontier-scout`.
+
+Seven of ten candidate questions were killed before Stage 0:
+
+- C2 Diversity-Contingent Consortium Grants — absorbed into C1 / high team-composition overlap.
+- C3 Coalition Architecture via Core Stabilization — cost-of-stability structural containment.
+- C4 Supplier-to-Adopter Stability Switch — dynamic adoption/R&D/licensing overlap; cooperative necessity absent.
+- C6 Coalition Selection versus Individual Screening — matching/team formation unless a distinct instrument exists.
+- C8 Public Coalition-Formation Insurance — insurance/risk-sharing/contracting containment.
+- C9 Scarce Public Implementation Capacity as Coalition Member — matching/assignment/capacity allocation containment.
+- C10 Coalition-Conditional Shared Learning — learning/R&D cooperation/diffusion containment and earlier-branch contamination.
+
+Generic killed framings: Shapley value as contribution; government+firms as a three-player cooperative game; subsidy makes core nonempty; coalition-size threshold alone.
+
+C1, C5 and C7 survived only as `PLAUSIBLE WHITE SPACE` at the frontier gate.
+
+## C1 — terminated at Stage 0
+
+Branch: `research/c1-stage0-nonseparability-audit`.
+
+Frozen question: can a coalition-composition-contingent monetary industrial-policy instrument implement an efficient stable coalition that feasible member-level transfers conditional on the same coalition event cannot implement?
+
+### Final status
+
+# **`NO-GO — C1 TERMINATED AT STAGE 0`**
+
 ### Fatal reductions
 
-1. **Exogenous-type reading:** standard eligibility/screening changes entry/composition; F relaxes participation; R increases downstream market value.
-2. **Endogenous-design reading:** minimum/performance standards affect endogenous innovation/product R&D; finance affects design cost; market expansion/multi-market scope affects commonality/modularity/customization.
-3. **Decomposition:** S+F, S+R and F+R already contain the relevant qualitative effects; no three-way-only behavior survives.
-4. **Sequencing:** S -> F -> R does no independent strategic work when the architecture is anticipated before entry/design. A meaningful timing effect requires a prohibited additional mechanism.
-5. **Commitment rescue unavailable:** downstream opportunity/support is verified, but no universal binding ex-ante future-support entitlement is established.
-6. **Generic policy mix / pilot-to-scale / lead-market / external-validity framings:** all occupied.
+1. **Accounting nonseparability:** if a monetary coalition payment is distributable among identified members, it can be represented as member claims summing to the same total.
+2. **Joint-event conditionality:** allowing `t_i(S)` means individual payments can be promised only when exactly the desired coalition/composition forms. A coalition label does not enlarge the implementation set.
+3. **Institutional mismatch:** FY2026 Ehime manufacturing/maritime horizontal-deployment support requires an implementation structure with a prior provider, but the eligible local SME/applicant is the grantee. Current evidence supports relationship-contingent eligibility, not a coalition-owned monetary claim.
+4. **Blocking insufficiency:** coalition blocking may matter for stability, but reproducing the target member payoff vector with `t_i(S)` leaves the same blocking comparison. Blocking does not create I4-over-I2 non-equivalence.
+5. **Indivisible asset/common infrastructure:** genuine only by changing the policy instrument to direct/in-kind public provision or by forbidding joint procurement through another friction.
+6. **Team production:** genuine nonseparability relies on unverifiable contribution/moral hazard, a separate mature mechanism and prohibited rescue.
+7. **Joint liability:** genuine group obligation exists, but the active mechanism belongs to mature group-lending/joint-liability theory.
+8. **Complementary investments/outside options/common cost/collective eligibility:** none defeats coalition-event-contingent member transfers without importing incomplete contracting or another new primitive.
+9. **Prior-art pressure:** cost-of-stability, R&D coalition subsidy, and 2023–2026 agglomeration-bonus/group-formation work already cover external stability payments, subsidized coalition participation, endogenous coalition structures and individual-vs-group collective incentive design.
 
-### Killed proposition language
+### Primitive tournament
 
-- A1-P1: `KILLED`.
-- A1-P2: `WEAKENED / NOT DISTINCT`.
-- A1-P3: `KILLED`.
-- A1-P4: `KILLED`.
-- A1-P5: `WEAKENED / INSUFFICIENT`.
+Eight primitives tested; **zero survivors**. Scores are screening scores only and fatal reductions override them.
+
+- P1 common indivisible implementation asset — 57 — KILL.
+- P6 common infrastructure/public input — 56 — KILL.
+- P5 coalition-specific outside options/blocking — 53 — KILL.
+- P4 complementary partner-specific sunk investments — 51 — KILL.
+- P2 team production/unverifiable contribution — 50 — KILL.
+- P8 nonseparable common cost/shared procurement — 50 — KILL.
+- P3 joint liability/collective guarantee — 46 — KILL.
+- P7 collective eligibility/joint performance — 38 — KILL.
 
 ### Prohibited rescue
 
-Do not revive A1 by adding private information, political incentives, learning spillovers, certification, bargaining, IP/data rights, local information, multiple governments, supplier capacity constraints, commitment problems, or any C4/C6/C3/Q3 ingredient.
+Do not reopen C1 by adding private information, moral hazard, incomplete contracting solely to defeat `t_i(S)`, joint liability, nontransferable utility, direct public provision/common infrastructure, arbitrary legal bans on member transfers, political incentives, local information, multiple governments, learning, certification or IP/data rights.
 
-Do not build a formal A1 model.
+Any such mechanism would require a separately authorized frontier audit.
 
-## A2 / A3 after A1 termination
+## C5 / C7 after C1 termination
 
-- A2 Reference-Market-to-Private-Market Transition: remains an unaudited backup with high PPI/lead-market risk.
-- A3 Multi-Site Field Access -> Modular/Reusable Design: remains an unaudited backup with high product-design/testbed risk.
+- C5 Partition-Contingent Diffusion Policy remains a frozen backup with a generic partition-function/policy prior-art risk.
+- C7 Open-Membership / Portability Conditions remains a frozen backup with R&D membership/licensing/exclusivity prior-art risk.
 
-**Neither auto-advances.** A new run requires explicit Human Research Director authorization.
-
-## Cooperative-games frontier — killed candidates
-
-Run: `research/cooperative-games-frontier-scout`, 2026-08-29. This is a new-primitive branch, not an A1 rescue.
-
-Seven of ten candidate questions are killed before Stage 0:
-
-- **C2 Diversity-Contingent Consortium Grants — KILL AS SEPARATE BRANCH.** Consortium diversity/team-composition prior art is strong; any useful nonseparable-composition content is absorbed into C1.
-- **C3 Coalition Architecture via Core Stabilization — STRUCTURAL CONTAINMENT / KILL.** External payments conditional on maintaining a coalition or coalition structure are cost-of-stability prior art.
-- **C4 Supplier-to-Adopter Stability Switch — HIGH OVERLAP / KILL FOR CURRENT SELECTION.** Without an additional primitive, the support-side switch reduces to dynamic R&D/adoption/diffusion/licensing economics; cooperative-game necessity is not established.
-- **C6 Coalition Selection versus Individual Screening — HIGH OVERLAP / KILL AS STANDALONE.** Match/team formation and mechanism design cover productive-combination selection unless C1's distinct instrument question is restored.
-- **C8 Public Coalition-Formation Insurance — STRUCTURAL CONTAINMENT / KILL.** Insurance/risk-sharing/contracting can reproduce the mechanism.
-- **C9 Scarce Public Implementation Capacity as Coalition Member — STRUCTURAL CONTAINMENT / KILL.** Matching/assignment/capacity allocation is sufficient; cooperative structure is not indispensable.
-- **C10 Coalition-Conditional Shared Learning — STRUCTURAL CONTAINMENT / KILL.** Learning spillovers, R&D cooperation and diffusion policy already contain the mechanism and this framing risks reopening earlier killed learning branches.
-
-Generic cooperative-game framings are also binding kills: `Shapley value as contribution`, `government + firms as a three-player cooperative game`, `subsidy makes core nonempty`, and `coalition-size threshold alone`.
-
-Three candidates remain only `PLAUSIBLE WHITE SPACE`: C1, C5 and C7. They are not entered here as rejected; each has an explicit Stage-0 fatal reduction gate and does not auto-advance.
+**Neither auto-advances.** C1 failure is not authorization to pivot.
 
 ## Current routing
 
-C4/C6/C3/Q3 remain terminated. Q19/Q23 remain closed under prior decisions. A1 remains terminated. The cooperative-games frontier verdict is `CONDITIONAL GO`, but Stage 0 is not authorized. C1 is the default candidate only if explicit human authorization is given; C5/C7 do not auto-pivot.
+C4/C6/C3/Q3 remain terminated. Q19/Q23 remain closed. A1 remains terminated. C1 is now terminated at Stage 0. No Stage 1 is authorized. C5/C7 are frozen only.
 
-**STOPPED AFTER COOPERATIVE-GAMES FRONTIER SCOUTING — HUMAN APPROVAL REQUIRED BEFORE STAGE 0**
+**STOPPED AFTER C1 STAGE 0 NONSEPARABILITY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 1**
