@@ -93,8 +93,26 @@ Do not build a formal A1 model.
 
 **Neither auto-advances.** A new run requires explicit Human Research Director authorization.
 
+## Cooperative-games frontier — killed candidates
+
+Run: `research/cooperative-games-frontier-scout`, 2026-08-29. This is a new-primitive branch, not an A1 rescue.
+
+Seven of ten candidate questions are killed before Stage 0:
+
+- **C2 Diversity-Contingent Consortium Grants — KILL AS SEPARATE BRANCH.** Consortium diversity/team-composition prior art is strong; any useful nonseparable-composition content is absorbed into C1.
+- **C3 Coalition Architecture via Core Stabilization — STRUCTURAL CONTAINMENT / KILL.** External payments conditional on maintaining a coalition or coalition structure are cost-of-stability prior art.
+- **C4 Supplier-to-Adopter Stability Switch — HIGH OVERLAP / KILL FOR CURRENT SELECTION.** Without an additional primitive, the support-side switch reduces to dynamic R&D/adoption/diffusion/licensing economics; cooperative-game necessity is not established.
+- **C6 Coalition Selection versus Individual Screening — HIGH OVERLAP / KILL AS STANDALONE.** Match/team formation and mechanism design cover productive-combination selection unless C1's distinct instrument question is restored.
+- **C8 Public Coalition-Formation Insurance — STRUCTURAL CONTAINMENT / KILL.** Insurance/risk-sharing/contracting can reproduce the mechanism.
+- **C9 Scarce Public Implementation Capacity as Coalition Member — STRUCTURAL CONTAINMENT / KILL.** Matching/assignment/capacity allocation is sufficient; cooperative structure is not indispensable.
+- **C10 Coalition-Conditional Shared Learning — STRUCTURAL CONTAINMENT / KILL.** Learning spillovers, R&D cooperation and diffusion policy already contain the mechanism and this framing risks reopening earlier killed learning branches.
+
+Generic cooperative-game framings are also binding kills: `Shapley value as contribution`, `government + firms as a three-player cooperative game`, `subsidy makes core nonempty`, and `coalition-size threshold alone`.
+
+Three candidates remain only `PLAUSIBLE WHITE SPACE`: C1, C5 and C7. They are not entered here as rejected; each has an explicit Stage-0 fatal reduction gate and does not auto-advance.
+
 ## Current routing
 
-C4/C6/C3/Q3 remain terminated. Q19/Q23 remain closed under prior decisions. A1 is now terminated at the architecture-specific Stage 2 novelty gate. No Stage 3 is authorized.
+C4/C6/C3/Q3 remain terminated. Q19/Q23 remain closed under prior decisions. A1 remains terminated. The cooperative-games frontier verdict is `CONDITIONAL GO`, but Stage 0 is not authorized. C1 is the default candidate only if explicit human authorization is given; C5/C7 do not auto-pivot.
 
-**STOPPED AFTER A1 ARCHITECTURE NOVELTY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3**
+**STOPPED AFTER COOPERATIVE-GAMES FRONTIER SCOUTING — HUMAN APPROVAL REQUIRED BEFORE STAGE 0**
