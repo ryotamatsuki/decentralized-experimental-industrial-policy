@@ -1,256 +1,169 @@
 # Decision Log
 
-## Run metadata
+## Governance
 
-- Run opened: 2026-08-28
-- Canonical workflow: `ryotamatsuki/research-paper-workflow` v1.0 governance/pipeline
-- Repository bootstrap commits: `6091a064070655e640e1f80c5c04b76853381721`, `199170a3848c274c06eb5349c116ce8fed325e49`
-- Stage 0–3 branch: `research/stage0-3-agentic-scouting`
-- Stage 4 branch: `research/stage4-c4-minimal-model`
-- Stage 5 branch: `research/stage5-c4-information-quality`
-- Stage 3 re-entry branch: `research/stage3-reentry-c6-c3-rekill`
-- Stage 0 reset branch: `research/stage0-question-reset`
-- Stage 2 reset audit branch: `research/stage2-q3-q19-q23-frontier-audit`
-- Q3 Stage 3 branch: `research/stage3-q3-mechanism-search`
-- Architecture audit branch: `research/triangle-ehime-architecture-audit`
-- A1 architecture novelty audit branch: `research/a1-architecture-novelty-audit`
-- Cooperative-games frontier branch: `research/cooperative-games-frontier-scout`
+Canonical workflow: `ryotamatsuki/research-paper-workflow` v1.0 stage-gated research process.
 
-## Initial Stage 0–3
+Binding rule: negative results remain canonical; a later branch does not reopen a killed mechanism unless explicitly authorized as a genuinely new primitive branch.
 
-- **Stage 0:** `GO`. Researchable question existed; Triangle Ehime case description, presumption of beneficial local intervention and first-mover/free-rider standalone novelty rejected.
-- **Stage 1:** `GO`. Primary sources verified a class involving public selection/matching, trial support, evidence production, diffusion/commercialization. Strategic waiting, persistent local rents, inherent local informational superiority and universal public IP ownership not verified.
-- **Stage 2:** `GO TO MECHANISM SEARCH`. Generic learning/free riding, self-discovery/imitation, decentralized experimentation, local-information federalism, generic subsidy competition and public-test-bed commercialization killed as main contributions.
-- **Stage 3:** `GO TO MINIMAL MODEL`. Eleven mechanisms generated; TOP3 C4/C6/C3; C4 selected after human gate.
+## Prior research history
 
-## C4 Stage 4–5
+### Initial Stage 0–3
 
-### Stage 4 — C4 Minimal Model
+- Stage 0: `GO` — a researchable policy question existed; case-description novelty, presumed beneficial local intervention and first-mover/free-rider novelty rejected.
+- Stage 1: `GO` — public selection/matching, trial support, evidence production and diffusion/commercialization verified; strategic waiting, persistent local rents, inherent local informational superiority and universal public IP ownership not verified.
+- Stage 2: `GO TO MECHANISM SEARCH` — generic learning/free-riding, self-discovery/imitation, decentralized experimentation, local-information federalism, generic subsidy competition and test-bed commercialization killed as main contributions.
+- Stage 3: TOP3 C4/C6/C3; C4 selected after human gate.
 
-- Branch: `research/stage4-c4-minimal-model`.
-- Result: zero-additionality subsidy, overpayment, productive local support and under-experimentation regions derived; symmetric baseline did not generate mislocation.
-- Blocker: host-invariant information did not enter hosting competition.
-- Verdict: `CONDITIONAL GO` with exactly one authorized `q_i` hardening.
+### C4
 
-### Stage 5 — Host-dependent information quality
+- Stage 4 derived baseline support regions but symmetric model lacked host-dependent information.
+- Stage 5 host-dependent information fixed the algebraic blocker but mapped into auctions with identity-dependent externalities and mature adjacent theory.
+- Final: **`NO-GO — C4 TERMINATED AT STAGE 5`**. No Stage 6.
 
-- Branch: `research/stage5-c4-information-quality`.
-- Result: blocker resolved mathematically, but the hardened game mapped into auctions with identity-dependent externalities plus known subsidy-competition/experimentation/volunteer theory.
-- Verdict: **`NO-GO — C4 TERMINATED AT STAGE 5`**.
-- Stage 6: not executed.
+### C6 / C3 re-entry
 
-## Stage 3 Re-Entry — C6 vs C3
+- C6: `NO-GO` — test/evidence-design prior art; public sponsor nonessential without a second mechanism.
+- C3: `NO-GO` — mature appropriability/learning-by-doing logic.
+- Final: `BOTH NO-GO`.
 
-- Branch: `research/stage3-reentry-c6-c3-rekill`.
-- C6: `NO-GO` — endogenous test/evidence-design prior art and nonessential public sponsor.
-- C3: `NO-GO` — mature private/social learning appropriability wedge.
-- Final: **`BOTH NO-GO`**.
+### Research-question reset
 
-## Stage 0 Research-Question Reset
-
-- Branch: `research/stage0-question-reset`.
-- 30 new questions generated after institutional re-decomposition; 20 killed/deferred; 10 mini-audited.
-- TOP5: Q3 multilevel innovation intermediation, Q19 state-capacity investment, Q23 pre-market engagement, Q30 intermediary sunset, Q11 scarce implementation capacity.
-- Verdict: `GO TO NEW STAGE 2/3 AUDIT`.
-
-## Stage 2 Reset — Q3 vs Q19 vs Q23
-
-- Branch: `research/stage2-q3-q19-q23-frontier-audit`.
-- Q3: `POTENTIALLY DISTINCT / UNRESOLVED`; selected for one Stage-3 mechanism search.
+- 30 questions generated; 10 mini-audited.
+- Q3/Q19/Q23 received deeper audit.
 - Q19: `NO-GO` — state-capacity/LBD/procurement-learning reduction.
-- Q23: `NO-GO FOR CURRENT SELECTION` — endogenous entry/information acquisition and weak public essentiality.
-- Final: `Q3 SELECTED FOR STAGE 3 HUMAN APPROVAL`.
+- Q23: `NO-GO FOR CURRENT SELECTION` — endogenous entry/information acquisition; weak public essentiality.
+- Q3 proceeded to one Stage-3 mechanism search.
 
-## Q3 Stage 3 — Multilevel Innovation Intermediation
+### Q3 Stage 3
 
-- Branch: `research/stage3-q3-mechanism-search`.
-- Ten mechanisms generated.
-- TOP3 before fatal override: M3 selective referral/adverse national-pool composition; M2 demand legibility × supplier thickness; M10 hierarchical escalation.
-- M3 reduced to cream-skimming/venue segmentation.
-- M2 reduced to product/search design/platform governance.
-- M10 reduced to knowledge hierarchy/task allocation.
-- Remaining candidates reduced to platform investment/network effects, segmentation, multihoming, sequential search or competition for attention.
-- Government essentiality not established.
-- Verdict: **`NO-GO — Q3 TERMINATED AT STAGE 3`**.
-- Stage 4: not authorized/executed.
+- Ten mechanisms tested.
+- Strongest variants reduced to cream-skimming/venue segmentation, product/search design/platform governance, knowledge hierarchy/task allocation and adjacent platform/search theory.
+- Final: **`NO-GO — Q3 TERMINATED AT STAGE 3`**.
 
-## Institutional Architecture Reset — Triangle Ehime
+## Triangle Ehime Architecture Reset
+
+### Architecture audit
+
+A new pre-Stage-0 audit examined the policy bundle while preserving earlier kills. FY2026 official materials verified local field discovery, supplier recruitment/pre-matching, multi-site implementation in the main route, project-specific implementation support, evaluation/data use, retention/packaging, horizontal deployment and later-adopter subsidies.
+
+Preferred architecture A1 was frozen as:
+
+`multi-site/scalability eligibility + implementation finance + downstream replication opportunity/support`.
+
+Architecture-audit routing: `GO TO ARCHITECTURE NOVELTY AUDIT`, not novelty certification.
+
+### A1 novelty audit
+
+Branch: `research/a1-architecture-novelty-audit`.
+
+Results:
+- exogenous scalable-type reading structurally contained by eligibility/MQS/entry theory;
+- endogenous reusable-design reading contained by endogenous product-design/R&D/commonality/modularity theory;
+- S+F, S+R and F+R already contained relevant margins; no triple-only strategic behavior;
+- sequencing had no independent effect when S/F/R were anticipated;
+- universal binding future replication commitment not verified.
+
+Score: 35/100; fatal reductions override.
+
+Final: **`A1 NO-GO — ARCHITECTURE ROUTE TERMINATED`**.
+
+A2/A3 remained unaudited backups and did not auto-advance.
+
+## Cooperative-Games Frontier Scouting
+
+Date: 2026-08-29.
+Branch: `research/cooperative-games-frontier-scout`.
+Base: A1 terminal HEAD `e5b220ecd1770558524e2241adfe725a0c4128a7`.
+
+Purpose: new-primitive frontier scout for `Industrial Policy × Cooperative Games / Coalition Formation`, explicitly not an A1 rescue.
+
+- 32 unique named literature records + FY2026 Ehime sources screened.
+- 10 candidates generated; 7 killed.
+- TOP3 survivors, all `PLAUSIBLE WHITE SPACE` only:
+  1. C1 Nonseparable Coalition-Composition Grants — 79/100.
+  2. C5 Partition-Contingent Diffusion Policy — 77/100.
+  3. C7 Open-Membership / Portability Conditions — 74/100.
+- Generic core stabilization, R&D coalition subsidy, Shapley/core application, coalition-size threshold and simple supplier-to-adopter switching were rejected.
+
+Frontier verdict: **`CONDITIONAL GO` / `CONDITIONAL YES`**.
+
+C1 was the default Stage-0 target if human-authorized; C5/C7 frozen backups.
+
+## C1 Stage 0 — Nonseparable Coalition-Composition Grants
 
 ### Authorization
 
-- Date: 2026-08-28.
-- Human authorization: explicit request to abandon the single-mechanism-only search discipline for a pre-Stage-0 audit of the policy bundle itself, while preserving all prior kills.
-- Branch: `research/triangle-ehime-architecture-audit`.
+Date: 2026-08-29.
+Human authorization: explicit execution prompt for C1 Stage 0 only.
+Branch: `research/c1-stage0-nonseparability-audit`.
+Base: verified frontier HEAD `bdc72691570530f5fe0cd0fe2285860cb0228c8b`.
+No Stage 1/model/equilibrium/theorem/manuscript authorized.
 
-### Primary-source reconstruction
+### Institutional boundary
 
-FY2026 official materials verify a staged architecture containing local field discovery, national supplier recruitment/pre-matching, at least two Ehime implementation sites in the main route, project-specific public implementation support, evaluation/data use, retention/packaging, horizontal deployment, separate later-adopter subsidies and wider embedding/support functions.
+FY2026 Ehime manufacturing/maritime horizontal-deployment rules require the applicant to establish an implementation structure with a prior Triangle provider before application. But the eligible local SME/applicant is the subsidy recipient. The reviewed rules do not establish a coalition-owned monetary grant, TU/core allocation, joint liability, indivisible coalition asset or mandatory side-payment structure.
 
-### Preferred architecture
+Institutional interpretation: **relationship-contingent individual/project support**, not verified I4 coalition ownership.
 
-**A1 — Scalability-by-Design Architecture**
+### Focused literature audit
 
-Frozen minimal bundle:
+Twelve additional named works were screened on top of the frontier corpus, including team production, joint liability, cooperative R&D project funding, coalition-proof implementation and collective/group incentive schemes.
 
-`multi-site/scalability eligibility + public implementation finance + downstream replication support`
+Important direct threats:
+- Cost-of-stability theory permits external stability payments that can be distributed among coalition members.
+- Yi & Shin (2000) already connect government subsidy to stable research-consortium participation.
+- Bareille, Zavalloni & Viaggi (2023) endogenize coalition formation under an agglomeration-bonus policy.
+- Bareille & Soubeyran (2025) compare individual vs group-level bonuses.
+- Zavalloni & Bareille (2026) compare open-list, closed-list and individual collective-policy designs.
 
-Strongest fatal reduction to be tested:
+### Instrument-equivalence result
 
-> `A1 is just a standard screening mechanism with an exogenous scalable type, a transfer satisfying participation, and an additive downstream market-size benefit.`
+Frozen comparator:
+- I2: `t_i(S)` member-specific payments conditional on the same observed coalition event;
+- I3: coalition-labelled but additively decomposable monetary payment;
+- I4: genuinely nonseparable coalition instrument.
 
-Architecture-audit verdict: **`GO TO ARCHITECTURE NOVELTY AUDIT`** only; not novelty certification.
+Fatal result: under the same observable `S`, transferable money and no added contracting/information friction, an allocation of a monetary `s(S)` can be represented by member payments `t_i(S)` summing to the same public payment and reproducing the same target payoff vector.
 
----
+Therefore **accounting nonseparability and joint-event conditionality do not create a new implementable set**.
 
-## A1 Architecture Novelty Audit — Run #6
+### Primitive tournament
 
-### Authorization and governance
+Eight primitives tested with prescribed Python-scored rubric; all killed:
 
-- Date: 2026-08-28.
-- Branch: `research/a1-architecture-novelty-audit`.
-- Base: `research/triangle-ehime-architecture-audit` at verified HEAD `6cf5cbdb31fadb695407ac1d3e8f0cea6ceb6d4d`.
-- Draft PR: #10, `Architecture novelty audit: A1 scalability-by-design`.
-- Stage position: architecture-specific Stage 2 novelty kill gate.
-- No formal model/equilibrium/theorem/manuscript authorized.
+- P1 common indivisible implementation asset — 57/100 — KILL: genuine only by changing to in-kind/public provision.
+- P6 common infrastructure/public input — 56/100 — KILL: same instrument-change problem.
+- P5 coalition-specific outside options/blocking — 53/100 — KILL: blocking does not defeat payoff-vector replication.
+- P4 complementary partner-specific sunk investments — 51/100 — KILL: `t_i(S)` can condition on joint participation absent incomplete contracting.
+- P2 team production/unverifiable contribution — 50/100 — KILL: Holmström-style moral hazard becomes the active mechanism.
+- P8 nonseparable common cost/shared procurement — 50/100 — KILL: nonseparable cost does not make money nonseparable.
+- P3 joint liability/collective guarantee — 46/100 — KILL: mature group-liability mechanism.
+- P7 collective eligibility/joint performance — 38/100 — KILL: pure I2 conditionality.
 
-### Bibliography hygiene
+Surviving primitive: **none**.
 
-Before the substantive audit:
+### Blocking / cooperative-game necessity
 
-- Rossi et al. (2022) author order corrected to Rossi, Caloffi, Colovic, Russo using publisher metadata.
-- Drake (2025) metadata corrected/completed to Samielle Drake and Fei Xu, volume 27(1), e70019.
+Blocking can matter for coalition stability, but after I2 reproduces the target member payoff vector the same blocking comparison remains. Cooperative-game theory therefore does not generate the claimed I4-over-I2 instrument advantage.
 
-This was metadata hygiene only and did not alter a research result.
+### Ultimate tests
 
-### Frozen object
-
-A1 remained exactly:
-
-1. S — multi-site/scalability eligibility;
-2. F — implementation finance;
-3. R — downstream replication opportunity/support.
-
-No fourth mechanism was added.
-
-### Screening result
-
-- Exogenous scalable/bespoke project types: `STRUCTURALLY CONTAINED` by public requirements/entry and MQS/free-entry theory.
-- F as cost relief/participation support adds no distinct screening primitive.
-- Fatal result: **selection-only A1 fails novelty**.
-
-### Product-design result
-
-- Endogenizing reusable/scalable design does not defeat the kill.
-- Minimum/performance standards already alter endogenous innovation/product R&D.
-- Innovation/R&D subsidies alter endogenous quality/design.
-- Multi-market expansion, commonality/modularity and customization theory already maps future market scope to design.
-- Fatal result: **inducement-only A1 fails novelty**.
-
-### Decomposition result
-
-- S+F: costly qualification/performance requirement + participation/design-cost support.
-- S+R: standard/broad-fit requirement + future market scope.
-- F+R: supply-push support + demand pull.
-- S+F+R: no strategic behavior was found that first arises only under the triple.
-
-**Result: `THREE-WAY ARCHITECTURE CLAIM = FATAL DECOMPOSITION FAILURE`.**
-
-### Sequencing result
-
-With S/F/R anticipated before entry/design, administrative order does no independent strategic work. Making order matter would require a second primitive (learning, sunk investment before rule revelation, hidden information/effort or government commitment), which is outside/prohibited under frozen A1.
-
-A universal binding ex-ante future replication commitment is not verified by the institutional evidence.
-
-**Result: sequencing kill condition triggered.**
-
-### Referee tournament
-
-Fatal attacks: standard screening; participation subsidy; R as market size; exogenous scalable-type selection; endogenous-design prior art; three-known-ingredients objection; sequencing irrelevance; mechanical welfare; unusual institutional packaging only.
-
-Government non-essentiality also weakens public-policy specificity, but it is not needed for the rejection.
-
-### Score
-
-A1 architecture novelty score: **35/100**. Fatal prior art/reduction overrides score.
-
-### Ultimate test
-
-- Triangle removed: generic question remains, but its mechanisms are mature.
-- Replace multi-site/implementation subsidy/replication with screening/transfer/market size: **economics materially unchanged — YES**.
-- Three-way-only endogenous project composition/design absent closest theory: **NO**.
+- U1: NO within frozen monetary C1.
+- U2: YES — `t_i(S)` can reproduce the outcome.
+- U3: NO for the claimed instrument gap.
+- U4: NO — no defensible frozen restriction creates non-equivalence.
+- U5: YES as a general abstract question, but it fails the internal equivalence test.
+- U6: NO sufficiently for Stage 1; cost-of-stability overlap remains strong.
+- U7: NO sufficiently for Stage 1; generic subsidized coalition participation is occupied.
+- U8: NO — cooperative-game structure is not indispensable to the policy-instrument distinction.
 
 ### Final verdict
 
-# **`A1 NO-GO — ARCHITECTURE ROUTE TERMINATED`**
+# **`NO-GO — C1 TERMINATED AT STAGE 0`**
 
-- Stage 3 not started.
-- A1 formal model not built.
-- C4/C6/C3/Q3 not reopened.
-- A2/A3 not auto-pivoted.
+- Stage 1 not started.
+- No formal model, characteristic-function parameterization, equilibrium, core/Shapley calculation, theorem or manuscript produced.
+- C5/C7 remain frozen backups and do not auto-pivot.
 
-**STOPPED AFTER A1 ARCHITECTURE NOVELTY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3**
-
----
-
-## New-Branch Frontier Scouting — Industrial Policy × Cooperative Games
-
-### Authorization and governance
-
-- Date: 2026-08-29.
-- Human authorization: explicit execution prompt for a new pre-Stage-0 white-space audit at the intersection of industrial policy and cooperative games/coalition formation.
-- Branch: `research/cooperative-games-frontier-scout`.
-- Base: exact A1 terminal HEAD `e5b220ecd1770558524e2241adfe725a0c4128a7` so the negative record remains inherited and binding.
-- New-branch firewall: not an A1 rescue; scalability/implementation finance/downstream market size cannot carry novelty.
-- No formal model, equilibrium, core/Shapley calculation, theorem proof or manuscript authorized.
-
-### Search scope
-
-- 32 unique named literature records screened across cooperative R&D, stability subsidies, coalition formation, partition-function games, industrial policy, innovation diffusion/adoption, and innovation ecosystems/complementarity.
-- Current Ehime FY2026 horizontal-deployment and Triangle 2.0 sources checked for institutional motivation and evidence boundaries.
-
-### Primary-source motivation
-
-FY2026 manufacturing/maritime horizontal-deployment rules verify that a prefectural applicant must collaborate with a prior Triangle selected provider and establish an implementation structure before application. This supports a supplier–adopter relational policy margin but does not verify TU, a core, Shapley bargaining, binding coalition contracts, or a government commitment to stabilize coalitions.
-
-### Prior-art kills
-
-- Generic subsidized R&D coalition: occupied by endogenous research-coalition and consortium-subsidy literature.
-- `subsidy makes target coalition/core stable`: cost-of-stability structural containment.
-- Coalition-size/collective-adoption threshold alone: occupied by collective conditional subsidy literature.
-- Generic `v(S,Pi)` innovation application: partition-function theory already mature.
-- Shapley/core as innovation-alliance contribution: occupied.
-- Supplier-to-adopter support switching without a stability-specific primitive: dynamic R&D/adoption/licensing containment.
-
-### Candidate tournament
-
-Ten candidates generated; seven killed before Stage 0.
-
-Surviving TOP3:
-
-1. **C1 Nonseparable Coalition-Composition Grants — 79/100 — PLAUSIBLE WHITE SPACE.**
-2. **C5 Partition-Contingent Diffusion Policy — 77/100 — PLAUSIBLE WHITE SPACE.**
-3. **C7 Open-Membership / Portability Conditions for Technology Diffusion Coalitions — 74/100 — PLAUSIBLE WHITE SPACE.**
-
-Killed: C2, C3, C4, C6, C8, C9, C10.
-
-Scores were aggregated with Python using the prescribed nine-component rubric; fatal reductions override scores.
-
-### Strongest candidate and fatal gate
-
-C1 asks whether a genuinely nonseparable policy conditional on complementary coalition composition has a strictly larger implementable stable-coalition set than an economically justified class of additive firm transfers.
-
-The unresolved fatal gate is explicit: if individual transfers may condition freely on the same realized joint composition/event, `s(S)` may be only a relabeling. Stage 0 must justify any restriction using economics/institutions/information/contracting, not insert it ad hoc.
-
-### Backups
-
-- C5 must avoid application-only partition-function novelty.
-- C7 must avoid reduction to exclusive/nonexclusive licensing or standard R&D membership rules.
-- Neither auto-advances if C1 fails.
-
-### Final verdict
-
-# **`CONDITIONAL GO`**
-
-Answer to the frontier question: **`CONDITIONAL YES`** — a potentially distinct mechanism exists, but no `STRONG WHITE SPACE` candidate is certified and modeling is not yet authorized.
-
-**STOPPED AFTER COOPERATIVE-GAMES FRONTIER SCOUTING — HUMAN APPROVAL REQUIRED BEFORE STAGE 0**
+**STOPPED AFTER C1 STAGE 0 NONSEPARABILITY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 1**
