@@ -14,6 +14,7 @@
 - Q3 Stage 3 branch: `research/stage3-q3-mechanism-search`
 - Architecture audit branch: `research/triangle-ehime-architecture-audit`
 - A1 architecture novelty audit branch: `research/a1-architecture-novelty-audit`
+- Cooperative-games frontier branch: `research/cooperative-games-frontier-scout`
 
 ## Initial Stage 0–3
 
@@ -188,3 +189,68 @@ A1 architecture novelty score: **35/100**. Fatal prior art/reduction overrides s
 - A2/A3 not auto-pivoted.
 
 **STOPPED AFTER A1 ARCHITECTURE NOVELTY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 3**
+
+---
+
+## New-Branch Frontier Scouting — Industrial Policy × Cooperative Games
+
+### Authorization and governance
+
+- Date: 2026-08-29.
+- Human authorization: explicit execution prompt for a new pre-Stage-0 white-space audit at the intersection of industrial policy and cooperative games/coalition formation.
+- Branch: `research/cooperative-games-frontier-scout`.
+- Base: exact A1 terminal HEAD `e5b220ecd1770558524e2241adfe725a0c4128a7` so the negative record remains inherited and binding.
+- New-branch firewall: not an A1 rescue; scalability/implementation finance/downstream market size cannot carry novelty.
+- No formal model, equilibrium, core/Shapley calculation, theorem proof or manuscript authorized.
+
+### Search scope
+
+- 32 unique named literature records screened across cooperative R&D, stability subsidies, coalition formation, partition-function games, industrial policy, innovation diffusion/adoption, and innovation ecosystems/complementarity.
+- Current Ehime FY2026 horizontal-deployment and Triangle 2.0 sources checked for institutional motivation and evidence boundaries.
+
+### Primary-source motivation
+
+FY2026 manufacturing/maritime horizontal-deployment rules verify that a prefectural applicant must collaborate with a prior Triangle selected provider and establish an implementation structure before application. This supports a supplier–adopter relational policy margin but does not verify TU, a core, Shapley bargaining, binding coalition contracts, or a government commitment to stabilize coalitions.
+
+### Prior-art kills
+
+- Generic subsidized R&D coalition: occupied by endogenous research-coalition and consortium-subsidy literature.
+- `subsidy makes target coalition/core stable`: cost-of-stability structural containment.
+- Coalition-size/collective-adoption threshold alone: occupied by collective conditional subsidy literature.
+- Generic `v(S,Pi)` innovation application: partition-function theory already mature.
+- Shapley/core as innovation-alliance contribution: occupied.
+- Supplier-to-adopter support switching without a stability-specific primitive: dynamic R&D/adoption/licensing containment.
+
+### Candidate tournament
+
+Ten candidates generated; seven killed before Stage 0.
+
+Surviving TOP3:
+
+1. **C1 Nonseparable Coalition-Composition Grants — 79/100 — PLAUSIBLE WHITE SPACE.**
+2. **C5 Partition-Contingent Diffusion Policy — 77/100 — PLAUSIBLE WHITE SPACE.**
+3. **C7 Open-Membership / Portability Conditions for Technology Diffusion Coalitions — 74/100 — PLAUSIBLE WHITE SPACE.**
+
+Killed: C2, C3, C4, C6, C8, C9, C10.
+
+Scores were aggregated with Python using the prescribed nine-component rubric; fatal reductions override scores.
+
+### Strongest candidate and fatal gate
+
+C1 asks whether a genuinely nonseparable policy conditional on complementary coalition composition has a strictly larger implementable stable-coalition set than an economically justified class of additive firm transfers.
+
+The unresolved fatal gate is explicit: if individual transfers may condition freely on the same realized joint composition/event, `s(S)` may be only a relabeling. Stage 0 must justify any restriction using economics/institutions/information/contracting, not insert it ad hoc.
+
+### Backups
+
+- C5 must avoid application-only partition-function novelty.
+- C7 must avoid reduction to exclusive/nonexclusive licensing or standard R&D membership rules.
+- Neither auto-advances if C1 fails.
+
+### Final verdict
+
+# **`CONDITIONAL GO`**
+
+Answer to the frontier question: **`CONDITIONAL YES`** — a potentially distinct mechanism exists, but no `STRONG WHITE SPACE` candidate is certified and modeling is not yet authorized.
+
+**STOPPED AFTER COOPERATIVE-GAMES FRONTIER SCOUTING — HUMAN APPROVAL REQUIRED BEFORE STAGE 0**
