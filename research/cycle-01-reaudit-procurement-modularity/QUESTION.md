@@ -2,34 +2,26 @@
 
 ## Candidate
 
-**Procurement-induced modularity, complementor entry, and ex-post
-contestability.**
+**Procurement-induced modularity, complementor entry, and ex-post contestability**
 
-## Central research question
+Can a public buyer's procurement architecture endogenously determine a winning prime's persistent modularity/interoperability choice, thereby changing post-procurement complementor entry and future market structure rather than merely changing bidder entry in the procurement auction?
 
-Can a public buyer's procurement architecture endogenously affect a winning
-prime supplier's post-award modularity/interoperability choice, thereby
-changing post-procurement complementor entry and future market structure,
-rather than merely changing bidder entry in the procurement auction?
+The welfare question is whether the buyer should sacrifice short-run coordination or scope economies to preserve future replacement, innovation, and contestability.
 
-## Welfare question
+## Re-audit boundary
 
-When would a public buyer sacrifice short-run coordination or economies of
-scope in order to preserve future complementor entry and contestability?
+This is an independent re-examination of the old Cycle 1 question. It does not reopen or rescue the old branch. It explicitly separates:
 
-## Explicit non-rescue boundary
+- procurement-stage bidder/consortium entry;
+- post-procurement complementor, support, replacement, and upgrade entry;
+- lotting;
+- technical/interface/lifecycle rights;
+- prime architecture choice.
 
-This is an independent re-audit, not a rescue of the old Cycle 1. The old
-lotting/bundling candidate remains killed unless this audit finds a genuinely
-distinct post-procurement strategic mechanism. Interoperability, modularity,
-ecosystem, and complementor terminology are not treated as novelty by
-themselves.
+## Final status
 
-The candidate is killed if the result is only:
+Stage 0–3 re-audit completed. The post-award state transition was institutionally plausible but every minimal mechanism variant was structurally reducible to procurement bundling, dynamic procurement, platform openness, compatibility, switching-cost, vertical-foreclosure, or supplier-investment theory.
 
-- separate lots increase procurement-stage bidders;
-- open interfaces lower a complementor's fixed entry cost;
-- an integrated supplier forecloses rivals in a standard vertical model; or
-- a public buyer acts as a relabeled platform/standards authority.
+**RE-AUDIT CONFIRMS OLD NO-GO.**
 
-No Stage 5 or Stage 6 is permitted.
+No Stage 4 model was authorized because no Stage 3 variant passed the threshold and no-fatal-reduction gate. No Stage 5 or Stage 6 is permitted.
