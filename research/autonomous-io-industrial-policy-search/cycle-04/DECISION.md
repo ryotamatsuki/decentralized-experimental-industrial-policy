@@ -1,17 +1,29 @@
-# Cycle 4 — Stage 3 Decision
+# Cycle 04 — Decision
+
+## Stage-3 status
+
+- Candidate: M4.4 — Public-anchor learning and entry timing
+- Stage-3 score: **84/100**
+- Stage-3 route: **CONDITIONAL GO TO STAGE 4**
+- Strong-GO threshold: not met; mechanism novelty was 20/25 rather than the
+  required 21/25.
+- Frozen mechanism: public pilot, supplier-specific learning (x), verifiable
+  binary state, early/late release, one potential entrant, later competition.
+
+## Stage-4 result
+
+The minimum model has open parameter regions in which release timing changes
+entry. It also shows that the effect remains after (b=0), when the
+supplier-specific learning advantage is removed. The model then reduces to
+standard two-state public disclosure followed by entry. Welfare rankings
+reverse across simple state-surplus configurations.
 
 ## Verdict
 
-**CONDITIONAL GO TO STAGE 4 — TOP 1 M4.4 ONLY**
+**NO-GO — MINIMAL MODEL FAILS.**
 
-## Why not STRONG GO
-
-M4.4 has a total score of 84 and clears the prior-art and strategic-distinctiveness thresholds, but it scores 20/25 on mechanism novelty against the required 21/25. The full R1–R15 tournament also leaves public necessity, learning necessity, and standard-disclosure reduction mathematically unresolved.
-
-## Frozen candidate
-
-**Public-anchor learning and entry timing:** a public pilot gives the selected supplier a supplier-specific learning state and produces a verifiable signal; the government's release timing changes the entrant's information set and therefore future market structure.
-
-## Stage 4 mandate
-
-Formalize only the frozen minimal mechanism and attempt to falsify it. If the model reduces to standard disclosure/entry or the effect survives without the public-anchor learning state, return NO-GO.
+The candidate is killed. It is not a surviving theme, and it is not rescued by
+adding a public-capacity, certification, or continuation-market primitive.
+A nearby-question screen is recorded in `PIVOT_CANDIDATES.md`; the highest
+ranked next question is Cycle 05's advance public purchase commitment with a
+later re-tender.
