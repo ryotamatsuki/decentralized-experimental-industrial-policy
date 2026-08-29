@@ -37,3 +37,34 @@ The audit separates:
 ## Search limitations
 
 Some publisher pages expose abstracts and metadata while withholding full text. Claims in the Stage 2 matrix are limited to the mechanism/result visible from the source or publisher metadata. Bibliographic metadata will be added only where author/year/title/journal/volume/issue/pages or article number/DOI can be verified from a publisher or authoritative bibliographic page.
+
+
+## Stage 2 deep-literature search additions
+
+Searches completed on 2026-08-29:
+
+- `procurement bundling future competition technology acquisition`
+- `compatibility investment incentives dynamic procurement`
+- `open technology supplier investment future competition`
+- `product modularity vertical deintegration entry industry structure`
+- `compatibility switching costs data portability competition`
+- `platform openness complementor entry architecture governance`
+- `public procurement modular open systems interoperability vendor lock-in`
+- `market structure product architecture 2026`
+- `standardization interoperability entry contestability 2026`
+
+Key additions:
+
+- Chu and Wang (2015), *Bundled Procurement for Technology Acquisition and Future Competition*, explicitly connects current procurement scope to future market competition.
+- Hu, Hu, and Yang (2017), *Open or Closed? Technology Sharing, Supplier Investment, and Competition*, directly models openness, supplier investment, and future competition; the publisher keywords include procurement.
+- Hanazono and Sato (2026), *Compatibility and Investment Incentives in Dynamic Procurement*, is a near-exact 2026 threat linking compatibility, investment, and dynamic procurement. The issue record is Economics Letters 268, article 113129, DOI 10.1016/j.econlet.2026.113129.
+- Jeon, Menicucci, and Nasr (2023) models dynamic compatibility choices, switching costs, and data portability.
+- Parker and Van Alstyne (2018) models platform openness, third-party developer investment, and control.
+- Argyres and Bigelow (2010), Arrieta et al. (2023), and Frenken and Romagnoli (2026) connect product architecture/modularity to vertical organization, entry, or market structure.
+- Ekmekci, White, and Wu (2025) and Ott, Roter, and Krämer (2026) provide recent competition/interoperability and standardization/contestability evidence.
+
+## Stage 2/3 result
+
+The search did not verify an exact paper containing the full public-procurement-to-prime-architecture-to-independent-complementor-entry chain. It did verify enough structural coverage to make the white space narrow. Stage 2 was classified as a conditional survivor only for an adversarial Stage 3 reduction tournament.
+
+Stage 3 tested six mutually exclusive minimal variants. Python scoring produced totals M1=70, M2=66, M3=68, M4=71, M5=68, M6=76. Every variant failed the no-fatal-reduction requirement; no Stage 4 model was authorized.
