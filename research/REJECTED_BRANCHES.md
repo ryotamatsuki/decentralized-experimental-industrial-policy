@@ -143,3 +143,27 @@ binding historical kill.
 No cycle reached Stage 3 STRONG GO or Stage 4 GO. C5 and C7 remain historical
 frozen backups without priority. The autonomous run stopped at the hard
 five-cycle limit.
+
+
+## Cycle 1 procurement-modularity re-audit — 2026-08-29
+
+Branch: `research/cycle-01-reaudit-procurement-modularity`.
+
+The independent re-audit restored the distinction between procurement-stage bidder entry and post-procurement complementor entry. It verified that lotting and interoperability are separate instruments and that complex-system procurement can create persistent lifecycle/interface states.
+
+Stage 2 found no clean white space and allowed only an adversarial Stage 3. Six variants were tested:
+
+- M1 prime open/closed architecture — 70 — KILL: platform/vertical foreclosure.
+- M2 costly interface investment — 66 — KILL: open technology/supplier investment.
+- M3 lotting plus contestability — 68 — KILL: procurement bundling plus compatibility.
+- M4 bottleneck ownership — 71 — KILL: vertical foreclosure/platform access.
+- M5 complementor investment/hold-up — 68 — KILL: switching costs/hold-up/platform access.
+- M6 public architecture commitment — 76 — KILL: dynamic procurement plus compatibility/openness.
+
+All failed the threshold and no-fatal-reduction requirements. No Stage 4 model was run.
+
+Final status:
+
+# **`RE-AUDIT CONFIRMS OLD NO-GO`**
+
+This result confirms the old conclusion but records that the old reasoning prematurely removed the persistent post-award architecture object. The branch is terminal; no Stage 5 or Stage 6.

@@ -167,3 +167,21 @@ Blocking can matter for coalition stability, but after I2 reproduces the target 
 - C5/C7 remain frozen backups and do not auto-pivot.
 
 **STOPPED AFTER C1 STAGE 0 NONSEPARABILITY AUDIT — HUMAN APPROVAL REQUIRED BEFORE STAGE 1**
+
+
+## Cycle 1 procurement-modularity re-audit
+
+Date: 2026-08-29.
+Branch: `research/cycle-01-reaudit-procurement-modularity`.
+Parent: autonomous search terminal HEAD `ba2a0db77a677e72ffb28573be7226ab85308369`.
+
+Purpose: independently test whether the old Cycle 1 NO-GO incorrectly collapsed post-procurement architecture and complementor entry into procurement-stage bidder entry.
+
+Findings:
+- Stage 0: lifecycle persistence was a coherent, bounded institutional primitive.
+- Stage 1: EU procurement law and public ICT/modular-system guidance distinguish lotting from technical/interface/lifecycle requirements.
+- Stage 2: no exact full-chain source was verified, but dynamic procurement, compatibility, open technology, supplier investment, platform openness, modularity, and future competition formed a tight structural-containment frontier.
+- Stage 3: six mutually exclusive variants; totals M1=70, M2=66, M3=68, M4=71, M5=68, M6=76; all fatally reducible.
+- Stage 4: not executed because no variant passed the gate.
+
+Final: **RE-AUDIT CONFIRMS OLD NO-GO**. The conclusion stands; the old rationale is amended to record the post-award distinction. No Stage 5/6 and no manuscript.
